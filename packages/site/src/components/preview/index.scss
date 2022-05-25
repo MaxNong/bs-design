@@ -1,0 +1,30 @@
+.item-container {
+    padding: 15px 0;
+    background: #f0f2f5;
+    &-box{
+        background: #FFF;
+        border-radius: 8px;
+    }
+    &-component{
+        padding: 15px;
+        border: 1px solid rgba(0,0,0,.06);
+        border-bottom: none;
+    }
+    &-desc{
+        padding: 15px;
+        border: 1px solid rgba(0,0,0,.06);
+        border-top: none;
+        color: #333333;
+        font-size: 14px;
+    }
+    .ehd-divider{
+        border-left: 1px solid rgba(0,0,0,.06);
+        border-right: 1px solid rgba(0,0,0,.06);
+        margin: 0;
+    }
+    .ehd-divider-inner-text{
+        font-weight: bold;
+    }
+}
+
+

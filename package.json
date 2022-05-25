@@ -1,0 +1,37 @@
+{
+  "name": "eh-design",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npm run template:dev",
+    "dev:site": "npm run site:dev",
+    "start": "node ./scripts/run.js --mode=start",
+    "start:site": "node ./scripts/run.js --mode=start:site",
+    "build": "node ./scripts/run.js --mode=build",
+    "lib:build": "node ./scripts/run-lib.js --mode=production",
+    "template:dev": "node ./scripts/run-template.js --mode=development",
+    "template:build": "node ./scripts/run-template.js --mode=production",
+    "site:dev": "node ./scripts/run-site.js --mode=development",
+    "site:build": "node ./scripts/run-site.js --mode=production",
+    "prepublish": "npm run build",
+    "postpublish": "node ./scripts/postpublish.js",
+    "install": "npx lerna bootstrap --ignore-scripts",
+    "bootstrap": "npx lerna bootstrap --ignore-scripts",
+    "clean": "npx lerna clean"
+  },
+  "devDependencies": {
+    "gerrit-msg-lint": "^1.0.0",
+    "lerna": "^4.0.0",
+    "minimist": "^1.2.6",
+    "simple-git-hooks": "^2.7.0",
+    "superagent": "^7.1.2"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "npx lerna run --concurrency 1 --stream lint-staged --since HEAD --exclude-dependents",
+    "preserveUnused": false
+  },
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {}
+}
