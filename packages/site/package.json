@@ -25,8 +25,9 @@
   },
   "dependencies": {
     "@umijs/plugin-sass": "^1.1.1",
+    "array-move": "^4.0.0",
     "bs-design": "*",
-    "react-dnd": "^15.0.0",
-    "array-move": "^4.0.0"
-  }
+    "react-dnd": "^15.0.0"
+  },
+  "gitHead": "e4daefe2c29328a9b68e58d67925fb56a6528fbd"
 }

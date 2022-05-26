@@ -30,8 +30,8 @@
     "@ant-design/icons": "^4.7.0",
     "@ant-design/react-slick": "~0.28.1",
     "@babel/runtime": "^7.12.5",
-    "@ctrl/tinycolor": "^3.4.0",
     "@bs-design/tools": "*",
+    "@ctrl/tinycolor": "^3.4.0",
     "classnames": "^2.2.6",
     "copy-to-clipboard": "^3.2.0",
     "esbuild-loader": "^2.18.0",
@@ -72,11 +72,11 @@
     "scroll-into-view-if-needed": "^2.2.25"
   },
   "devDependencies": {
-    "@eslint-share/eslint-config-prettier-react-ts": "^1.0.1",
     "@ant-design/hitu": "^0.0.0-alpha.13",
     "@ant-design/tools": "^14.0.2",
     "@docsearch/css": "^3.0.0-alpha.39",
     "@docsearch/react": "^3.0.0-alpha.39",
+    "@eslint-share/eslint-config-prettier-react-ts": "^1.0.1",
     "@qixian.cs/github-contributors-list": "^1.0.3",
     "@stackblitz/sdk": "^1.3.0",
     "@testing-library/jest-dom": "^5.16.2",
@@ -129,6 +129,7 @@
     "jsdom": "^19.0.0",
     "jsonml.js": "^0.1.0",
     "less-vars-to-js": "^1.3.0",
+    "lint-staged": "^11.2.3",
     "lz-string": "^1.4.4",
     "mini-css-extract-plugin": "^2.4.5",
     "mockdate": "^3.0.0",
@@ -173,8 +174,7 @@
     "typescript": "~4.6.2",
     "webpack-bundle-analyzer": "^4.1.0",
     "xhr-mock": "^2.4.1",
-    "yaml-front-matter": "^4.0.0",
-    "lint-staged": "^11.2.3"
+    "yaml-front-matter": "^4.0.0"
   },
   "lint-staged": {
     "components/**/*.{ts,tsx,js,jsx}": [
@@ -199,5 +199,6 @@
   ],
   "module": "es/index.js",
   "unpkg": "dist/bsd.min.js",
-  "typings": "lib/index.d.ts"
+  "typings": "lib/index.d.ts",
+  "gitHead": "e4daefe2c29328a9b68e58d67925fb56a6528fbd"
 }

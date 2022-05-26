@@ -12,7 +12,7 @@
     "template:build": "node ./scripts/run-template.js --mode=production",
     "site:dev": "node ./scripts/run-site.js --mode=development",
     "site:build": "node ./scripts/run-site.js --mode=production",
-    "prepublish": "npm run build",
+    "prepublish-temp": "npm run build",
     "install": "npx lerna bootstrap --ignore-scripts",
     "bootstrap": "npx lerna bootstrap --ignore-scripts",
     "clean": "npx lerna clean",
