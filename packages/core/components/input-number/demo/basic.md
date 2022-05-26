@@ -14,7 +14,7 @@ title:
 Numeric-only input box.
 
 ```jsx
-import { InputNumber } from 'ehd';
+import { InputNumber } from 'bsd';
 
 function onChange(value) {
   console.log('changed', value);

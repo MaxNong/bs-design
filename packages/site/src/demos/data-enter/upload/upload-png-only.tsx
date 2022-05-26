@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Upload, Button, message } from 'eh-design';
+import { Upload, Button, message } from 'bs-design';
 import { UploadOutlined } from '@ant-design/icons';
 
 const App = () => {

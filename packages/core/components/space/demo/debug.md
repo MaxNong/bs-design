@@ -15,7 +15,7 @@ Debug usage
 Debug usage
 
 ```jsx
-import { Space, Button, Popconfirm } from 'ehd';
+import { Space, Button, Popconfirm } from 'bsd';
 
 ReactDOM.render(
   <Space>

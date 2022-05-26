@@ -15,7 +15,7 @@ title:
 Select multiple options
 
 ```jsx
-import { Cascader } from 'ehd';
+import { Cascader } from 'bsd';
 
 const options = [
   {

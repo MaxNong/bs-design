@@ -1,5 +1,5 @@
 import React from 'react';
-import { Avatar, Badge } from 'eh-design';
+import { Avatar, Badge } from 'bs-design';
 import { UserOutlined } from '@ant-design/icons';
 
 export default () => (

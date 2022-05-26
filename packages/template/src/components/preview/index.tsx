@@ -1,11 +1,11 @@
 import React from "react";
-import Col from "eh-design/components/col/index";
-import Divider from "eh-design/components/divider/index";
-import Row from "eh-design/components/row/index";
+import Col from "bs-design/components/col/index";
+import Divider from "bs-design/components/divider/index";
+import Row from "bs-design/components/row/index";
 
-import "eh-design/components/col/style/index";
-import "eh-design/components/divider/style/index";
-import "eh-design/components/row/style/index";
+import "bs-design/components/col/style/index";
+import "bs-design/components/divider/style/index";
+import "bs-design/components/row/style/index";
 
 import "./index.scss";
 

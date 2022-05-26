@@ -15,7 +15,7 @@ Debug usage
 Debug usage
 
 ```tsx
-import { Space, Switch } from 'ehd';
+import { Space, Switch } from 'bsd';
 
 const style: React.CSSProperties = {
   width: 150,

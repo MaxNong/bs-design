@@ -7,16 +7,16 @@ title:
 
 ## zh-CN
 
-配合 [ehd-img-crop](https://github.com/nanxiaobei/ehd-img-crop) 实现上传前裁切图片。
+配合 [bsd-img-crop](https://github.com/nanxiaobei/bsd-img-crop) 实现上传前裁切图片。
 
 ## en-US
 
-Use [ehd-img-crop](https://github.com/nanxiaobei/ehd-img-crop) to crop image before uploading.
+Use [bsd-img-crop](https://github.com/nanxiaobei/bsd-img-crop) to crop image before uploading.
 
 ```jsx
 import React, { useState } from 'react';
-import { Upload } from 'ehd';
-import ImgCrop from 'ehd-img-crop';
+import { Upload } from 'bsd';
+import ImgCrop from 'bsd-img-crop';
 
 const Demo = () => {
   const [fileList, setFileList] = useState([

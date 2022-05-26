@@ -1,5 +1,5 @@
 import React from 'react';
-import { Popconfirm, message } from 'eh-design';
+import { Popconfirm, message } from 'bs-design';
 
 function confirm(e) {
   console.log(e);

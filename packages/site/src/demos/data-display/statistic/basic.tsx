@@ -1,5 +1,5 @@
 import React from 'react';
-import { Statistic, Row, Col, Button } from 'eh-design';
+import { Statistic, Row, Col, Button } from 'bs-design';
 
 export default () => (
   <Row gutter={16}>

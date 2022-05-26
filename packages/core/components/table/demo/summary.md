@@ -14,7 +14,7 @@ title:
 Set summary content by `summary` prop. Sync column fixed status with `Table.Summary.Cell`. You can fixed it by set `Table.Summary` `fixed` prop(since `4.16.0`).
 
 ```jsx
-import { Table, Typography } from 'ehd';
+import { Table, Typography } from 'bsd';
 
 const { Text } = Typography;
 

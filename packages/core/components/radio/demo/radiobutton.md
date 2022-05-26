@@ -14,7 +14,7 @@ title:
 The combination of radio button style.
 
 ```jsx
-import { Radio } from 'ehd';
+import { Radio } from 'bsd';
 
 function onChange(e) {
   console.log(`radio checked:${e.target.value}`);

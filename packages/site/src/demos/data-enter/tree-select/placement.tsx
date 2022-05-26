@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { TreeSelect, Radio } from 'eh-design';
+import { TreeSelect, Radio } from 'bs-design';
 
 const { TreeNode } = TreeSelect;
 

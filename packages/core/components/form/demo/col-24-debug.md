@@ -15,7 +15,7 @@ See issue [#32980](https://github.com/ant-design/ant-design/issues/32980).
 See issue [#32980](https://github.com/ant-design/ant-design/issues/32980).
 
 ```tsx
-import { Form, Input, Button } from 'ehd';
+import { Form, Input, Button } from 'bsd';
 
 const Demo = () => {
   const onFinish = (values: any) => {

@@ -54,10 +54,10 @@ function createDemo({ types: t }) {
       },
 
       ImportDeclaration(path) {
-        const libPattern = new RegExp("ehd(-mobile)?/lib/.+");
+        const libPattern = new RegExp("bsd(-mobile)?/lib/.+");
         if (libPattern.test(path.node.source.value)) {
           path.node.source.value = path.node.source.value.replace(
-            /ehd(-mobile)?\/lib/,
+            /bsd(-mobile)?\/lib/,
             "../../../components"
           );
         }
@@ -84,18 +84,18 @@ module.exports = {
       babelConfig.plugins.push([
         require.resolve("babel-plugin-import"),
         {
-          libraryName: "ehd",
+          libraryName: "bsd",
           libraryDirectory: `../../../../${libDir}`
         },
-        "ehd-import"
+        "bsd-import"
       ]);
       babelConfig.plugins.push([
         require.resolve("babel-plugin-import"),
         {
-          libraryName: "ehd-mobile",
+          libraryName: "bsd-mobile",
           libraryDirectory: `../../../../${libDir}`
         },
-        "ehd-mobile-import"
+        "bsd-mobile-import"
       ]);
     }
 

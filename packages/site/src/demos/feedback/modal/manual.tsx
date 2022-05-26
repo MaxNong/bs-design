@@ -1,5 +1,5 @@
 import React from 'react';
-import { Modal, Button } from 'eh-design';
+import { Modal, Button } from 'bs-design';
 
 function countDown() {
   let secondsToGo = 5;

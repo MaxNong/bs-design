@@ -10,7 +10,7 @@ import {
   Checkbox,
   Button,
   AutoComplete,
-} from 'eh-design';
+} from 'bs-design';
 
 const { Option } = Select;
 

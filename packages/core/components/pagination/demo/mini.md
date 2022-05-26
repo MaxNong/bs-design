@@ -14,7 +14,7 @@ title:
 Mini size pagination.
 
 ```jsx
-import { Pagination } from 'ehd';
+import { Pagination } from 'bsd';
 
 function showTotal(total) {
   return `Total ${total} items`;

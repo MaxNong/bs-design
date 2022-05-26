@@ -10,9 +10,9 @@ group:
   order: 3
 ---
 
-使用 `create-react-app` 一步步地创建一个 TypeScript 项目，并引入 eh-design。
+使用 `create-react-app` 一步步地创建一个 TypeScript 项目，并引入 bs-design。
 
-> `eh-design` 基于最新稳定版本的 TypeScript（`>=4.0.0`），请确保项目中使用匹配的版本。
+> `bs-design` 基于最新稳定版本的 TypeScript（`>=4.0.0`），请确保项目中使用匹配的版本。
 
 ---
 
@@ -41,17 +41,17 @@ $ yarn start
 
 此时浏览器会访问 http://localhost:3000/ ，看到 `Welcome to React` 的界面就算成功了。
 
-## 引入 eh-design
+## 引入 bs-design
 
 ```bash
-$ yarn add eh-design
+$ yarn add bs-design
 ```
 
-修改 `src/App.tsx`，引入 eh-design 的按钮组件。
+修改 `src/App.tsx`，引入 bs-design 的按钮组件。
 
 ```tsx | pure
 import React, { FC } from 'react';
-import { Button } from 'eh-design';
+import { Button } from 'bs-design';
 import './App.css';
 
 const App: FC = () => (
@@ -63,15 +63,15 @@ const App: FC = () => (
 export default App;
 ```
 
-修改 `src/App.css`，在文件顶部引入 eh-design 的样式。
+修改 `src/App.css`，在文件顶部引入 bs-design 的样式。
 
 ```css
-@import '~eh-design/dist/eh-design.css';
+@import '~bs-design/dist/bs-design.css';
 ```
 
-重新启动 `yarn start`，现在你应该能看到页面上已经有了 eh-design 的蓝色按钮组件，接下来就可以继续选用其他组件开发应用了。其他开发流程你可以参考 create-react-app 的[官方文档](https://create-react-app.dev/docs/getting-started#creating-a-typescript-app)。
+重新启动 `yarn start`，现在你应该能看到页面上已经有了 bs-design 的蓝色按钮组件，接下来就可以继续选用其他组件开发应用了。其他开发流程你可以参考 create-react-app 的[官方文档](https://create-react-app.dev/docs/getting-started#creating-a-typescript-app)。
 
-`eh-design` 使用 TypeScript 书写并提供了完整的定义，你可以享受组件属性输入建议和定义检查的功能。
+`bs-design` 使用 TypeScript 书写并提供了完整的定义，你可以享受组件属性输入建议和定义检查的功能。
 
-> 注意不要安装 `@types/eh-design`。
+> 注意不要安装 `@types/bs-design`。
 

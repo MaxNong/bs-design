@@ -1,5 +1,5 @@
 import React from 'react';
-import { Table, Badge, Menu, Dropdown, Switch, Form, Space } from 'eh-design';
+import { Table, Badge, Menu, Dropdown, Switch, Form, Space } from 'bs-design';
 import { DownOutlined } from '@ant-design/icons';
 
 const menu = <Menu items={[{ label: 'Action 1' }, { label: 'Action 2' }]} />;

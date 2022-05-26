@@ -1,5 +1,5 @@
 import React from 'react';
-import { DatePicker, Space } from 'eh-design';
+import { DatePicker, Space } from 'bs-design';
 
 class DateRange extends React.Component {
   state = {

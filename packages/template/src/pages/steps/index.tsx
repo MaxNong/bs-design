@@ -1,8 +1,8 @@
-import Steps from "eh-design/components/steps/index";
+import Steps from "bs-design/components/steps/index";
 
 import Preview from "../../components/preview/index";
 
-import "eh-design/components/steps/style/index";
+import "bs-design/components/steps/style/index";
 
 const { Step } = Steps;
 const PreviewItem = Preview.Item;

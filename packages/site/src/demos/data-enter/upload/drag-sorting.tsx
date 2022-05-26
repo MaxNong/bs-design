@@ -1,5 +1,5 @@
 // import React, { useState, useCallback, useRef } from "react";
-// import { Upload, Button, Tooltip } from "eh-design";
+// import { Upload, Button, Tooltip } from "bs-design";
 // import { DndProvider, useDrag, useDrop } from "react-dnd";
 // import { HTML5Backend } from "react-dnd-html5-backend";
 // import update from "immutability-helper";

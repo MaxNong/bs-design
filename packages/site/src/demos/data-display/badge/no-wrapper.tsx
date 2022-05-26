@@ -1,5 +1,5 @@
 import React from 'react';
-import { Badge, Space, Switch } from 'eh-design';
+import { Badge, Space, Switch } from 'bs-design';
 import { ClockCircleOutlined } from '@ant-design/icons';
 
 const Demo = () => {

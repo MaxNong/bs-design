@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Menu, MenuProps, Switch } from 'eh-design';
+import { Menu, MenuProps, Switch } from 'bs-design';
 import { MailOutlined, AppstoreOutlined } from '@ant-design/icons';
 
 type MenuItem = Required<MenuProps>['items'][number];

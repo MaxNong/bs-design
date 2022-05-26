@@ -15,7 +15,7 @@ Progressive when large image loading.
 
 ```jsx
 import React from 'react';
-import { Image, Button, Space } from 'ehd';
+import { Image, Button, Space } from 'bsd';
 
 function ImageDemo() {
   const [random, setRandom] = React.useState();

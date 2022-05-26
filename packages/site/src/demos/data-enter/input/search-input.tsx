@@ -1,5 +1,5 @@
 import React from 'react';
-import { Input, Space } from 'eh-design';
+import { Input, Space } from 'bs-design';
 import { AudioOutlined } from '@ant-design/icons';
 
 const { Search } = Input;

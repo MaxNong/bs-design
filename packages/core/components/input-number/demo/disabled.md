@@ -14,7 +14,7 @@ title:
 Click the button to toggle between available and disabled states.
 
 ```jsx
-import { InputNumber, Button } from 'ehd';
+import { InputNumber, Button } from 'bsd';
 
 class App extends React.Component {
   state = {

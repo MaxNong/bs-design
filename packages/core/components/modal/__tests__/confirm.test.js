@@ -27,7 +27,7 @@ describe('Modal.confirm triggers callbacks correctly', () => {
     window.clearTimeout(id);
   };
 
-  const errorSpy = jest.spyOn(console, 'error').mockImplementation(() => {});
+  const errorSpy = jest.spyOn(console, 'error').mockImplementation(() => { });
 
   /* eslint-disable no-console */
   // Hack error to remove act warning
@@ -430,7 +430,7 @@ describe('Modal.confirm triggers callbacks correctly', () => {
 
   it('should warning when pass a string as icon props', () => {
     jest.useFakeTimers();
-    const warnSpy = jest.spyOn(console, 'error').mockImplementation(() => {});
+    const warnSpy = jest.spyOn(console, 'error').mockImplementation(() => { });
     confirm({
       content: 'some descriptions',
       icon: 'ab',
@@ -443,7 +443,7 @@ describe('Modal.confirm triggers callbacks correctly', () => {
     });
     jest.runAllTimers();
     expect(warnSpy).toHaveBeenCalledWith(
-      `Warning: [ehd: Modal] \`icon\` is using ReactNode instead of string naming in v4. Please check \`question\` at https://ant.design/components/icon`,
+      `Warning: [bsd: Modal] \`icon\` is using ReactNode instead of string naming in v4. Please check \`question\` at https://ant.design/components/icon`,
     );
     warnSpy.mockRestore();
     jest.useRealTimers();
@@ -463,7 +463,7 @@ describe('Modal.confirm triggers callbacks correctly', () => {
     open({
       onOk: close => {
         onOk();
-        (() => {})(close); // do nothing
+        (() => { })(close); // do nothing
       },
     });
     $$('.ant-btn-primary')[0].click();
@@ -494,7 +494,7 @@ describe('Modal.confirm triggers callbacks correctly', () => {
       rootPrefixCls: 'my',
     });
     expect(errorSpy).toHaveBeenCalledWith(
-      'Warning: [ehd: Modal] Modal.config is deprecated. Please use ConfigProvider.config instead.',
+      'Warning: [bsd: Modal] Modal.config is deprecated. Please use ConfigProvider.config instead.',
     );
 
     confirm({

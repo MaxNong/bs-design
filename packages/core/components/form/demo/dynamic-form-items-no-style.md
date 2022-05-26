@@ -15,7 +15,7 @@ debug: true
 Nest with `noStyle` field dynamic form.
 
 ```jsx
-import { Form, Input, Button, Space } from 'ehd';
+import { Form, Input, Button, Space } from 'bsd';
 import { MinusCircleOutlined, PlusOutlined } from '@ant-design/icons';
 
 const Demo = () => {

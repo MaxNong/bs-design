@@ -14,7 +14,7 @@ title:
 Basic usage.
 
 ```jsx
-import { Mentions } from 'ehd';
+import { Mentions } from 'bsd';
 
 const { Option } = Mentions;
 

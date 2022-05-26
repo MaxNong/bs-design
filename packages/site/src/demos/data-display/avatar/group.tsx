@@ -1,5 +1,5 @@
 import React from 'react';
-import { Avatar, Divider, Tooltip } from 'eh-design';
+import { Avatar, Divider, Tooltip } from 'bs-design';
 import { UserOutlined, AntDesignOutlined } from '@ant-design/icons';
 
 const Demo = () => (

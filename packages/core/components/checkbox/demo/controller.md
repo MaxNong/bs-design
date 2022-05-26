@@ -14,7 +14,7 @@ title:
 Communicated with other components.
 
 ```jsx
-import { Checkbox, Button } from 'ehd';
+import { Checkbox, Button } from 'bsd';
 
 class App extends React.Component {
   state = {

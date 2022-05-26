@@ -1,5 +1,5 @@
 import React from 'react';
-import { Select, Space } from 'eh-design';
+import { Select, Space } from 'bs-design';
 
 const Status: React.FC = () => (
   <Space direction="vertical" style={{ width: '100%' }}>

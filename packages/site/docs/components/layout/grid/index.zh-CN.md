@@ -34,7 +34,7 @@ group:
  */
 import "./demo.scss";
 import React from "react";
-import { Row, Col } from 'eh-design';
+import { Row, Col } from 'bs-design';
 
 export default () => (
   <div className="demo1">
@@ -68,7 +68,7 @@ export default () => (
  * 如果需要垂直间距，可以写成数组形式 [水平间距, 垂直间距] [16, { xs: 8, sm: 16, md: 24, lg: 32 }]。"
  */
 import React from "react";
-import { Row, Col, Divider } from 'eh-design';
+import { Row, Col, Divider } from 'bs-design';
 
 const style = { background: '#0092ff', padding: '16px 0', textAlign: "center", color: "#FFF" };
 
@@ -142,7 +142,7 @@ export default () => (
  * 使用 offset 可以将列向右侧偏。例如，offset={4} 将元素向右侧偏移了 4 个列（column）的宽度。"
  */
 import React from "react";
-import { Row, Col } from 'eh-design';
+import { Row, Col } from 'bs-design';
 
 export default () => (
   <div className="demo1">
@@ -176,7 +176,7 @@ export default () => (
  * 通过使用 push 和 pull 类就可以很容易的改变列（column）的顺序。"
  */
 import React from "react";
-import { Row, Col } from 'eh-design';
+import { Row, Col } from 'bs-design';
 
 export default () => (
   <div className="demo1">
@@ -199,7 +199,7 @@ export default () => (
  * 子元素根据不同的值 start、center、end、space-between、space-around 和 space-evenly，分别定义其在父节点里面的排版方式。。"
  */
 import React from "react";
-import { Row, Col, Divider } from 'eh-design';
+import { Row, Col, Divider } from 'bs-design';
 
 export default () => (
   <div className="demo1">
@@ -260,7 +260,7 @@ export default () => (
  * desc: 子元素垂直对齐。
  */
 import React from "react";
-import { Row, Col, Divider } from 'eh-design';
+import { Row, Col, Divider } from 'bs-design';
 
 const DemoBox = props => <p className={`height-${props.value}`}>{props.children}</p>;
 

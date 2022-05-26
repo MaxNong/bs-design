@@ -15,7 +15,7 @@ Buggy!
 Buggy!
 
 ```jsx
-import { Badge, Card, Space } from 'ehd';
+import { Badge, Card, Space } from 'bsd';
 
 ReactDOM.render(
   <Space direction="vertical" style={{ width: '100%' }}>

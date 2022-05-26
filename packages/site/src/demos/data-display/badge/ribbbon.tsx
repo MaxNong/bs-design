@@ -1,5 +1,5 @@
 import React from 'react';
-import { Badge, Card } from 'eh-design';
+import { Badge, Card } from 'bs-design';
 
 export default () => (
   <>

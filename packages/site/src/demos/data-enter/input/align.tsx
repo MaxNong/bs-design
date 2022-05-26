@@ -12,7 +12,7 @@ import {
   Radio,
   AutoComplete,
   Mentions,
-} from 'eh-design';
+} from 'bs-design';
 
 const { Text } = Typography;
 const { Option } = Select;

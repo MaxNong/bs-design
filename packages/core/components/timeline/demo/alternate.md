@@ -14,7 +14,7 @@ title:
 Alternate timeline.
 
 ```jsx
-import { Timeline } from 'ehd';
+import { Timeline } from 'bsd';
 import { ClockCircleOutlined } from '@ant-design/icons';
 
 ReactDOM.render(

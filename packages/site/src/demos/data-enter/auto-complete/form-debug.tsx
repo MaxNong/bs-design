@@ -1,5 +1,5 @@
 import React from 'react';
-import { Input, AutoComplete, Form, TreeSelect, Button } from 'eh-design';
+import { Input, AutoComplete, Form, TreeSelect, Button } from 'bs-design';
 import { SearchOutlined } from '@ant-design/icons';
 
 const formItemLayout = {

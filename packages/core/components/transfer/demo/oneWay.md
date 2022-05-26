@@ -14,7 +14,7 @@ title:
 Use `oneWay` to makes Transfer to one way style.
 
 ```jsx
-import { Transfer, Switch } from 'ehd';
+import { Transfer, Switch } from 'bsd';
 
 const mockData = [];
 for (let i = 0; i < 20; i++) {

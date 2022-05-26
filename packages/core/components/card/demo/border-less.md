@@ -14,7 +14,7 @@ title:
 A borderless card on a gray background.
 
 ```jsx
-import { Card } from 'ehd';
+import { Card } from 'bsd';
 
 ReactDOM.render(
   <div className="site-card-border-less-wrapper">

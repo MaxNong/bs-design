@@ -1,5 +1,5 @@
 import React from 'react';
-import { Transfer, Switch, Table, Tag } from 'eh-design';
+import { Transfer, Switch, Table, Tag } from 'bs-design';
 import difference from 'lodash/difference';
 
 // Customize Table Transfer

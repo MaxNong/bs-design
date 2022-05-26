@@ -27,10 +27,10 @@ describe('Checkbox', () => {
   it('warning if set `value`', () => {
     resetWarned();
 
-    const errorSpy = jest.spyOn(console, 'error').mockImplementation(() => {});
+    const errorSpy = jest.spyOn(console, 'error').mockImplementation(() => { });
     mount(<Checkbox value />);
     expect(errorSpy).toHaveBeenCalledWith(
-      'Warning: [ehd: Checkbox] `value` is not a valid prop, do you mean `checked`?',
+      'Warning: [bsd: Checkbox] `value` is not a valid prop, do you mean `checked`?',
     );
     errorSpy.mockRestore();
   });

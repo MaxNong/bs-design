@@ -14,7 +14,7 @@ title:
 Display a global loading indicator, which is dismissed by itself asynchronously.
 
 ```jsx
-import { message, Button } from 'ehd';
+import { message, Button } from 'bsd';
 
 const success = () => {
   const hide = message.loading('Action in progress..', 0);

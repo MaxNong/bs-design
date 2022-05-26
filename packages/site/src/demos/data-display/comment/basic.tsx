@@ -1,5 +1,5 @@
 import React, { createElement, useState } from 'react';
-import { Comment, Tooltip, Avatar } from 'eh-design';
+import { Comment, Tooltip, Avatar } from 'bs-design';
 import moment from 'moment';
 import {
   DislikeOutlined,

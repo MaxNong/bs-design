@@ -8,7 +8,7 @@ import { resetWarned } from '../../_util/devWarning';
 describe('Descriptions', () => {
   mountTest(Descriptions);
 
-  const errorSpy = jest.spyOn(console, 'error').mockImplementation(() => {});
+  const errorSpy = jest.spyOn(console, 'error').mockImplementation(() => { });
 
   afterEach(() => {
     MockDate.reset();
@@ -89,7 +89,7 @@ describe('Descriptions', () => {
       </Descriptions>,
     );
     expect(errorSpy).toHaveBeenCalledWith(
-      'Warning: [ehd: Descriptions] Sum of column `span` in a line not match `column` of Descriptions.',
+      'Warning: [bsd: Descriptions] Sum of column `span` in a line not match `column` of Descriptions.',
     );
   });
 

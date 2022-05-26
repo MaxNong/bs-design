@@ -15,7 +15,7 @@ title:
 You can control the order of the expand and select columns by using `Table.EXPAND_COLUMN` and `Table.SELECT_COLUMN`.
 
 ```jsx
-import { Table } from 'ehd';
+import { Table } from 'bsd';
 
 const columns = [
   { title: 'Name', dataIndex: 'name', key: 'name' },

@@ -14,7 +14,7 @@ title:
 Searchable Tree.
 
 ```jsx
-import { Tree, Input } from 'ehd';
+import { Tree, Input } from 'bsd';
 
 const { Search } = Input;
 

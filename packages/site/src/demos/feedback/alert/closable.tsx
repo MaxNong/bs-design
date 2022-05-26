@@ -1,5 +1,5 @@
 import React from 'react';
-import { Alert } from 'eh-design';
+import { Alert } from 'bs-design';
 
 const onClose = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
   console.log(e, 'I was closed.');

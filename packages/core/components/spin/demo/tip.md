@@ -14,7 +14,7 @@ title:
 Customized description content.
 
 ```jsx
-import { Spin, Alert } from 'ehd';
+import { Spin, Alert } from 'bsd';
 
 ReactDOM.render(
   <Spin tip="Loading...">

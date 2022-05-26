@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Button, Alert } from 'eh-design';
+import { Button, Alert } from 'bs-design';
 
 const { ErrorBoundary } = Alert;
 const ThrowError: React.FC = () => {

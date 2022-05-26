@@ -14,7 +14,7 @@ title:
 Auto wrap line.
 
 ```jsx
-import { Space, Button } from 'ehd';
+import { Space, Button } from 'bsd';
 
 const Demo = () => (
   <Space size={[8, 16]} wrap>

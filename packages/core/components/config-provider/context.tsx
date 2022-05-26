@@ -50,7 +50,7 @@ export interface ConfigConsumerProps {
 const defaultGetPrefixCls = (suffixCls?: string, customizePrefixCls?: string) => {
   if (customizePrefixCls) return customizePrefixCls;
 
-  return suffixCls ? `ehd-${suffixCls}` : 'ehd';
+  return suffixCls ? `bsd-${suffixCls}` : 'bsd';
 };
 
 export const ConfigContext = React.createContext<ConfigConsumerProps>({

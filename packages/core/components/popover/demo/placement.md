@@ -14,7 +14,7 @@ title:
 There are 12 `placement` options available.
 
 ```jsx
-import { Popover, Button } from 'ehd';
+import { Popover, Button } from 'bsd';
 
 const text = <span>Title</span>;
 const content = (

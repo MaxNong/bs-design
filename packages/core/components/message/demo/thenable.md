@@ -14,7 +14,7 @@ title:
 `message` provides a promise interface for `onClose`. The above example will display a new message when the old message is about to close.
 
 ```jsx
-import { message, Button } from 'ehd';
+import { message, Button } from 'bsd';
 
 const success = () => {
   message

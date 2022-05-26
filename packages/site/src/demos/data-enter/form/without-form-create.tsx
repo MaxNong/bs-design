@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Form, InputNumber } from 'eh-design';
+import { Form, InputNumber } from 'bs-design';
 
 type ValidateStatus = Parameters<typeof Form.Item>[0]['validateStatus'];
 

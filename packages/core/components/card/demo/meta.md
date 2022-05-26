@@ -14,7 +14,7 @@ title:
 A Card that supports `cover`, `avatar`, `title` and `description`.
 
 ```jsx
-import { Card, Avatar } from 'ehd';
+import { Card, Avatar } from 'bsd';
 import { EditOutlined, EllipsisOutlined, SettingOutlined } from '@ant-design/icons';
 
 const { Meta } = Card;

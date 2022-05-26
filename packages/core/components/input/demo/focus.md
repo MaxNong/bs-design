@@ -14,7 +14,7 @@ title:
 Focus with additional option.
 
 ```tsx
-import { Input, Space, Button, Switch } from 'ehd';
+import { Input, Space, Button, Switch } from 'bsd';
 
 const Demo = () => {
   const inputRef = React.useRef<any>(null);

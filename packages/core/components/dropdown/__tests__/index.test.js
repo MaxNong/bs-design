@@ -73,10 +73,10 @@ describe('Dropdown', () => {
       </div>,
     );
     expect(error).toHaveBeenCalledWith(
-      expect.stringContaining("[ehd: Dropdown] You are using 'bottomCenter'"),
+      expect.stringContaining("[bsd: Dropdown] You are using 'bottomCenter'"),
     );
     expect(error).toHaveBeenCalledWith(
-      expect.stringContaining("[ehd: Dropdown] You are using 'topCenter'"),
+      expect.stringContaining("[bsd: Dropdown] You are using 'topCenter'"),
     );
   });
 

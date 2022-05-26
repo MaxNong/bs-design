@@ -15,7 +15,7 @@ The most basic usage.
 
 ```jsx
 import React, { useState } from 'react';
-import { TreeSelect } from 'ehd';
+import { TreeSelect } from 'bsd';
 
 const { TreeNode } = TreeSelect;
 

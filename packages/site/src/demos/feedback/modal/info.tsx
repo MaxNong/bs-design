@@ -1,5 +1,5 @@
 import React from 'react';
-import { Modal, Button, Space } from 'eh-design';
+import { Modal, Button, Space } from 'bs-design';
 
 function info() {
   Modal.info({

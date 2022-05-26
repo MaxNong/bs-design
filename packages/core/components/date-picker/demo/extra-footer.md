@@ -14,7 +14,7 @@ title:
 Render extra footer in panel for customized requirements.
 
 ```jsx
-import { DatePicker, Space } from 'ehd';
+import { DatePicker, Space } from 'bsd';
 
 const { RangePicker } = DatePicker;
 

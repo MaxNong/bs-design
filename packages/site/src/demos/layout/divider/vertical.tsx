@@ -1,5 +1,5 @@
 import React from 'react';
-import { Divider } from 'eh-design';
+import { Divider } from 'bs-design';
 
 export default () => (
   <>

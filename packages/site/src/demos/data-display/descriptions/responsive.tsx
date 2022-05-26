@@ -1,5 +1,5 @@
 import React from 'react';
-import { Descriptions } from 'eh-design';
+import { Descriptions } from 'bs-design';
 
 const Demo = () => (
   <div>

@@ -14,7 +14,7 @@ title:
 Hide already selected options in the dropdown.
 
 ```jsx
-import { Select } from 'ehd';
+import { Select } from 'bsd';
 
 const OPTIONS = ['Apples', 'Nails', 'Bananas', 'Helicopters'];
 

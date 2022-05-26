@@ -27,18 +27,18 @@ group:
  * desc: 展示不同级别的标题。
  */
 import React from 'react';
-import { Typography } from 'eh-design';
+import { Typography } from 'bs-design';
 
 const { Title } = Typography;
 
 const Demo = (): JSX.Element => {
   return (
     <>
-      <Title>h1. eh-design</Title>
-      <Title level={2}>h2. eh-design</Title>
-      <Title level={3}>h3. eh-design</Title>
-      <Title level={4}>h4. eh-design</Title>
-      <Title level={5}>h5. eh-design</Title>
+      <Title>h1. bs-design</Title>
+      <Title level={2}>h2. bs-design</Title>
+      <Title level={3}>h3. bs-design</Title>
+      <Title level={4}>h4. bs-design</Title>
+      <Title level={5}>h5. bs-design</Title>
     </>
   );
 };
@@ -52,28 +52,28 @@ export default Demo;
  * desc: 内置不同样式的文本以及超链接组件。
  */
 import React from 'react';
-import { Typography, Space } from 'eh-design';
+import { Typography, Space } from 'bs-design';
 
 const { Text, Link } = Typography;
 
 const Demo = (): JSX.Element => {
   return (
     <Space direction="vertical">
-      <Text>eh-design (default)</Text>
-      <Text type="secondary">eh-design (secondary)</Text>
-      <Text type="success">eh-design (success)</Text>
-      <Text type="warning">eh-design (warning)</Text>
-      <Text type="danger">eh-design (danger)</Text>
-      <Text disabled>eh-design (disabled)</Text>
-      <Text mark>eh-design (mark)</Text>
-      <Text code>eh-design (code)</Text>
-      <Text keyboard>eh-design (keyboard)</Text>
-      <Text underline>eh-design (underline)</Text>
-      <Text delete>eh-design (delete)</Text>
-      <Text strong>eh-design (strong)</Text>
-      <Text italic>eh-design (italic)</Text>
+      <Text>bs-design (default)</Text>
+      <Text type="secondary">bs-design (secondary)</Text>
+      <Text type="success">bs-design (success)</Text>
+      <Text type="warning">bs-design (warning)</Text>
+      <Text type="danger">bs-design (danger)</Text>
+      <Text disabled>bs-design (disabled)</Text>
+      <Text mark>bs-design (mark)</Text>
+      <Text code>bs-design (code)</Text>
+      <Text keyboard>bs-design (keyboard)</Text>
+      <Text underline>bs-design (underline)</Text>
+      <Text delete>bs-design (delete)</Text>
+      <Text strong>bs-design (strong)</Text>
+      <Text italic>bs-design (italic)</Text>
       <Link href="https://www.baidu.com" target="_blank">
-        eh-design (Link)
+        bs-design (Link)
       </Link>
     </Space>
   );
@@ -88,7 +88,7 @@ export default Demo;
  * desc: 多行文本省略。你可以通过 tooltip 属性配置省略展示内容，大量文本时推荐优先使用 expandable。
  */
 import React from 'react';
-import { Typography, Switch } from 'eh-design';
+import { Typography, Switch } from 'bs-design';
 
 const { Paragraph, Text } = Typography;
 

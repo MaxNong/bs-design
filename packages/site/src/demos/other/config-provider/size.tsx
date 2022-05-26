@@ -10,7 +10,7 @@ import {
   Table,
   Card,
   Tabs,
-} from 'eh-design';
+} from 'bs-design';
 
 const { TabPane } = Tabs;
 

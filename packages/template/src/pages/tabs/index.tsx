@@ -1,6 +1,6 @@
-import Tabs from "eh-design/components/tabs/index";
+import Tabs from "bs-design/components/tabs/index";
 
-import "eh-design/components/tabs/style/index";
+import "bs-design/components/tabs/style/index";
 
 const { TabPane } = Tabs;
 

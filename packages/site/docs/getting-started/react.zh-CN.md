@@ -11,7 +11,7 @@ group:
 ---
 
 
-[create-react-app](https://github.com/facebookincubator/create-react-app) 是业界最优秀的 React 应用开发工具之一，本文会尝试在 create-react-app 创建的工程中使用 eh-design 组件，并自定义 webpack 的配置以满足各类工程化需求。
+[create-react-app](https://github.com/facebookincubator/create-react-app) 是业界最优秀的 React 应用开发工具之一，本文会尝试在 create-react-app 创建的工程中使用 bs-design 组件，并自定义 webpack 的配置以满足各类工程化需求。
 
 ---
 
@@ -38,7 +38,7 @@ $ yarn start
 
 此时浏览器会访问 http://localhost:3000/ ，看到 `Welcome to React` 的界面就算成功了。
 
-## 引入 eh-design
+## 引入 bs-design
 
 这是 create-react-app 生成的默认目录结构。
 
@@ -58,16 +58,16 @@ $ yarn start
 └── yarn.lock
 ```
 
-现在从 yarn 或 npm 安装并引入 eh-design。
+现在从 yarn 或 npm 安装并引入 bs-design。
 ```shell
-yarn add eh-design
+yarn add bs-design
 ```
 
-修改 src/App.js，引入 eh-design 的按钮组件。
+修改 src/App.js，引入 bs-design 的按钮组件。
 
 ```jsx | pure
 import React from 'react';
-import { Button } from 'eh-design';
+import { Button } from 'bs-design';
 import './App.css';
 
 const App = () => (

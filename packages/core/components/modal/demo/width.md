@@ -15,7 +15,7 @@ Use `width` to set the width of the modal dialog.
 
 ```jsx
 import React, { useState } from 'react';
-import { Modal, Button } from 'ehd';
+import { Modal, Button } from 'bsd';
 
 const App = () => {
   const [visible, setVisible] = useState(false);

@@ -14,7 +14,7 @@ title:
 Crowded components horizontal spacing.
 
 ```jsx
-import { Button, Space, Upload, Popconfirm } from 'ehd';
+import { Button, Space, Upload, Popconfirm } from 'bsd';
 import { UploadOutlined } from '@ant-design/icons';
 
 function SpaceDemo() {

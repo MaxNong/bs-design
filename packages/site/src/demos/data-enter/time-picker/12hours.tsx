@@ -1,5 +1,5 @@
 import React from 'react';
-import { TimePicker } from 'eh-design';
+import { TimePicker } from 'bs-design';
 
 function onChange(time, timeString) {
   console.log(time, timeString);

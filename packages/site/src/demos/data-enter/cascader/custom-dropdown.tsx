@@ -1,5 +1,5 @@
 import React from 'react';
-import { Cascader, Divider } from 'eh-design';
+import { Cascader, Divider } from 'bs-design';
 
 const options = [
   {

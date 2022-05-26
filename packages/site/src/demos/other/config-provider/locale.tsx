@@ -12,9 +12,9 @@ import {
   Select,
   Transfer,
   Radio,
-} from 'eh-design';
-import enUS from 'eh-design/lib/locale/en_US';
-import zhCN from 'eh-design/lib/locale/zh_CN';
+} from 'bs-design';
+import enUS from 'bs-design/lib/locale/en_US';
+import zhCN from 'bs-design/lib/locale/zh_CN';
 import moment from 'moment';
 import 'moment/locale/zh-cn';
 

@@ -14,7 +14,7 @@ title:
 Display the document sample.
 
 ```jsx
-import { Typography, Divider } from 'ehd';
+import { Typography, Divider } from 'bsd';
 
 const { Title, Paragraph, Text, Link } = Typography;
 

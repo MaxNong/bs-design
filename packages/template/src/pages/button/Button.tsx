@@ -1,8 +1,8 @@
-import Button from "eh-design/components/button/Button";
+import Button from "bs-design/components/button/Button";
 
 import Preview from "../../components/preview/index";
 
-import "eh-design/components/button/style/index";
+import "bs-design/components/button/style/index";
 
 const PreviewItem = Preview.Item;
 

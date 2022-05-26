@@ -14,7 +14,7 @@ title:
 Crowded components vertical spacing.
 
 ```jsx
-import { Space, Card } from 'ehd';
+import { Space, Card } from 'bsd';
 
 function SpaceVertical() {
   return (

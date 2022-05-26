@@ -1,5 +1,5 @@
 import React, { useState, useCallback, useRef } from 'react';
-import { Table } from 'eh-design';
+import { Table } from 'bs-design';
 import { DndProvider, useDrag, useDrop } from 'react-dnd';
 import { HTML5Backend } from 'react-dnd-html5-backend';
 import update from 'immutability-helper';

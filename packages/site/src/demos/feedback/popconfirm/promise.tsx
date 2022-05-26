@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Popconfirm } from 'eh-design';
+import { Button, Popconfirm } from 'bs-design';
 
 const App = () => {
   const confirm = () =>

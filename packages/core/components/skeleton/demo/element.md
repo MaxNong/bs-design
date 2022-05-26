@@ -14,7 +14,7 @@ title:
 Skeleton Button, Avatar, Input and Image.
 
 ```jsx
-import { Skeleton, Space, Divider, Switch, Form, Radio, Button, Input } from 'ehd';
+import { Skeleton, Space, Divider, Switch, Form, Radio, Button, Input } from 'bsd';
 
 class Demo extends React.Component {
   state = {

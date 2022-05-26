@@ -7,7 +7,7 @@ debug: true
 ---
 
 ```jsx
-import { Tree, Switch } from 'ehd';
+import { Tree, Switch } from 'bsd';
 import { CarryOutOutlined } from '@ant-design/icons';
 
 const x = 3;

@@ -15,7 +15,7 @@ Use `react-dnd@15+` to make tabs draggable.
 
 ```jsx
 import React, { useRef, cloneElement } from 'react';
-import { Tabs } from 'ehd';
+import { Tabs } from 'bsd';
 import { DndProvider, useDrag, useDrop } from 'react-dnd';
 import { HTML5Backend } from 'react-dnd-html5-backend';
 

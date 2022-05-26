@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mentions, Space } from 'eh-design';
+import { Mentions, Space } from 'bs-design';
 
 const { Option } = Mentions;
 

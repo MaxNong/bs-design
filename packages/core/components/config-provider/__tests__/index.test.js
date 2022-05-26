@@ -15,7 +15,7 @@ describe('ConfigProvider', () => {
   ));
 
   it('Content Security Policy', () => {
-    const csp = { nonce: 'test-ehd' };
+    const csp = { nonce: 'test-bsd' };
     const wrapper = mount(
       <ConfigProvider csp={csp}>
         <Button />

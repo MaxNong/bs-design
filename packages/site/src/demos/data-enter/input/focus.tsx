@@ -1,5 +1,5 @@
 import React from 'react';
-import { Input, Space, Button, Switch } from 'eh-design';
+import { Input, Space, Button, Switch } from 'bs-design';
 
 const Demo = () => {
   const inputRef = React.useRef<any>(null);

@@ -11,10 +11,10 @@ title:
 
 ## en-US
 
-`danger` is a property of button after ehd 4.0.
+`danger` is a property of button after bsd 4.0.
 
 ```jsx
-import { Button } from 'ehd';
+import { Button } from 'bsd';
 
 ReactDOM.render(
   <>

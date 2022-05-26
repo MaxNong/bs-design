@@ -16,7 +16,7 @@ title:
 
 ```tsx
 import React from 'react';
-import { Form, Input, message, Button, Space } from 'ehd';
+import { Form, Input, message, Button, Space } from 'bsd';
 
 const Demo = () => {
   const [form] = Form.useForm();

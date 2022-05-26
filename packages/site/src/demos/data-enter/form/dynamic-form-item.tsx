@@ -1,5 +1,5 @@
 import React from 'react';
-import { Form, Input, Button } from 'eh-design';
+import { Form, Input, Button } from 'bs-design';
 import { MinusCircleOutlined, PlusOutlined } from '@ant-design/icons';
 
 const formItemLayout = {

@@ -15,7 +15,7 @@ Provide additional interactive capacity of editable and copyable.
 
 ```jsx
 import React, { useState } from 'react';
-import { Checkbox, Radio, Typography, Divider } from 'ehd';
+import { Checkbox, Radio, Typography, Divider } from 'bsd';
 import { CheckOutlined, HighlightOutlined, SmileOutlined, SmileFilled } from '@ant-design/icons';
 
 const { Paragraph } = Typography;

@@ -14,7 +14,7 @@ title:
 Input box with the remove icon, click the icon to delete everything.
 
 ```jsx
-import { Input } from 'ehd';
+import { Input } from 'bsd';
 
 const { TextArea } = Input;
 

@@ -14,7 +14,7 @@ title:
 Configurate `disabled` and `readOnly`.
 
 ```jsx
-import { Mentions } from 'ehd';
+import { Mentions } from 'bsd';
 
 const { Option } = Mentions;
 

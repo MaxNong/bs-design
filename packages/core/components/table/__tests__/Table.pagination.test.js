@@ -143,7 +143,7 @@ describe('Table.pagination', () => {
   it('fires change event', () => {
     const handleChange = jest.fn();
     const handlePaginationChange = jest.fn();
-    const noop = () => {};
+    const noop = () => { };
     const wrapper = mount(
       createTable({
         pagination: { ...pagination, onChange: handlePaginationChange, onShowSizeChange: noop },
@@ -480,7 +480,7 @@ describe('Table.pagination', () => {
 
   it('dynamic warning', () => {
     resetWarned();
-    const errorSpy = jest.spyOn(console, 'error').mockImplementation(() => {});
+    const errorSpy = jest.spyOn(console, 'error').mockImplementation(() => { });
 
     const dynamicData = [];
     for (let i = 0; i < 15; i += 1) {
@@ -500,7 +500,7 @@ describe('Table.pagination', () => {
     expect(wrapper.find('tbody tr')).toHaveLength(5);
 
     expect(errorSpy).toHaveBeenCalledWith(
-      'Warning: [ehd: Table] `dataSource` length is less than `pagination.total` but large than `pagination.pageSize`. Please make sure your config correct data with async mode.',
+      'Warning: [bsd: Table] `dataSource` length is less than `pagination.total` but large than `pagination.pageSize`. Please make sure your config correct data with async mode.',
     );
   });
 

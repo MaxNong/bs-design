@@ -7,7 +7,7 @@ describe('Table.order', () => {
   window.requestAnimationFrame = callback => window.setTimeout(callback, 16);
   window.cancelAnimationFrame = window.clearTimeout;
 
-  const errorSpy = jest.spyOn(console, 'error').mockImplementation(() => {});
+  const errorSpy = jest.spyOn(console, 'error').mockImplementation(() => { });
 
   afterEach(() => {
     errorSpy.mockReset();
@@ -48,7 +48,7 @@ describe('Table.order', () => {
     );
 
     expect(errorSpy).toHaveBeenCalledWith(
-      'Warning: [ehd: Table] Multiple `SELECTION_COLUMN` exist in `columns`.',
+      'Warning: [bsd: Table] Multiple `SELECTION_COLUMN` exist in `columns`.',
     );
   });
 

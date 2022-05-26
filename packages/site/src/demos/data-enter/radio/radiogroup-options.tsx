@@ -1,5 +1,5 @@
 import React from 'react';
-import { Radio } from 'eh-design';
+import { Radio } from 'bs-design';
 
 const plainOptions = ['Apple', 'Pear', 'Orange'];
 const options = [

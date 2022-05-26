@@ -1,5 +1,5 @@
 import React from 'react';
-import { Badge, Card, Space } from 'eh-design';
+import { Badge, Card, Space } from 'bs-design';
 
 export default () => (
   <Space direction="vertical" style={{ width: '100%' }}>

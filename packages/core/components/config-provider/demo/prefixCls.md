@@ -15,7 +15,7 @@ debug: true
 Config component and icon prefixCls.
 
 ```jsx
-import { ConfigProvider, Select, Button } from 'ehd';
+import { ConfigProvider, Select, Button } from 'bsd';
 import { SmileOutlined } from '@ant-design/icons';
 import React, { useState } from 'react';
 

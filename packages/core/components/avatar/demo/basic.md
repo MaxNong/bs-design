@@ -14,7 +14,7 @@ title:
 Three sizes and two shapes are available.
 
 ```tsx
-import { Avatar } from 'ehd';
+import { Avatar } from 'bsd';
 import { UserOutlined } from '@ant-design/icons';
 
 ReactDOM.render(

@@ -14,7 +14,7 @@ title:
 Responsive columns.
 
 ```jsx
-import { Table } from 'ehd';
+import { Table } from 'bsd';
 
 const columns = [
   {

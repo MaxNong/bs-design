@@ -1,5 +1,5 @@
 import React from 'react';
-import { Menu, Switch, MenuProps } from 'eh-design';
+import { Menu, Switch, MenuProps } from 'bs-design';
 import {
   MailOutlined,
   AppstoreOutlined,

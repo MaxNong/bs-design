@@ -14,7 +14,7 @@ title:
 To customize the style or font of the close button.
 
 ```jsx
-import { Button, notification } from 'ehd';
+import { Button, notification } from 'bsd';
 
 const close = () => {
   console.log(

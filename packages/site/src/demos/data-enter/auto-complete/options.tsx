@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { AutoComplete } from 'eh-design';
+import { AutoComplete } from 'bs-design';
 
 const { Option } = AutoComplete;
 

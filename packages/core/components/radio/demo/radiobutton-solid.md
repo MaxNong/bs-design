@@ -14,7 +14,7 @@ title:
 Solid radio button style.
 
 ```jsx
-import { Radio } from 'ehd';
+import { Radio } from 'bsd';
 
 ReactDOM.render(
   <>

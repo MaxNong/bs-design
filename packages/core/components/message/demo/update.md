@@ -14,7 +14,7 @@ title:
 Update message content with unique `key`.
 
 ```jsx
-import { Button, message } from 'ehd';
+import { Button, message } from 'bsd';
 
 const key = 'updatable';
 

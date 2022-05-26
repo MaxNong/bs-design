@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Form, Input, Button } from 'eh-design';
+import { Form, Input, Button } from 'bs-design';
 import { UserOutlined, LockOutlined } from '@ant-design/icons';
 
 const HorizontalLoginForm = () => {

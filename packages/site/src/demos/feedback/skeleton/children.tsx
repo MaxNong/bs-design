@@ -1,5 +1,5 @@
 import React from 'react';
-import { Skeleton, Button } from 'eh-design';
+import { Skeleton, Button } from 'bs-design';
 
 class Demo extends React.Component {
   state = {

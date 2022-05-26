@@ -14,7 +14,7 @@ title:
 Customize Calendar header content.
 
 ```jsx
-import { Calendar, Select, Radio, Col, Row, Typography } from 'ehd';
+import { Calendar, Select, Radio, Col, Row, Typography } from 'bsd';
 
 function onPanelChange(value, mode) {
   console.log(value, mode);

@@ -14,7 +14,7 @@ title:
 Load failed to display image placeholder.
 
 ```jsx
-import { Image } from 'ehd';
+import { Image } from 'bsd';
 
 function ImageDemo() {
   return (

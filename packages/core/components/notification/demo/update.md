@@ -14,7 +14,7 @@ title:
 Update content with unique key.
 
 ```jsx
-import { Button, notification } from 'ehd';
+import { Button, notification } from 'bsd';
 
 const key = 'updatable';
 

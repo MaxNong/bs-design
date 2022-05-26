@@ -15,17 +15,17 @@ group:
 
 ## 安装
 ```shell
-npm install eh-design --save
+npm install bs-design --save
 ```
 ## 示例
 ```jsx | pure
 import React from 'react';
-import { Button } from 'eh-design';
+import { Button } from 'bs-design';
 
 export default () => <Button type="primary">按钮</Button>;
 ```
 
 引入样式：
 ```jsx | pure
-import 'eh-design/dist/eh-design.css'; // or 'eh-design/dist/eh-design.less'
+import 'bs-design/dist/bs-design.css'; // or 'bs-design/dist/bs-design.less'
 ```

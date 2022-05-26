@@ -1,6 +1,6 @@
 import React from "react";
 // @ts-ignore
-import {Col, Divider, Row} from "eh-design";
+import {Col, Divider, Row} from "bs-design";
 
 import "./index.scss";
 

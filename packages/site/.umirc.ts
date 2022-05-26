@@ -21,7 +21,7 @@ export default defineConfig({
     [
       'babel-plugin-import',
       {
-        libraryName: 'eh-design',
+        libraryName: 'bs-design',
         libraryDirectory: 'es',
         style: true,
       },

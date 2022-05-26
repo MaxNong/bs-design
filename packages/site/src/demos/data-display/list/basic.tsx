@@ -1,5 +1,5 @@
 import React from 'react';
-import { List, Avatar } from 'eh-design';
+import { List, Avatar } from 'bs-design';
 
 const data = [
   {

@@ -1,5 +1,5 @@
 import React from 'react';
-import { TreeSelect, Switch, Space } from 'eh-design';
+import { TreeSelect, Switch, Space } from 'bs-design';
 
 const { TreeNode } = TreeSelect;
 

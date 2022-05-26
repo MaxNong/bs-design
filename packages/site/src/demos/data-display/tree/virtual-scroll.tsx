@@ -1,5 +1,5 @@
 import React from 'react';
-import { Tree } from 'eh-design';
+import { Tree } from 'bs-design';
 
 function dig(path = '0', level = 3) {
   const list = [];

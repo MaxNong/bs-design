@@ -14,7 +14,7 @@ title:
 Provides multiple types of text and link.
 
 ```jsx
-import { Typography, Space } from 'ehd';
+import { Typography, Space } from 'bsd';
 
 const { Text, Link } = Typography;
 

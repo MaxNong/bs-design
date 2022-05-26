@@ -14,7 +14,7 @@ title:
 Upload files manually after `beforeUpload` returns `false`.
 
 ```jsx
-import { Upload, Button, message } from 'ehd';
+import { Upload, Button, message } from 'bsd';
 import { UploadOutlined } from '@ant-design/icons';
 
 class Demo extends React.Component {

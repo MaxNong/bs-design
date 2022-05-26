@@ -1,5 +1,5 @@
 import React from 'react';
-import { Collapse } from 'eh-design';
+import { Collapse } from 'bs-design';
 
 const { Panel } = Collapse;
 

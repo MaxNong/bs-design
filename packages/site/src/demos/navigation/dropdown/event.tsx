@@ -1,5 +1,5 @@
 import React from 'react';
-import { Menu, Dropdown, message, Space } from 'eh-design';
+import { Menu, Dropdown, message, Space } from 'bs-design';
 import { DownOutlined } from '@ant-design/icons';
 
 const onClick = ({ key }) => {

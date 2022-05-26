@@ -1,5 +1,5 @@
 import React from 'react';
-import { Pagination } from 'eh-design';
+import { Pagination } from 'bs-design';
 
 function showTotal(total) {
   return `Total ${total} items`;

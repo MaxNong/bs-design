@@ -1,5 +1,5 @@
 import React from 'react';
-import { Popconfirm, message, Button } from 'eh-design';
+import { Popconfirm, message, Button } from 'bs-design';
 
 const text = 'Are you sure to delete this task?';
 

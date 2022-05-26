@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Form, Row, Col, Input, Button, Select } from 'eh-design';
+import { Form, Row, Col, Input, Button, Select } from 'bs-design';
 import { DownOutlined, UpOutlined } from '@ant-design/icons';
 
 const { Option } = Select;

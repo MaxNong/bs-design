@@ -14,7 +14,7 @@ title:
 The badge can be wrapped with `a` tag to make it linkable.
 
 ```jsx
-import { Badge, Avatar } from 'ehd';
+import { Badge, Avatar } from 'bsd';
 
 ReactDOM.render(
   <a href="#">

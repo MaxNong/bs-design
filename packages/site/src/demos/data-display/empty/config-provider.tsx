@@ -9,7 +9,7 @@ import {
   Transfer,
   Table,
   List,
-} from 'eh-design';
+} from 'bs-design';
 import { SmileOutlined } from '@ant-design/icons';
 
 const customizeRenderEmpty = () => (

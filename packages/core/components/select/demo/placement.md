@@ -14,7 +14,7 @@ title:
 You can manually specify the position of the popup via `placement`.
 
 ```jsx
-import { Select, Radio } from 'ehd';
+import { Select, Radio } from 'bsd';
 
 const { Option } = Select;
 

@@ -14,7 +14,7 @@ title:
 There are 12 placement options available.
 
 ```jsx
-import { Tooltip, Button } from 'ehd';
+import { Tooltip, Button } from 'bsd';
 
 const text = <span>prompt text</span>;
 

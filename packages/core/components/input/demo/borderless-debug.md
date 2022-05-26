@@ -15,7 +15,7 @@ Buggy!
 Buggy!
 
 ```jsx
-import { Input } from 'ehd';
+import { Input } from 'bsd';
 
 const { TextArea } = Input;
 

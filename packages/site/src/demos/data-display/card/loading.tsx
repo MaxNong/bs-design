@@ -1,5 +1,5 @@
 import React from 'react';
-import { Skeleton, Switch, Card, Avatar } from 'eh-design';
+import { Skeleton, Switch, Card, Avatar } from 'bs-design';
 import {
   EditOutlined,
   EllipsisOutlined,

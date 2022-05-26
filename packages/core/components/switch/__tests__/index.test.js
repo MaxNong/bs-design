@@ -22,10 +22,10 @@ describe('Switch', () => {
   it('warning if set `value`', () => {
     resetWarned();
 
-    const errorSpy = jest.spyOn(console, 'error').mockImplementation(() => {});
+    const errorSpy = jest.spyOn(console, 'error').mockImplementation(() => { });
     mount(<Switch value />);
     expect(errorSpy).toHaveBeenCalledWith(
-      'Warning: [ehd: Switch] `value` is not a valid prop, do you mean `checked`?',
+      'Warning: [bsd: Switch] `value` is not a valid prop, do you mean `checked`?',
     );
     errorSpy.mockRestore();
   });

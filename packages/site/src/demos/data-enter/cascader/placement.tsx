@@ -1,5 +1,5 @@
 import React from 'react';
-import { Cascader, Radio } from 'eh-design';
+import { Cascader, Radio } from 'bs-design';
 
 const options = [
   {

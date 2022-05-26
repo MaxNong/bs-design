@@ -14,7 +14,7 @@ title:
 The simplest usage.
 
 ```tsx
-import { Anchor } from 'ehd';
+import { Anchor } from 'bsd';
 
 const { Link } = Anchor;
 

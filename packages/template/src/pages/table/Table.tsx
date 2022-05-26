@@ -1,6 +1,6 @@
-import Table from "eh-design/components/table/Table";
+import Table from "bs-design/components/table/Table";
 
-import "eh-design/components/table/style/index";
+import "bs-design/components/table/style/index";
 
 const TableDemo = (): JSX.Element => {
   const columns = [

@@ -14,7 +14,7 @@ title:
 Additional description for alert message.
 
 ```tsx
-import { Alert } from 'ehd';
+import { Alert } from 'bsd';
 
 ReactDOM.render(
   <>

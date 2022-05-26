@@ -14,7 +14,7 @@ title:
 The Sub-menu will inherit the theme of `Menu`, but you can override this at the `SubMenu` level via the `theme` prop.
 
 ```jsx
-import { Menu, Switch } from 'ehd';
+import { Menu, Switch } from 'bsd';
 import { MailOutlined } from '@ant-design/icons';
 
 const { SubMenu } = Menu;

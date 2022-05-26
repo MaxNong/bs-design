@@ -15,7 +15,7 @@ debug: true
 Display the title and paragraph.
 
 ```jsx
-import { Typography } from 'ehd';
+import { Typography } from 'bsd';
 
 const { Title, Paragraph, Text } = Typography;
 

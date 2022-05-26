@@ -13,7 +13,7 @@ cover: https://gw.alipayobjects.com/zos/alicdn/kegYxl1wj/ConfigProvider.svg
 This component provides a configuration to all React components underneath itself via the [context API](https://facebook.github.io/react/docs/context.html). In the render tree all components will have access to the provided config.
 
 ```jsx
-import { ConfigProvider } from 'ehd';
+import { ConfigProvider } from 'bsd';
 
 // ...
 
@@ -39,7 +39,7 @@ Some components use dynamic style to support wave effect. You can config `csp` p
 | Property | Description | Type | Default | Version |
 | --- | --- | --- | --- | --- |
 | autoInsertSpaceInButton | Set false to remove space between 2 chinese characters on Button | boolean | true |  |
-| componentSize | Config ehd component size | `small` \| `middle` \| `large` | - |  |
+| componentSize | Config bsd component size | `small` \| `middle` \| `large` | - |  |
 | csp | Set [Content Security Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP) config | { nonce: string } | - |  |
 | direction | Set direction of layout. See [demo](#components-config-provider-demo-direction) | `ltr` \| `rtl` | `ltr` |  |
 | dropdownMatchSelectWidth | Determine whether the dropdown menu and the select input are the same width. Default set `min-width` same as input. Will ignore when value less than select width. `false` will disable virtual scroll | boolean \| number | - | 4.3.0 |
@@ -48,7 +48,7 @@ Some components use dynamic style to support wave effect. You can config `csp` p
 | getTargetContainer | Config Affix, Anchor scroll target container | () => HTMLElement | () => window | 4.2.0 |
 | iconPrefixCls | Set icon prefix className (cooperated with [@iconfont-css-prefix](https://github.com/ant-design/ant-design/blob/d943b85a523bdf181dabc12c928226f3b4b893de/components/style/themes/default.less#L106)) | string | `anticon` | 4.11.0 |
 | input | Set Input common props | { autoComplete?: string } | - | 4.2.0 |
-| locale | Language package setting, you can find the packages in [ehd/lib/locale](http://unpkg.com/ehd/lib/locale/) | object | - |  |
+| locale | Language package setting, you can find the packages in [bsd/lib/locale](http://unpkg.com/bsd/lib/locale/) | object | - |  |
 | pageHeader | Unify the ghost of PageHeader, ref [PageHeader](/components/page-header) | { ghost: boolean } | true |  |
 | prefixCls | Set prefix className (cooperated with [@ant-prefix](https://github.com/ant-design/ant-design/blob/2c6c789e3a9356f96c47aea0083f5a15538315cf/components/style/themes/default.less#L7)) | string | `ant` |  |
 | renderEmpty | Set empty content of components. Ref [Empty](/components/empty/) | function(componentName: string): ReactNode | - |  |
@@ -85,7 +85,7 @@ moment.locale('zh-cn');
 
 Related issue: <https://github.com/ant-design/ant-design/issues/19974>
 
-When you config `getPopupContainer` to parentNode globally, Modal will throw error of `triggerNode is undefined` because it did not have a triggerNode. You can try the [fix](https://github.com/afc163/feedback-ehd/commit/3e4d1ad1bc1a38460dc3bf3c56517f737fe7d44a) below.
+When you config `getPopupContainer` to parentNode globally, Modal will throw error of `triggerNode is undefined` because it did not have a triggerNode. You can try the [fix](https://github.com/afc163/feedback-bsd/commit/3e4d1ad1bc1a38460dc3bf3c56517f737fe7d44a) below.
 
 ```diff
  <ConfigProvider

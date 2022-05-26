@@ -14,7 +14,7 @@ title:
 The `onChange` callback function will fire when the user changes the slider's value. The `onAfterChange` callback function will fire when `onmouseup` fired.
 
 ```jsx
-import { Slider } from 'ehd';
+import { Slider } from 'bsd';
 
 function onChange(value) {
   console.log('onChange: ', value);

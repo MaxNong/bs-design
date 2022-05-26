@@ -1,5 +1,5 @@
 import React from 'react';
-import { Input, Tooltip } from 'eh-design';
+import { Input, Tooltip } from 'bs-design';
 import { InfoCircleOutlined, UserOutlined } from '@ant-design/icons';
 
 export default () => (

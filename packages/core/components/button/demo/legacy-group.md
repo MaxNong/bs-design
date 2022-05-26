@@ -15,7 +15,7 @@ Debug usage
 Debug usage
 
 ```jsx
-import { Button, Tooltip } from 'ehd';
+import { Button, Tooltip } from 'bsd';
 import { DownloadOutlined } from '@ant-design/icons';
 
 function getGroup(props) {

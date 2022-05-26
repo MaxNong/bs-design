@@ -1,5 +1,5 @@
 import React from 'react';
-import { Select } from 'eh-design';
+import { Select } from 'bs-design';
 import jsonp from 'fetch-jsonp';
 import qs from 'qs';
 

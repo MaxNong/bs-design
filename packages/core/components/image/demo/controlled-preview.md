@@ -15,7 +15,7 @@ You can make preview controlled.
 
 ```jsx
 import React, { useState } from 'react';
-import { Image, Button } from 'ehd';
+import { Image, Button } from 'bsd';
 
 function ImageDemo() {
   const [visible, setVisible] = useState(false);

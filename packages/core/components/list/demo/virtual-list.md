@@ -15,7 +15,7 @@ An example of infinite & virtualized list via using [rc-virtual-list](https://gi
 
 ```jsx
 import React, { useState, useEffect } from 'react';
-import { List, message, Avatar } from 'ehd';
+import { List, message, Avatar } from 'bsd';
 import VirtualList from 'rc-virtual-list';
 
 const fakeDataUrl =

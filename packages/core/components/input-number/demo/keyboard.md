@@ -14,7 +14,7 @@ title:
 Control keyboard behavior by `keyboard`.
 
 ```tsx
-import { InputNumber, Checkbox, Space } from 'ehd';
+import { InputNumber, Checkbox, Space } from 'bsd';
 
 const App = () => {
   const [keyboard, setKeyboard] = React.useState(true);

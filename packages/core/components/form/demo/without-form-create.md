@@ -15,7 +15,7 @@ title:
 
 ```tsx
 import React, { useState } from 'react';
-import { Form, InputNumber } from 'ehd';
+import { Form, InputNumber } from 'bsd';
 
 type ValidateStatus = Parameters<typeof Form.Item>[0]['validateStatus'];
 

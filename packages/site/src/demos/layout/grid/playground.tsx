@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col, Slider } from 'eh-design';
+import { Row, Col, Slider } from 'bs-design';
 
 const gutters = {};
 const vgutters = {};

@@ -1,4 +1,4 @@
 import React from 'react';
-import { Skeleton } from 'eh-design';
+import { Skeleton } from 'bs-design';
 
 export default () => <Skeleton active />;

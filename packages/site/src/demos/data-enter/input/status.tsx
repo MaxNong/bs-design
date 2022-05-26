@@ -1,5 +1,5 @@
 import React from 'react';
-import { Input, Space } from 'eh-design';
+import { Input, Space } from 'bs-design';
 import ClockCircleOutlined from '@ant-design/icons/ClockCircleOutlined';
 
 const ValidateInputs: React.FC = () => (

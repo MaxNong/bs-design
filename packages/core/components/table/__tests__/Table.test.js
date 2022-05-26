@@ -11,7 +11,7 @@ describe('Table', () => {
   mountTest(Table);
   rtlTest(Table);
 
-  const warnSpy = jest.spyOn(console, 'error').mockImplementation(() => {});
+  const warnSpy = jest.spyOn(console, 'error').mockImplementation(() => { });
 
   afterAll(() => {
     warnSpy.mockRestore();
@@ -114,7 +114,7 @@ describe('Table', () => {
       },
     ];
 
-    const errorSpy = jest.spyOn(console, 'error').mockImplementation(() => {});
+    const errorSpy = jest.spyOn(console, 'error').mockImplementation(() => { });
 
     const columnsPageRange = jest.fn();
     const columnsPageSize = jest.fn();
@@ -246,7 +246,7 @@ describe('Table', () => {
     ];
     mount(<Table columns={columns} rowKey={(record, index) => record + index} />);
     expect(warnSpy).toBeCalledWith(
-      'Warning: [ehd: Table] `index` parameter of `rowKey` function is deprecated. There is no guarantee that it will work as expected.',
+      'Warning: [bsd: Table] `index` parameter of `rowKey` function is deprecated. There is no guarantee that it will work as expected.',
     );
   });
   it('not warn about rowKey', () => {

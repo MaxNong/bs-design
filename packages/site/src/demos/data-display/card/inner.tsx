@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card } from 'eh-design';
+import { Card } from 'bs-design';
 
 export default () => (
   <Card title="Card title">

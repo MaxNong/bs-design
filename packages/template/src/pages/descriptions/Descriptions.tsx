@@ -1,6 +1,6 @@
-import Descriptions from "eh-design/components/descriptions/index";
+import Descriptions from "bs-design/components/descriptions/index";
 
-import "eh-design/components/descriptions/style/index";
+import "bs-design/components/descriptions/style/index";
 
 const DescriptionsDemo = (): JSX.Element => {
   return (

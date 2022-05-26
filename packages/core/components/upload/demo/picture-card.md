@@ -14,7 +14,7 @@ title:
 After users upload picture, the thumbnail will be shown in list. The upload button will disappear when count meets limitation.
 
 ```jsx
-import { Upload, Modal } from 'ehd';
+import { Upload, Modal } from 'bsd';
 import { PlusOutlined } from '@ant-design/icons';
 
 function getBase64(file) {

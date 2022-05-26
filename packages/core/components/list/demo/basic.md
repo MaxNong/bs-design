@@ -14,7 +14,7 @@ title:
 Basic list.
 
 ```jsx
-import { List, Avatar } from 'ehd';
+import { List, Avatar } from 'bsd';
 
 const data = [
   {

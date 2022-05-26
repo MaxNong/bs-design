@@ -14,7 +14,7 @@ title:
 A borderless style of Collapse.
 
 ```jsx
-import { Collapse } from 'ehd';
+import { Collapse } from 'bsd';
 
 const { Panel } = Collapse;
 

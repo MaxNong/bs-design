@@ -8,7 +8,7 @@ import {
   Radio,
   Button,
   Input,
-} from 'eh-design';
+} from 'bs-design';
 
 class Demo extends React.Component {
   state = {

@@ -24,7 +24,7 @@ import {
   Transfer,
   Table,
   List,
-} from 'ehd';
+} from 'bsd';
 import { SmileOutlined } from '@ant-design/icons';
 
 const customizeRenderEmpty = () => (

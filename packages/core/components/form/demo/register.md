@@ -26,7 +26,7 @@ import {
   Checkbox,
   Button,
   AutoComplete,
-} from 'ehd';
+} from 'bsd';
 
 const { Option } = Select;
 

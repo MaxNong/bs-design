@@ -1,5 +1,5 @@
 import React from 'react';
-import { Empty, Button } from 'eh-design';
+import { Empty, Button } from 'bs-design';
 
 export default () => (
   <Empty

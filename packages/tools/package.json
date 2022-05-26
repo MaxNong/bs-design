@@ -1,11 +1,11 @@
 {
   "version": "0.1.0",
-  "name": "@eh-design/tools",
+  "name": "@bs-design/tools",
   "description": "B端组件库工具套件",
   "homepage": "",
   "license": "MIT",
   "bin": {
-    "ehd-tools": "./bin/index.js"
+    "bsd-tools": "./bin/index.js"
   },
   "directories": {
     "lib": "lib"
@@ -39,7 +39,7 @@
     "chokidar": "^3.5.3",
     "dotenv": "^10.0.0",
     "dotenv-expand": "^5.1.0",
-    "eh-design": "*",
+    "bs-design": "*",
     "file-loader": "^6.2.0",
     "fs-extra": "^10.0.0",
     "html-webpack-plugin": "^5.5.0",

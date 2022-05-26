@@ -14,7 +14,7 @@ title:
 To perform operations and clear selections after selecting some rows, use `rowSelection.selectedRowKeys` to control selected rows.
 
 ```jsx
-import { Table, Button } from 'ehd';
+import { Table, Button } from 'bsd';
 
 const columns = [
   {

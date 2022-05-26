@@ -11,10 +11,10 @@ title:
 
 ## en-US
 
-Displaying a series of comments using the `ehd` List Component.
+Displaying a series of comments using the `bsd` List Component.
 
 ```jsx
-import { Comment, Tooltip, List } from 'ehd';
+import { Comment, Tooltip, List } from 'bsd';
 import moment from 'moment';
 
 const data = [

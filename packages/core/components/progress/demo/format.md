@@ -14,7 +14,7 @@ title:
 You can set a custom text by setting the `format` prop.
 
 ```jsx
-import { Progress } from 'ehd';
+import { Progress } from 'bsd';
 
 ReactDOM.render(
   <>

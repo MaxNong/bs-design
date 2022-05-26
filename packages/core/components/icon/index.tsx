@@ -16,7 +16,7 @@ const Icon = (props: IconTypes) => {
     color: fill,
   });
   return (
-    <span className="ehd-icon">
+    <span className="bsd-icon">
       <svg className="icon" aria-hidden="true" style={eleStyle}>
         <use xlinkHref={useName}></use>
       </svg>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Modal, Button } from 'eh-design';
+import { Modal, Button } from 'bs-design';
 
 class App extends React.Component {
   state = { visible: false };

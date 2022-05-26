@@ -1,5 +1,5 @@
 import React from 'react';
-import { Carousel, Radio } from 'eh-design';
+import { Carousel, Radio } from 'bs-design';
 
 const contentStyle = {
   height: '160px',

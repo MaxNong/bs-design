@@ -14,7 +14,7 @@ title:
 Basic Usage.
 
 ```jsx
-import { Select } from 'ehd';
+import { Select } from 'bsd';
 
 const { Option } = Select;
 

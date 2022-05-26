@@ -1,5 +1,5 @@
 import React from 'react';
-import { Form, Input, Button, Checkbox } from 'eh-design';
+import { Form, Input, Button, Checkbox } from 'bs-design';
 
 const Demo = () => {
   const onFinish = (values: any) => {

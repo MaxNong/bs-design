@@ -7,7 +7,7 @@ import {
   Tag,
   Typography,
   Row,
-} from 'eh-design';
+} from 'bs-design';
 import { MoreOutlined } from '@ant-design/icons';
 
 const { Paragraph } = Typography;

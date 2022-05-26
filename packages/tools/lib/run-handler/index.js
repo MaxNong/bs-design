@@ -29,7 +29,7 @@ function runTask(toRun) {
 }
 
 module.exports = function (task) {
-  console.log("ehd-tools run", task);
+  console.log("bsd-tools run", task);
 
   require("./gulpfile");
   runTask(task);

@@ -14,7 +14,7 @@ title:
 Standalone badge with status.
 
 ```jsx
-import { Badge } from 'ehd';
+import { Badge } from 'bsd';
 
 ReactDOM.render(
   <>

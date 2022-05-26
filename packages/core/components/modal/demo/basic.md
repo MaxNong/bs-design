@@ -15,7 +15,7 @@ Basic modal.
 
 ```jsx
 import React, { useState } from 'react';
-import { Modal, Button } from 'ehd';
+import { Modal, Button } from 'bsd';
 
 const App = () => {
   const [isModalVisible, setIsModalVisible] = useState(false);

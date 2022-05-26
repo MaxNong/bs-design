@@ -14,7 +14,7 @@ title:
 Cards usually cooperate with grid column layout in overview page.
 
 ```jsx
-import { Card, Col, Row } from 'ehd';
+import { Card, Col, Row } from 'bsd';
 
 ReactDOM.render(
   <div className="site-card-wrapper">

@@ -15,7 +15,7 @@ debug: true
 Multiple line ellipsis support.
 
 ```jsx
-import { Typography, Slider, Switch } from 'ehd';
+import { Typography, Slider, Switch } from 'bsd';
 
 const { Text, Paragraph } = Typography;
 

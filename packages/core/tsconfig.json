@@ -2,8 +2,8 @@
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
-      "ehd": ["components/index.tsx"],
-      "ehd/es/*": ["components/*"]
+      "bsd": ["components/index.tsx"],
+      "bsd/es/*": ["components/*"]
     },
     "strictNullChecks": true,
     "module": "esnext",

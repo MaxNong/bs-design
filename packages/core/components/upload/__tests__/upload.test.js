@@ -177,7 +177,7 @@ describe('Upload', () => {
     const data = jest.fn();
     const props = {
       action: 'http://upload.com',
-      beforeUpload() {},
+      beforeUpload() { },
       data,
       onChange: () => {
         expect(data).toHaveBeenCalled();
@@ -498,7 +498,7 @@ describe('Upload', () => {
       ],
     };
 
-    const wrapper = mount(<Upload {...props} onDownload={() => {}} />);
+    const wrapper = mount(<Upload {...props} onDownload={() => { }} />);
 
     wrapper.find('div.ant-upload-list-item .anticon-download').simulate('click');
 
@@ -582,10 +582,10 @@ describe('Upload', () => {
   it('warning if set `value`', () => {
     resetWarned();
 
-    const errorSpy = jest.spyOn(console, 'error').mockImplementation(() => {});
+    const errorSpy = jest.spyOn(console, 'error').mockImplementation(() => { });
     mount(<Upload value={[]} />);
     expect(errorSpy).toHaveBeenCalledWith(
-      'Warning: [ehd: Upload] `value` is not a valid prop, do you mean `fileList`?',
+      'Warning: [bsd: Upload] `value` is not a valid prop, do you mean `fileList`?',
     );
     errorSpy.mockRestore();
   });

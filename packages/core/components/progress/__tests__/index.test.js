@@ -150,7 +150,7 @@ describe('Progress', () => {
 
   // https://github.com/ant-design/ant-design/pull/15951#discussion_r273062969
   it('should show success status when status is invalid', () => {
-    const errorSpy = jest.spyOn(console, 'error').mockImplementation(() => {});
+    const errorSpy = jest.spyOn(console, 'error').mockImplementation(() => { });
     const wrapper = mount(<Progress percent={100} status="invalid" />);
     expect(wrapper.find('.ant-progress-status-success')).toHaveLength(1);
     errorSpy.mockRestore();
@@ -204,18 +204,18 @@ describe('Progress', () => {
   });
 
   it('should warnning if use `progress` in success', () => {
-    const errorSpy = jest.spyOn(console, 'error').mockImplementation(() => {});
+    const errorSpy = jest.spyOn(console, 'error').mockImplementation(() => { });
     mount(<Progress percent={60} success={{ progress: 30 }} />);
     expect(errorSpy).toHaveBeenCalledWith(
-      'Warning: [ehd: Progress] `success.progress` is deprecated. Please use `success.percent` instead.',
+      'Warning: [bsd: Progress] `success.progress` is deprecated. Please use `success.percent` instead.',
     );
   });
 
   it('should warnning if use `progress` in success in type Circle', () => {
-    const errorSpy = jest.spyOn(console, 'error').mockImplementation(() => {});
+    const errorSpy = jest.spyOn(console, 'error').mockImplementation(() => { });
     mount(<Progress percent={60} success={{ progress: 30 }} type="circle" />);
     expect(errorSpy).toHaveBeenCalledWith(
-      'Warning: [ehd: Progress] `success.progress` is deprecated. Please use `success.percent` instead.',
+      'Warning: [bsd: Progress] `success.progress` is deprecated. Please use `success.percent` instead.',
     );
   });
 

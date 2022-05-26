@@ -12,7 +12,7 @@ title: useBreakpoint Hook
 Use `useBreakpoint` Hook provide personalized layout.
 
 ```jsx
-import { Grid, Tag } from 'ehd';
+import { Grid, Tag } from 'bsd';
 
 const { useBreakpoint } = Grid;
 

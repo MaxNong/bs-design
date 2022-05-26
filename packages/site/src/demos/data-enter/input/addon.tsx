@@ -1,5 +1,5 @@
 import React from 'react';
-import { Input, Select, Space, Cascader } from 'eh-design';
+import { Input, Select, Space, Cascader } from 'bs-design';
 import { SettingOutlined } from '@ant-design/icons';
 
 const { Option } = Select;

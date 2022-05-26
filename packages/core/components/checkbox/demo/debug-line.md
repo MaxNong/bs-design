@@ -15,7 +15,7 @@ debug: true
 Same line
 
 ```tsx
-import { Checkbox, Radio, Space } from 'ehd';
+import { Checkbox, Radio, Space } from 'bsd';
 
 const sharedStyle: React.CSSProperties = {
   border: '1px solid red',

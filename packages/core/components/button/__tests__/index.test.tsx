@@ -265,7 +265,7 @@ describe('Button', () => {
     expect(warnSpy).not.toHaveBeenCalled();
     mount(<Button type="primary" icon="search" />);
     expect(warnSpy).toHaveBeenCalledWith(
-      `Warning: [ehd: Button] \`icon\` is using ReactNode instead of string naming in v4. Please check \`search\` at https://ant.design/components/icon`,
+      `Warning: [bsd: Button] \`icon\` is using ReactNode instead of string naming in v4. Please check \`search\` at https://ant.design/components/icon`,
     );
     warnSpy.mockRestore();
   });
@@ -275,7 +275,7 @@ describe('Button', () => {
     const warnSpy = jest.spyOn(console, 'error').mockImplementation(() => {});
     mount(<Button type="link" ghost />);
     expect(warnSpy).toHaveBeenCalledWith(
-      "Warning: [ehd: Button] `link` or `text` button can't be a `ghost` button.",
+      "Warning: [bsd: Button] `link` or `text` button can't be a `ghost` button.",
     );
     warnSpy.mockRestore();
   });
@@ -285,7 +285,7 @@ describe('Button', () => {
     const warnSpy = jest.spyOn(console, 'error').mockImplementation(() => {});
     mount(<Button type="text" ghost />);
     expect(warnSpy).toHaveBeenCalledWith(
-      "Warning: [ehd: Button] `link` or `text` button can't be a `ghost` button.",
+      "Warning: [bsd: Button] `link` or `text` button can't be a `ghost` button.",
     );
     warnSpy.mockRestore();
   });

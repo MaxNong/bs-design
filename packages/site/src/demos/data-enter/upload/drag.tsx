@@ -1,5 +1,5 @@
 import React from 'react';
-import { Upload, message } from 'eh-design';
+import { Upload, message } from 'bs-design';
 import { InboxOutlined } from '@ant-design/icons';
 
 const { Dragger } = Upload;

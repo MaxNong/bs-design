@@ -18,7 +18,7 @@ Inline menu could be collapsed.
 Here is [a complete demo](/components/layout/#components-layout-demo-side) with sider layout.
 
 ```jsx
-import { Menu, Button } from 'ehd';
+import { Menu, Button } from 'bsd';
 import {
   AppstoreOutlined,
   MenuUnfoldOutlined,

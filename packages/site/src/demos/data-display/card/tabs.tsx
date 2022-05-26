@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Card } from 'eh-design';
+import { Card } from 'bs-design';
 
 const tabList = [
   {

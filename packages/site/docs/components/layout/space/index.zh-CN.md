@@ -29,7 +29,7 @@ group:
  * desc: 相邻组件水平间距。
  */
 import React from 'react';
-import { Button, Space, Upload, Popconfirm } from 'eh-design';
+import { Button, Space, Upload, Popconfirm } from 'bs-design';
 
 function SpaceDemo() {
   return (
@@ -59,7 +59,7 @@ export default () => <SpaceDemo />;
  * desc: 相邻组件垂直间距。
  */
 import React from 'react';
-import { Space, Card } from 'eh-design';
+import { Space, Card } from 'bs-design';
 
 function SpaceVertical() {
   return (
@@ -90,7 +90,7 @@ export default () => <SpaceVertical />;
  * 通过设置 size 为 large middle 分别把间距设为大、中间距。若不设置 size，则间距为小。"
  */
 import React, { useState } from 'react';
-import { Space, Radio, Button } from 'eh-design';
+import { Space, Radio, Button } from 'bs-design';
 
 function SpaceSize() {
   const [size, setSize] = useState('small');
@@ -124,7 +124,7 @@ export default () => <SpaceSize />;
  */
 import './demo.scss';
 import React from 'react';
-import { Space, Button } from 'eh-design';
+import { Space, Button } from 'bs-design';
 
 export default () => (
   <div className="space-align-container">
@@ -166,7 +166,7 @@ export default () => (
  * desc: 自定义间距大小。
  */
 import React, { useState } from 'react';
-import { Space, Slider, Button } from 'eh-design';
+import { Space, Slider, Button } from 'bs-design';
 
 function SpaceCustomizeSize() {
   const [size, setSize] = useState(8);
@@ -195,7 +195,7 @@ export default () => <SpaceCustomizeSize />;
  * desc: 自动换行。
  */
 import React from 'react';
-import { Space, Button } from 'eh-design';
+import { Space, Button } from 'bs-design';
 
 const Demo = () => (
   <Space size={[8, 16]} wrap>
@@ -215,7 +215,7 @@ export default Demo;
  * desc: 相邻组件分隔符。
  */
 import React from 'react';
-import { Space, Typography, Divider } from 'eh-design';
+import { Space, Typography, Divider } from 'bs-design';
 
 function SpaceSplit() {
   return (

@@ -14,7 +14,7 @@ title:
 The most basic example. The size of the floating layer depends on the contents region.
 
 ```jsx
-import { Popover, Button } from 'ehd';
+import { Popover, Button } from 'bsd';
 
 const content = (
   <div>

@@ -14,7 +14,7 @@ title:
 The most basic step bar.
 
 ```jsx
-import { Steps } from 'ehd';
+import { Steps } from 'bsd';
 
 const { Step } = Steps;
 

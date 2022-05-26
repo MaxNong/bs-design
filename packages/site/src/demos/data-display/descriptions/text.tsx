@@ -1,5 +1,5 @@
 import React from 'react';
-import { Descriptions, Badge, Table } from 'eh-design';
+import { Descriptions, Badge, Table } from 'bs-design';
 
 const dataSource = [
   {

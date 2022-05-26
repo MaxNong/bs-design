@@ -14,7 +14,7 @@ title:
 Multiple selection usage.
 
 ```jsx
-import { TreeSelect } from 'ehd';
+import { TreeSelect } from 'bsd';
 
 const { TreeNode } = TreeSelect;
 

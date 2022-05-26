@@ -1,5 +1,5 @@
 import React from 'react';
-import { Select, Tag } from 'eh-design';
+import { Select, Tag } from 'bs-design';
 
 const options = [
   { value: 'gold' },

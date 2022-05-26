@@ -1,5 +1,5 @@
 import React from 'react';
-import { Radio } from 'eh-design';
+import { Radio } from 'bs-design';
 
 function onChange(e) {
   console.log(`radio checked:${e.target.value}`);

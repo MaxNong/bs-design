@@ -14,7 +14,7 @@ title:
 Basic pagination.
 
 ```jsx
-import { Pagination } from 'ehd';
+import { Pagination } from 'bsd';
 
 ReactDOM.render(<Pagination defaultCurrent={1} total={50} />, mountNode);
 ```

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Steps, Button } from 'eh-design';
+import { Steps, Button } from 'bs-design';
 
 const { Step } = Steps;
 

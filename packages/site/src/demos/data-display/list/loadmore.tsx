@@ -1,5 +1,5 @@
 import React from 'react';
-import { List, Avatar, Button, Skeleton } from 'eh-design';
+import { List, Avatar, Button, Skeleton } from 'bs-design';
 
 const count = 3;
 const fakeDataUrl = `https://randomuser.me/api/?results=${count}&inc=name,gender,email,nat,picture&noinfo`;

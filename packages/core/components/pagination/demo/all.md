@@ -14,7 +14,7 @@ title:
 Show all configured prop.
 
 ```jsx
-import { Pagination } from 'ehd';
+import { Pagination } from 'bsd';
 
 ReactDOM.render(
   <Pagination

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Form, Input, Button, Radio } from 'eh-design';
+import { Form, Input, Button, Radio } from 'bs-design';
 import { InfoCircleOutlined } from '@ant-design/icons';
 
 type RequiredMark = boolean | 'optional';

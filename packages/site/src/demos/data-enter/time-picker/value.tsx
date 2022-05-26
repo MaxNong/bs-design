@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { TimePicker } from 'eh-design';
+import { TimePicker } from 'bs-design';
 
 const Demo = () => {
   const [value, setValue] = useState(null);

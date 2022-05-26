@@ -1,5 +1,5 @@
 import React from 'react';
-import { Comment, Avatar, Form, Button, List, Input } from 'eh-design';
+import { Comment, Avatar, Form, Button, List, Input } from 'bs-design';
 import moment from 'moment';
 
 const { TextArea } = Input;

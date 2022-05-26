@@ -1,5 +1,5 @@
 import React from 'react';
-import { Result, Button, Typography } from 'eh-design';
+import { Result, Button, Typography } from 'bs-design';
 import { CloseCircleOutlined } from '@ant-design/icons';
 
 const { Paragraph, Text } = Typography;

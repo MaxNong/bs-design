@@ -1,5 +1,5 @@
 import React from 'react';
-import { Tooltip, Button, Divider } from 'eh-design';
+import { Tooltip, Button, Divider } from 'bs-design';
 
 const colors = [
   'pink',

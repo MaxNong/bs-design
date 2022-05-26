@@ -1,4 +1,4 @@
 import React from 'react';
-import { Empty } from 'eh-design';
+import { Empty } from 'bs-design';
 
 export default () => <Empty description={false} />;

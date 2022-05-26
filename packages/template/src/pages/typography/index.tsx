@@ -1,6 +1,6 @@
-import Typography from "eh-design/components/typography";
+import Typography from "bs-design/components/typography";
 
-import "eh-design/components/typography/style/index";
+import "bs-design/components/typography/style/index";
 
 const { Title } = Typography;
 

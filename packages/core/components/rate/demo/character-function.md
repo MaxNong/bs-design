@@ -14,7 +14,7 @@ title:
 Can customize each character using `(RateProps) => ReactNode`.
 
 ```jsx
-import { Rate } from 'ehd';
+import { Rate } from 'bsd';
 import { FrownOutlined, MehOutlined, SmileOutlined } from '@ant-design/icons';
 
 const customIcons = {

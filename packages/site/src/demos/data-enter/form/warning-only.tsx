@@ -1,5 +1,5 @@
 import React from 'react';
-import { Form, Input, message, Button, Space } from 'eh-design';
+import { Form, Input, message, Button, Space } from 'bs-design';
 
 const Demo = () => {
   const [form] = Form.useForm();

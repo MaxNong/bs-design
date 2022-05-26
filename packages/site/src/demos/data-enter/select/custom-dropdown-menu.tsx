@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Select, Divider, Input, Typography, Space } from 'eh-design';
+import { Select, Divider, Input, Typography, Space } from 'bs-design';
 import { PlusOutlined } from '@ant-design/icons';
 
 const { Option } = Select;

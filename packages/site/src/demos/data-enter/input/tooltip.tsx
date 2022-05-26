@@ -1,5 +1,5 @@
 import React from 'react';
-import { Input, Tooltip } from 'eh-design';
+import { Input, Tooltip } from 'bs-design';
 
 function formatNumber(value) {
   return new Intl.NumberFormat().format(value);

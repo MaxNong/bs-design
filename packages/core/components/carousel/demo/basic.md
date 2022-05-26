@@ -14,7 +14,7 @@ title:
 Basic usage.
 
 ```jsx
-import { Carousel } from 'ehd';
+import { Carousel } from 'bsd';
 
 function onChange(a, b, c) {
   console.log(a, b, c);

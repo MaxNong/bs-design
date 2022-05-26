@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Drawer, Button, Space } from 'eh-design';
+import { Drawer, Button, Space } from 'bs-design';
 import { DrawerProps } from 'antd/es/drawer';
 
 const App: React.FC = () => {

@@ -15,7 +15,7 @@ Custom action.
 
 ```tsx
 import React from 'react';
-import { Alert, Button, Space } from 'ehd';
+import { Alert, Button, Space } from 'bsd';
 
 ReactDOM.render(
   <>

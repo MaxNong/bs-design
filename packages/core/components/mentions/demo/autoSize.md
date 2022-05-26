@@ -14,7 +14,7 @@ title:
 Height autoSize.
 
 ```jsx
-import { Mentions } from 'ehd';
+import { Mentions } from 'bsd';
 
 const { Option } = Mentions;
 

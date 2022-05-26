@@ -14,7 +14,7 @@ title:
 Submenus open as pop-ups.
 
 ```jsx
-import { Menu } from 'ehd';
+import { Menu } from 'bsd';
 import { MailOutlined, AppstoreOutlined, SettingOutlined } from '@ant-design/icons';
 
 const { SubMenu } = Menu;

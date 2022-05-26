@@ -7,7 +7,7 @@ import {
   Button,
   Avatar,
   Typography,
-} from 'eh-design';
+} from 'bs-design';
 import { SmileOutlined, UserOutlined } from '@ant-design/icons';
 import { FormInstance } from 'antd/lib/form';
 

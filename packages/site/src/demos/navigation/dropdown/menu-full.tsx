@@ -1,5 +1,5 @@
 import React from 'react';
-import { Menu, Dropdown, MenuProps, Space } from 'eh-design';
+import { Menu, Dropdown, MenuProps, Space } from 'bs-design';
 import {
   MailOutlined,
   AppstoreOutlined,

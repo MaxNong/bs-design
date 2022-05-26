@@ -3,7 +3,7 @@ import { mount } from 'enzyme';
 import Transfer from '../index';
 
 describe('Transfer.Customize', () => {
-  const errorSpy = jest.spyOn(console, 'error').mockImplementation(() => {});
+  const errorSpy = jest.spyOn(console, 'error').mockImplementation(() => { });
 
   afterEach(() => {
     errorSpy.mockReset();
@@ -58,7 +58,7 @@ describe('Transfer.Customize', () => {
     );
 
     expect(errorSpy).toHaveBeenCalledWith(
-      'Warning: [ehd: Transfer] `pagination` not support customize render list.',
+      'Warning: [bsd: Transfer] `pagination` not support customize render list.',
     );
   });
 });

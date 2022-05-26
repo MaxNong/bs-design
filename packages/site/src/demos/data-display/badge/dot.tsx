@@ -1,5 +1,5 @@
 import React from 'react';
-import { Badge } from 'eh-design';
+import { Badge } from 'bs-design';
 import { NotificationOutlined } from '@ant-design/icons';
 
 export default () => (

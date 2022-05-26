@@ -1,5 +1,5 @@
 import React from 'react';
-import { Calendar, Select, Radio, Col, Row, Typography } from 'eh-design';
+import { Calendar, Select, Radio, Col, Row, Typography } from 'bs-design';
 
 function onPanelChange(value, mode) {
   console.log(value, mode);

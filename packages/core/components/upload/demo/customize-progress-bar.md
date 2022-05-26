@@ -14,7 +14,7 @@ title:
 Use `progress` for customize progress bar.
 
 ```jsx
-import { Upload, message, Button } from 'ehd';
+import { Upload, message, Button } from 'bsd';
 import { UploadOutlined } from '@ant-design/icons';
 
 const props = {

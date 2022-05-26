@@ -1,5 +1,5 @@
 import React from 'react';
-import { Descriptions, Radio, Button } from 'eh-design';
+import { Descriptions, Radio, Button } from 'bs-design';
 
 class Demo extends React.Component {
   state = {

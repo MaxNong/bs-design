@@ -14,7 +14,7 @@ title:
 Manually updating and destroying a modal from `Modal.method`.
 
 ```jsx
-import { Modal, Button } from 'ehd';
+import { Modal, Button } from 'bsd';
 
 function countDown() {
   let secondsToGo = 5;

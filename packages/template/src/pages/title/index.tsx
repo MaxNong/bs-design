@@ -1,6 +1,6 @@
-import Title from "eh-design/components/title/index";
+import Title from "bs-design/components/title/index";
 
-import "eh-design/components/title/style/index";
+import "bs-design/components/title/style/index";
 
 const TitleDemo = (): JSX.Element => {
   return (

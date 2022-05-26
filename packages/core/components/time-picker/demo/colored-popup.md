@@ -15,7 +15,7 @@ debug: true
 Passing custom class to `TimePicker` popup
 
 ```jsx
-import { TimePicker } from 'ehd';
+import { TimePicker } from 'bsd';
 import moment from 'moment';
 
 const onChange = (time, timeString) => {

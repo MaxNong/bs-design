@@ -15,7 +15,7 @@ title:
 Display Alert as a banner at top of page.
 
 ```tsx
-import { Alert } from 'ehd';
+import { Alert } from 'bsd';
 
 ReactDOM.render(
   <>

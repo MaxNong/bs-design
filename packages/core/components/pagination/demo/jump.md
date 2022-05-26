@@ -14,7 +14,7 @@ title:
 Jump to a page directly.
 
 ```jsx
-import { Pagination } from 'ehd';
+import { Pagination } from 'bsd';
 
 function onChange(pageNumber) {
   console.log('Page: ', pageNumber);

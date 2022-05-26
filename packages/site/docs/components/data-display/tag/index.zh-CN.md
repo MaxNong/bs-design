@@ -16,7 +16,7 @@ group:
 
 ```jsx
 import React from 'react';
-import { Tag } from 'eh-design';
+import { Tag } from 'bs-design';
 
 export default () => (
   <>

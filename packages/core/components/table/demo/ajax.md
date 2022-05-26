@@ -26,7 +26,7 @@ Setting `rowSelection.preserveSelectedRowKeys` to keep the `key` when enable sel
 **Note, this example use [Mock API](https://randomuser.me) that you can look up in Network Console.**
 
 ```jsx
-import { Table } from 'ehd';
+import { Table } from 'bsd';
 import qs from 'qs';
 
 const columns = [

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Form, Upload, message, Button } from 'eh-design';
+import { Form, Upload, message, Button } from 'bs-design';
 import { UploadOutlined } from '@ant-design/icons';
 
 class AliyunOSSUpload extends React.Component {

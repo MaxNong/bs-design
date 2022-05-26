@@ -15,7 +15,7 @@ title:
 The close icon can be customized using `closeIcon`.
 
 ```jsx
-import { Tag } from 'ehd';
+import { Tag } from 'bsd';
 import { CloseCircleOutlined } from '@ant-design/icons';
 
 ReactDOM.render(

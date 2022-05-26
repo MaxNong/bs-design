@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { AutoComplete, Input } from 'eh-design';
+import { AutoComplete, Input } from 'bs-design';
 
 const { TextArea } = Input;
 

@@ -24,8 +24,8 @@ describe('Form', () => {
   rtlTest(Form);
   rtlTest(Form.Item);
 
-  scrollIntoView.mockImplementation(() => {});
-  const errorSpy = jest.spyOn(console, 'error').mockImplementation(() => {});
+  scrollIntoView.mockImplementation(() => { });
+  const errorSpy = jest.spyOn(console, 'error').mockImplementation(() => { });
 
   async function change(wrapper, index, value, executeMockTimer) {
     wrapper.find(Input).at(index).simulate('change', { target: { value } });
@@ -143,7 +143,7 @@ describe('Form', () => {
       </Form>,
     );
     expect(errorSpy).toHaveBeenCalledWith(
-      'Warning: [ehd: Form.Item] `children` of render props only work with `shouldUpdate` or `dependencies`.',
+      'Warning: [bsd: Form.Item] `children` of render props only work with `shouldUpdate` or `dependencies`.',
     );
   });
   it("`shouldUpdate` shouldn't work with `dependencies`", () => {
@@ -155,7 +155,7 @@ describe('Form', () => {
       </Form>,
     );
     expect(errorSpy).toHaveBeenCalledWith(
-      "Warning: [ehd: Form.Item] `shouldUpdate` and `dependencies` shouldn't be used together. See https://ant.design/components/form/#dependencies.",
+      "Warning: [bsd: Form.Item] `shouldUpdate` and `dependencies` shouldn't be used together. See https://ant.design/components/form/#dependencies.",
     );
   });
 
@@ -168,7 +168,7 @@ describe('Form', () => {
       </Form>,
     );
     expect(errorSpy).toHaveBeenCalledWith(
-      "Warning: [ehd: Form.Item] Do not use `name` with `children` of render props since it's not a field.",
+      "Warning: [bsd: Form.Item] Do not use `name` with `children` of render props since it's not a field.",
     );
   });
 
@@ -182,7 +182,7 @@ describe('Form', () => {
       </Form>,
     );
     expect(errorSpy).toHaveBeenCalledWith(
-      'Warning: [ehd: Form.Item] `children` is array of render props cannot have `name`.',
+      'Warning: [bsd: Form.Item] `children` is array of render props cannot have `name`.',
     );
   });
 
@@ -288,7 +288,7 @@ describe('Form', () => {
       </Form>,
     );
     expect(errorSpy).toHaveBeenCalledWith(
-      'Warning: [ehd: Form.Item] `name` is only used for validate React element. If you are using Form.Item as layout display, please remove `name` instead.',
+      'Warning: [bsd: Form.Item] `name` is only used for validate React element. If you are using Form.Item as layout display, please remove `name` instead.',
     );
   });
 
@@ -345,7 +345,7 @@ describe('Form', () => {
   it('warning when use v3 function', () => {
     Form.create();
     expect(errorSpy).toHaveBeenCalledWith(
-      'Warning: [ehd: Form] ehd v4 removed `Form.create`. Please remove or use `@ant-design/compatible` instead.',
+      'Warning: [bsd: Form] bsd v4 removed `Form.create`. Please remove or use `@ant-design/compatible` instead.',
     );
   });
 
@@ -416,7 +416,7 @@ describe('Form', () => {
       </Form>,
     );
     expect(errorSpy).toHaveBeenCalledWith(
-      'Warning: [ehd: Form.Item] Must set `name` or use render props when `dependencies` is set.',
+      'Warning: [bsd: Form.Item] Must set `name` or use render props when `dependencies` is set.',
     );
   });
 
@@ -539,7 +539,7 @@ describe('Form', () => {
 
     expect(wrapper.find('Field')).toHaveLength(0);
     expect(errorSpy).toHaveBeenCalledWith(
-      'Warning: [ehd: Form.Item] `null` is passed as `name` property',
+      'Warning: [bsd: Form.Item] `null` is passed as `name` property',
     );
   });
 
@@ -756,7 +756,7 @@ describe('Form', () => {
     );
 
     expect(errorSpy).toHaveBeenCalledWith(
-      'Warning: [ehd: Form.Item] `defaultValue` will not work on controlled Field. You should use `initialValues` of Form instead.',
+      'Warning: [bsd: Form.Item] `defaultValue` will not work on controlled Field. You should use `initialValues` of Form instead.',
     );
   });
 

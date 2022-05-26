@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
-  "name": "@eh-design/site",
+  "name": "@bs-design/site",
   "scripts": {
     "start": "dumi dev",
     "build": "dumi build",
@@ -25,7 +25,7 @@
   },
   "dependencies": {
     "@umijs/plugin-sass": "^1.1.1",
-    "eh-design": "*",
+    "bs-design": "*",
     "react-dnd": "^15.0.0",
     "array-move": "^4.0.0"
   }

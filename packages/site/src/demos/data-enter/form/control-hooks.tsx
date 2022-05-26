@@ -1,5 +1,5 @@
 import React from 'react';
-import { Form, Input, Button, Select } from 'eh-design';
+import { Form, Input, Button, Select } from 'bs-design';
 
 const { Option } = Select;
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Form, DatePicker, TimePicker, Button } from 'eh-design';
+import { Form, DatePicker, TimePicker, Button } from 'bs-design';
 
 const { RangePicker } = DatePicker;
 

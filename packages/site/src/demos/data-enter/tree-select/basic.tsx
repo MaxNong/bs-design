@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { TreeSelect } from 'eh-design';
+import { TreeSelect } from 'bs-design';
 
 const { TreeNode } = TreeSelect;
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Tooltip, Button } from 'eh-design';
+import { Tooltip, Button } from 'bs-design';
 
 export default () => (
   <>

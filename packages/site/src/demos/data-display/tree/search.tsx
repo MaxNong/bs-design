@@ -1,5 +1,5 @@
 import React from 'react';
-import { Tree, Input } from 'eh-design';
+import { Tree, Input } from 'bs-design';
 
 const { Search } = Input;
 

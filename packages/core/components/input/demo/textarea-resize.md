@@ -15,7 +15,7 @@ debug: true
 For multi-line input.
 
 ```jsx
-import { Input, Button } from 'ehd';
+import { Input, Button } from 'bsd';
 
 const { TextArea } = Input;
 

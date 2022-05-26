@@ -1,5 +1,5 @@
 import React from 'react';
-import { Upload, message } from 'eh-design';
+import { Upload, message } from 'bs-design';
 import { LoadingOutlined, PlusOutlined } from '@ant-design/icons';
 
 function getBase64(img, callback) {

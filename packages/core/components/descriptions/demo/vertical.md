@@ -14,7 +14,7 @@ title:
 Simplest Usage.
 
 ```jsx
-import { Descriptions } from 'ehd';
+import { Descriptions } from 'bsd';
 
 ReactDOM.render(
   <Descriptions title="User Info" layout="vertical">

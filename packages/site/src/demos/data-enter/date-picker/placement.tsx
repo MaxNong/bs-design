@@ -1,5 +1,5 @@
 import React from 'react';
-import { DatePicker, Space, Radio } from 'eh-design';
+import { DatePicker, Space, Radio } from 'bs-design';
 
 const { RangePicker } = DatePicker;
 

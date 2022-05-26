@@ -14,7 +14,7 @@ title:
 Add unit through `prefix` and `suffix`.
 
 ```jsx
-import { Statistic, Row, Col } from 'ehd';
+import { Statistic, Row, Col } from 'bsd';
 import { LikeOutlined } from '@ant-design/icons';
 
 ReactDOM.render(

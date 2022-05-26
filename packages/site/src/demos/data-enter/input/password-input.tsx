@@ -1,5 +1,5 @@
 import React from 'react';
-import { Input, Space } from 'eh-design';
+import { Input, Space } from 'bs-design';
 import { EyeInvisibleOutlined, EyeTwoTone } from '@ant-design/icons';
 
 export default () => (

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Radio, Badge } from 'eh-design';
+import { Radio, Badge } from 'bs-design';
 
 export default () => (
   <Radio.Group buttonStyle="solid">

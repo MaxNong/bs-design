@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Modal, Button } from 'eh-design';
+import { Modal, Button } from 'bs-design';
 
 const App = () => {
   const [isModalVisible, setIsModalVisible] = useState(false);

@@ -15,7 +15,7 @@ debug: true
 Using `count/dot` with custom `stauts/color`.
 
 ```jsx
-import { Badge, Avatar } from 'ehd';
+import { Badge, Avatar } from 'bsd';
 
 ReactDOM.render(
   <>

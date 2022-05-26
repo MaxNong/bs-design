@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Tree, Switch } from 'eh-design';
+import { Tree, Switch } from 'bs-design';
 import { CarryOutOutlined, FormOutlined } from '@ant-design/icons';
 
 const treeData = [

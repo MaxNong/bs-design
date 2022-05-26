@@ -19,7 +19,7 @@ We can store form data into upper component or [Redux](https://github.com/reactj
 
 ```tsx
 import React, { useState } from 'react';
-import { Form, Input } from 'ehd';
+import { Form, Input } from 'bsd';
 
 interface FieldData {
   name: string | number | (string | number)[];

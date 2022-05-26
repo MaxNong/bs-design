@@ -14,7 +14,7 @@ title:
 Create a reusable React component by using `<Icon component={...} />`. The property `component` takes a React component that renders to `svg` element.
 
 ```jsx
-import { Space } from 'ehd';
+import { Space } from 'bsd';
 import Icon, { HomeOutlined } from '@ant-design/icons';
 
 const HeartSvg = () => (

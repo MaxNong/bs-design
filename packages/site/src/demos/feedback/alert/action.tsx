@@ -1,5 +1,5 @@
 import React from 'react';
-import { Alert, Button, Space } from 'eh-design';
+import { Alert, Button, Space } from 'bs-design';
 
 export default () => (
   <>

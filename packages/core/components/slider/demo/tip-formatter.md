@@ -14,7 +14,7 @@ title:
 Use `tipFormatter` to format content of `Tooltip`. If `tipFormatter` is null, hide it.
 
 ```jsx
-import { Slider } from 'ehd';
+import { Slider } from 'bsd';
 
 function formatter(value) {
   return `${value}%`;

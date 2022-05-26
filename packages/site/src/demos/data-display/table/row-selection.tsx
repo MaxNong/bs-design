@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Table, Radio, Divider } from 'eh-design';
+import { Table, Radio, Divider } from 'bs-design';
 
 const columns = [
   {

@@ -14,7 +14,7 @@ title:
 Breadcrumbs support drop down menu.
 
 ```jsx
-import { Breadcrumb, Menu } from 'ehd';
+import { Breadcrumb, Menu } from 'bsd';
 
 const menu = (
   <Menu>

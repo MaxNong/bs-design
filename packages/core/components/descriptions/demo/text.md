@@ -15,7 +15,7 @@ title:
 Descriptions with border and background color.
 
 ```jsx
-import { Descriptions, Badge, Table } from 'ehd';
+import { Descriptions, Badge, Table } from 'bsd';
 
 const dataSource = [
   {

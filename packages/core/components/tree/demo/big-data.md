@@ -15,7 +15,7 @@ debug: true
 Plenty of tree nodes.
 
 ```jsx
-import { Tree } from 'ehd';
+import { Tree } from 'bsd';
 
 const treeData = [];
 

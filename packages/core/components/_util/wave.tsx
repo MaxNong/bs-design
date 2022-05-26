@@ -104,9 +104,9 @@ export default class Wave extends React.Component<WaveProps> {
       [${getPrefixCls('')}-click-animating-without-extra-node='true']::after, .${getPrefixCls(
           '',
         )}-click-animating-node {
-        --ehd-wave-shadow-color: ${waveColor};
+        --bsd-wave-shadow-color: ${waveColor};
       }`,
-        'ehd-wave',
+        'bsd-wave',
         { csp: this.csp, attachTo: nodeBody },
       );
     }

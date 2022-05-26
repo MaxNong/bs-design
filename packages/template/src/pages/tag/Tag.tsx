@@ -1,6 +1,6 @@
-import Tag from "eh-design/components/tag/index";
+import Tag from "bs-design/components/tag/index";
 
-import "eh-design/components/tag/style/index";
+import "bs-design/components/tag/style/index";
 
 const TagDemo = (): JSX.Element => {
   return (

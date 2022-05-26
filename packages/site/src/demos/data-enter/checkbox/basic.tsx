@@ -1,5 +1,5 @@
 import React from 'react';
-import { Checkbox } from 'eh-design';
+import { Checkbox } from 'bs-design';
 
 function onChange(e) {
   console.log(`checked = ${e.target.checked}`);

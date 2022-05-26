@@ -14,7 +14,7 @@ title:
 Simplest Usage with no description.
 
 ```jsx
-import { Empty } from 'ehd';
+import { Empty } from 'bsd';
 
 ReactDOM.render(<Empty description={false} />, mountNode);
 ```

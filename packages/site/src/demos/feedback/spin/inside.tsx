@@ -1,5 +1,5 @@
 import React from 'react';
-import { Spin } from 'eh-design';
+import { Spin } from 'bs-design';
 
 export default () => (
   <div className="example">

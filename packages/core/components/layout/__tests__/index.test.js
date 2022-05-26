@@ -223,7 +223,7 @@ describe('Layout', () => {
 });
 
 describe('Sider', () => {
-  const errorSpy = jest.spyOn(console, 'error').mockImplementation(() => {});
+  const errorSpy = jest.spyOn(console, 'error').mockImplementation(() => { });
 
   afterEach(() => {
     errorSpy.mockReset();
@@ -251,7 +251,7 @@ describe('Sider', () => {
       </Sider>,
     );
     expect(errorSpy).toHaveBeenCalledWith(
-      'Warning: [ehd: Menu] `inlineCollapsed` not control Menu under Sider. Should set `collapsed` on Sider instead.',
+      'Warning: [bsd: Menu] `inlineCollapsed` not control Menu under Sider. Should set `collapsed` on Sider instead.',
     );
   });
 

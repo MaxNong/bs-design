@@ -14,7 +14,7 @@ title:
 No border.
 
 ```jsx
-import { Input } from 'ehd';
+import { Input } from 'bsd';
 
 ReactDOM.render(<Input placeholder="Borderless" bordered={false} />, mountNode);
 ```

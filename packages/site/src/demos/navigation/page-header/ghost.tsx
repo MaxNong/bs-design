@@ -1,5 +1,5 @@
 import React from 'react';
-import { PageHeader, Button, Descriptions } from 'eh-design';
+import { PageHeader, Button, Descriptions } from 'bs-design';
 
 export default () => (
   <div className="site-page-header-ghost-wrapper">

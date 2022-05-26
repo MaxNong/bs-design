@@ -73,7 +73,7 @@ describe('Wave component', () => {
     await sleep(200);
     const styles = wrapper.find('button').getDOMNode().getRootNode().getElementsByTagName('style');
     expect(styles.length).toBe(1);
-    expect(styles[0].innerHTML).toContain('--ehd-wave-shadow-color: red;');
+    expect(styles[0].innerHTML).toContain('--bsd-wave-shadow-color: red;');
     wrapper.unmount();
   });
 
@@ -87,7 +87,7 @@ describe('Wave component', () => {
     await sleep(0);
     const styles = wrapper.find('div').getDOMNode().getRootNode().getElementsByTagName('style');
     expect(styles.length).toBe(1);
-    expect(styles[0].innerHTML).toContain('--ehd-wave-shadow-color: blue;');
+    expect(styles[0].innerHTML).toContain('--bsd-wave-shadow-color: blue;');
     wrapper.unmount();
   });
 
@@ -101,7 +101,7 @@ describe('Wave component', () => {
     await sleep(0);
     const styles = wrapper.find('div').getDOMNode().getRootNode().getElementsByTagName('style');
     expect(styles.length).toBe(1);
-    expect(styles[0].innerHTML).toContain('--ehd-wave-shadow-color: green;');
+    expect(styles[0].innerHTML).toContain('--bsd-wave-shadow-color: green;');
     wrapper.unmount();
   });
 
@@ -115,7 +115,7 @@ describe('Wave component', () => {
     await sleep(0);
     const styles = wrapper.find('div').getDOMNode().getRootNode().getElementsByTagName('style');
     expect(styles.length).toBe(1);
-    expect(styles[0].innerHTML).toContain('--ehd-wave-shadow-color: yellow;');
+    expect(styles[0].innerHTML).toContain('--bsd-wave-shadow-color: yellow;');
     wrapper.unmount();
   });
 

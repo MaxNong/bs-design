@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mentions } from 'eh-design';
+import { Mentions } from 'bs-design';
 import debounce from 'lodash/debounce';
 
 const { Option } = Mentions;

@@ -14,7 +14,7 @@ title:
 Image, Icon and letter are supported, and the latter two kinds of avatar can have custom colors and background colors.
 
 ```tsx
-import { Avatar, Image } from 'ehd';
+import { Avatar, Image } from 'bsd';
 import { UserOutlined } from '@ant-design/icons';
 
 ReactDOM.render(

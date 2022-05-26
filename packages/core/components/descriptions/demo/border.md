@@ -14,7 +14,7 @@ title:
 Descriptions with border and background color.
 
 ```jsx
-import { Descriptions, Badge } from 'ehd';
+import { Descriptions, Badge } from 'bsd';
 
 ReactDOM.render(
   <Descriptions title="User Info" bordered>

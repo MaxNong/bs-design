@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, notification } from 'eh-design';
+import { Button, notification } from 'bs-design';
 import { SmileOutlined } from '@ant-design/icons';
 
 const openNotification = () => {

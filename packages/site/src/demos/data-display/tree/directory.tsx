@@ -1,5 +1,5 @@
 import React from 'react';
-import { Tree } from 'eh-design';
+import { Tree } from 'bs-design';
 
 const { DirectoryTree } = Tree;
 

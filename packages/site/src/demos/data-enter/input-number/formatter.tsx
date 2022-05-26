@@ -1,5 +1,5 @@
 import React from 'react';
-import { InputNumber, Space } from 'eh-design';
+import { InputNumber, Space } from 'bs-design';
 
 function onChange(value) {
   console.log('changed', value);

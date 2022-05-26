@@ -2,30 +2,30 @@ import pkg from '../package.json';
 
 const testDist = process.env.LIB_DIR === 'dist';
 
-describe('ehd dist files', () => {
+describe('bsd dist files', () => {
   // https://github.com/ant-design/ant-design/issues/1638
   // https://github.com/ant-design/ant-design/issues/1968
   it('exports modules correctly', () => {
     // eslint-disable-next-line global-require,import/no-unresolved
-    const ehd = testDist ? require('../dist/ehd') : require('../components');
-    expect(Object.keys(ehd)).toMatchSnapshot();
+    const bsd = testDist ? require('../dist/bsd') : require('../components');
+    expect(Object.keys(bsd)).toMatchSnapshot();
   });
 
   // https://github.com/ant-design/ant-design/issues/1970
   // https://github.com/ant-design/ant-design/issues/1804
   if (testDist) {
-    it('ehd.js should export version', () => {
+    it('bsd.js should export version', () => {
       // eslint-disable-next-line global-require,import/no-unresolved
-      const ehd = require('../dist/ehd');
-      expect(ehd).toBeTruthy();
-      expect(ehd.version).toBe(pkg.version);
+      const bsd = require('../dist/bsd');
+      expect(bsd).toBeTruthy();
+      expect(bsd.version).toBe(pkg.version);
     });
 
-    it('ehd.min.js should export version', () => {
+    it('bsd.min.js should export version', () => {
       // eslint-disable-next-line global-require,import/no-unresolved
-      const ehd = require('../dist/ehd.min');
-      expect(ehd).toBeTruthy();
-      expect(ehd.version).toBe(pkg.version);
+      const bsd = require('../dist/bsd.min');
+      expect(bsd).toBeTruthy();
+      expect(bsd.version).toBe(pkg.version);
     });
 
     /* eslint-disable global-require,import/no-unresolved */

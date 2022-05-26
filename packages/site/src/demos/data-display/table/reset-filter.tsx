@@ -1,5 +1,5 @@
 import React from 'react';
-import { Table, Button, Space } from 'eh-design';
+import { Table, Button, Space } from 'bs-design';
 
 const data = [
   {

@@ -14,7 +14,7 @@ title:
 Do not change state when page is scrolling.
 
 ```tsx
-import { Anchor } from 'ehd';
+import { Anchor } from 'bsd';
 
 const { Link } = Anchor;
 

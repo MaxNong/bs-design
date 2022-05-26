@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Steps, Radio, Card } from 'eh-design';
+import { Steps, Radio, Card } from 'bs-design';
 
 const { Step } = Steps;
 

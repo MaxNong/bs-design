@@ -1,5 +1,5 @@
 import React from 'react';
-import { Table } from 'eh-design';
+import { Table } from 'bs-design';
 
 // In the fifth row, other columns are merged into first column
 // by setting it"s colSpan to be 0

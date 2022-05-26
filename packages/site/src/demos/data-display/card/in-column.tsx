@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, Col, Row } from 'eh-design';
+import { Card, Col, Row } from 'bs-design';
 
 export default () => (
   <div className="site-card-wrapper">

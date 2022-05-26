@@ -16,7 +16,7 @@ Add status to Transfer with `status`, which could be `error` or `warning`.
 
 ```jsx
 import React from 'react';
-import { Transfer, Space } from 'ehd';
+import { Transfer, Space } from 'bsd';
 
 const Status = () => (
   <Space direction="vertical">

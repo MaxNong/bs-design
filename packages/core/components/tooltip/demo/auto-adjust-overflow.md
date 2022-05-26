@@ -15,7 +15,7 @@ debug: true
 Adjust placement automatically when tooltip is invisible.
 
 ```jsx
-import { Tooltip, Button } from 'ehd';
+import { Tooltip, Button } from 'bsd';
 
 const wrapStyles = {
   overflow: 'hidden',

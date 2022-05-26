@@ -14,7 +14,7 @@ title:
 Customize the anchor highlight.
 
 ```tsx
-import { Anchor } from 'ehd';
+import { Anchor } from 'bsd';
 
 const { Link } = Anchor;
 

@@ -14,7 +14,7 @@ title:
 More pages.
 
 ```jsx
-import { Pagination } from 'ehd';
+import { Pagination } from 'bsd';
 
 ReactDOM.render(<Pagination defaultCurrent={6} total={500} />, mountNode);
 ```

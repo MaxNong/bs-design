@@ -1,5 +1,5 @@
 import React from 'react';
-import { Checkbox, Button } from 'eh-design';
+import { Checkbox, Button } from 'bs-design';
 
 class App extends React.Component {
   state = {

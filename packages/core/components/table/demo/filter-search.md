@@ -15,7 +15,7 @@ title:
 `filterSearch` is used to enable search of filter items, and you can set a custom filter method through `filterSearch:(input, record) => boolean`.
 
 ```jsx
-import { Table } from 'ehd';
+import { Table } from 'bsd';
 
 const columns = [
   {

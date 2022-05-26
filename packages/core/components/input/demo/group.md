@@ -29,7 +29,7 @@ import {
   AutoComplete,
   Cascader,
   Tooltip,
-} from 'ehd';
+} from 'bsd';
 import { CopyOutlined } from '@ant-design/icons';
 
 const { Option } = Select;

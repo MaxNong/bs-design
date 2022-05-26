@@ -10,7 +10,7 @@ describe('Table.rowSelection', () => {
   window.requestAnimationFrame = callback => window.setTimeout(callback, 16);
   window.cancelAnimationFrame = window.clearTimeout;
 
-  const errorSpy = jest.spyOn(console, 'error').mockImplementation(() => {});
+  const errorSpy = jest.spyOn(console, 'error').mockImplementation(() => { });
 
   afterEach(() => {
     errorSpy.mockReset();
@@ -183,7 +183,7 @@ describe('Table.rowSelection', () => {
     mount(createTable({ rowSelection }));
 
     expect(errorSpy).toHaveBeenCalledWith(
-      'Warning: [ehd: Table] Do not set `checked` or `defaultChecked` in `getCheckboxProps`. Please use `selectedRowKeys` instead.',
+      'Warning: [bsd: Table] Do not set `checked` or `defaultChecked` in `getCheckboxProps`. Please use `selectedRowKeys` instead.',
     );
   });
 
@@ -1358,7 +1358,7 @@ describe('Table.rowSelection', () => {
         }),
       );
       expect(errorSpy).toHaveBeenCalledWith(
-        'Warning: [ehd: Table] set `indeterminate` using `rowSelection.getCheckboxProps` is not allowed with tree structured dataSource.',
+        'Warning: [bsd: Table] set `indeterminate` using `rowSelection.getCheckboxProps` is not allowed with tree structured dataSource.',
       );
     });
   });

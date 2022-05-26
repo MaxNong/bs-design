@@ -14,7 +14,7 @@ title:
 Simple mode.
 
 ```jsx
-import { Pagination } from 'ehd';
+import { Pagination } from 'bsd';
 
 ReactDOM.render(
   <>

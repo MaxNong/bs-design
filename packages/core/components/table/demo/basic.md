@@ -14,7 +14,7 @@ title:
 Simple table with actions.
 
 ```jsx
-import { Table, Tag, Space } from 'ehd';
+import { Table, Tag, Space } from 'bsd';
 
 const columns = [
   {

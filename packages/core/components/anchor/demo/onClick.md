@@ -14,7 +14,7 @@ title:
 Clicking on an anchor does not record history.
 
 ```tsx
-import { Anchor } from 'ehd';
+import { Anchor } from 'bsd';
 
 const { Link } = Anchor;
 

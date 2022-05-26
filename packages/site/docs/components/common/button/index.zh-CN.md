@@ -41,7 +41,7 @@ group:
  * desc: 按钮有五种类型：主按钮、次按钮、虚线按钮、文本按钮和链接按钮
  */
 import React from 'react';
-import { Button, Space } from 'eh-design';
+import { Button, Space } from 'bs-design';
 
 const ButtonDemo = (): JSX.Element => {
   return (
@@ -66,7 +66,7 @@ export default ButtonDemo;
  * desc: 添加 loading 属性即可让按钮处于加载状态，最后两个按钮演示点击后进入加载状态。
  */
 import React from 'react';
-import { Button } from 'eh-design';
+import { Button } from 'bs-design';
 
 const ButtonDemo = (): JSX.Element => {
   return (
@@ -87,7 +87,7 @@ export default ButtonDemo;
  * desc: 危险代表按钮属性而不是按钮类型。按钮有五种类型：主按钮、次按钮、虚线按钮、文本按钮和链接按钮，都可以添加危险属性。
  */
 import React from 'react';
-import { Button, Space } from 'eh-design';
+import { Button, Space } from 'bs-design';
 
 const ButtonDemo = (): JSX.Element => {
   return (
@@ -118,7 +118,7 @@ export default ButtonDemo;
  * desc: 幽灵按钮将按钮的内容反色，背景变为透明，常用在有色背景上。
  */
 import React from 'react';
-import { Button, Space } from 'eh-design';
+import { Button, Space } from 'bs-design';
 
 const ButtonDemo = (): JSX.Element => {
   return (
@@ -156,7 +156,7 @@ export default ButtonDemo;
  * desc: block 属性将使按钮适合其父宽度。
  */
 import React from 'react';
-import { Button } from 'eh-design';
+import { Button } from 'bs-design';
 
 const ButtonDemo = (): JSX.Element => {
   return (
@@ -192,7 +192,7 @@ export default ButtonDemo;
  * desc: 添加 disabled 属性即可让按钮处于不可用状态，同时按钮样式也会改变。
  */
 import React from 'react';
-import { Button, Space } from 'eh-design';
+import { Button, Space } from 'bs-design';
 
 const ButtonDemo = (): JSX.Element => {
   return (

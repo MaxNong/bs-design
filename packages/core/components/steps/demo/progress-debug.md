@@ -15,7 +15,7 @@ Buggy!
 Buggy!
 
 ```jsx
-import { Steps, Button } from 'ehd';
+import { Steps, Button } from 'bsd';
 
 const { Step } = Steps;
 

@@ -40,7 +40,7 @@ import {
   Progress,
   Spin,
   Transfer,
-} from 'eh-design';
+} from 'bs-design';
 
 const SplitSpace = (props) => (
   <Space split={<Divider type="vertical" />} size={4} {...props} />

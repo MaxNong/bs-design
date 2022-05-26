@@ -1,5 +1,5 @@
 import React from 'react';
-import { Table, Tag, Radio, Space } from 'eh-design';
+import { Table, Tag, Radio, Space } from 'bs-design';
 
 const topOptions = [
   { label: 'topLeft', value: 'topLeft' },

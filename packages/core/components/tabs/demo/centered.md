@@ -14,7 +14,7 @@ title:
 Centered tabs.
 
 ```jsx
-import { Tabs } from 'ehd';
+import { Tabs } from 'bsd';
 
 const { TabPane } = Tabs;
 

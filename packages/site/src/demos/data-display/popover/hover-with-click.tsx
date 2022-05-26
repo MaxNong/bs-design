@@ -1,5 +1,5 @@
 import React from 'react';
-import { Popover, Button } from 'eh-design';
+import { Popover, Button } from 'bs-design';
 
 class App extends React.Component {
   state = {

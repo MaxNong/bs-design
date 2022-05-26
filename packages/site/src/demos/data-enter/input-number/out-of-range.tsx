@@ -1,5 +1,5 @@
 import React from 'react';
-import { InputNumber, Button, Space } from 'eh-design';
+import { InputNumber, Button, Space } from 'bs-design';
 
 const Demo = () => {
   const [value, setValue] = React.useState<string | number>('99');

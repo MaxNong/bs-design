@@ -1,5 +1,5 @@
 import React from 'react';
-import { TreeSelect } from 'eh-design';
+import { TreeSelect } from 'bs-design';
 import { SmileOutlined } from '@ant-design/icons';
 
 const { TreeNode } = TreeSelect;

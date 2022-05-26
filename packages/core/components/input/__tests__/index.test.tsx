@@ -68,7 +68,7 @@ describe('Input', () => {
         suffix: 'light',
       });
       expect(errorSpy).toHaveBeenCalledWith(
-        'Warning: [ehd: Input] When Input is focused, dynamic add or remove prefix / suffix will make it lose focus caused by dom structure change. Read more: https://ant.design/components/input/#FAQ',
+        'Warning: [bsd: Input] When Input is focused, dynamic add or remove prefix / suffix will make it lose focus caused by dom structure change. Read more: https://ant.design/components/input/#FAQ',
       );
       wrapper.unmount();
     });

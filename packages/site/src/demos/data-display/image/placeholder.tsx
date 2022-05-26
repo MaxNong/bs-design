@@ -1,5 +1,5 @@
 import React from 'react';
-import { Image, Button, Space } from 'eh-design';
+import { Image, Button, Space } from 'bs-design';
 
 function ImageDemo() {
   const [random, setRandom] = React.useState();

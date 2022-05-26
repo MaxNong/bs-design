@@ -8,7 +8,7 @@ import { resetWarned } from '../../_util/devWarning';
 import rtlTest from '../../../tests/shared/rtlTest';
 
 describe('TimePicker', () => {
-  const errorSpy = jest.spyOn(console, 'error').mockImplementation(() => {});
+  const errorSpy = jest.spyOn(console, 'error').mockImplementation(() => { });
 
   afterEach(() => {
     errorSpy.mockReset();
@@ -33,7 +33,7 @@ describe('TimePicker', () => {
 
     expect(wrapper.find('.my-btn').length).toBeTruthy();
     expect(errorSpy).toHaveBeenCalledWith(
-      'Warning: [ehd: TimePicker] `addon` is deprecated. Please use `renderExtraFooter` instead.',
+      'Warning: [bsd: TimePicker] `addon` is deprecated. Please use `renderExtraFooter` instead.',
     );
   });
 

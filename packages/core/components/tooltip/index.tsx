@@ -240,7 +240,7 @@ const Tooltip = React.forwardRef<unknown, TooltipProps>((props, ref) => {
   if (color && !PresetColorRegex.test(color)) {
     formattedOverlayInnerStyle = { ...overlayInnerStyle, background: color };
     // @ts-ignore
-    arrowContentStyle = { '--ehd-arrow-background-color': color };
+    arrowContentStyle = { '--bsd-arrow-background-color': color };
   }
 
   return (

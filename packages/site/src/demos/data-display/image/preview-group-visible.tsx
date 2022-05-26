@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Image } from 'eh-design';
+import { Image } from 'bs-design';
 
 const App = () => {
   const [visible, setVisible] = useState(false);

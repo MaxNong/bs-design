@@ -1,5 +1,5 @@
 import React from 'react';
-import { Steps, Divider } from 'eh-design';
+import { Steps, Divider } from 'bs-design';
 
 const { Step } = Steps;
 

@@ -14,7 +14,7 @@ title:
 You can customize the display for Steps with progress dot style.
 
 ```jsx
-import { Steps, Popover } from 'ehd';
+import { Steps, Popover } from 'bsd';
 
 const { Step } = Steps;
 

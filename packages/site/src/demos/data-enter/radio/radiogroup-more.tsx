@@ -1,5 +1,5 @@
 import React from 'react';
-import { Radio, Input, Space } from 'eh-design';
+import { Radio, Input, Space } from 'bs-design';
 
 class App extends React.Component {
   state = {

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, notification, Space } from 'eh-design';
+import { Button, notification, Space } from 'bs-design';
 
 const openNotificationWithIcon = (type) => {
   notification[type]({

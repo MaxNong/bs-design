@@ -1,5 +1,5 @@
 import React from 'react';
-import { Progress, Button } from 'eh-design';
+import { Progress, Button } from 'bs-design';
 import { MinusOutlined, PlusOutlined } from '@ant-design/icons';
 
 class App extends React.Component {

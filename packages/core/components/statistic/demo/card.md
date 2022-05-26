@@ -14,7 +14,7 @@ title:
 Display statistic data in Card.
 
 ```jsx
-import { Statistic, Card, Row, Col } from 'ehd';
+import { Statistic, Card, Row, Col } from 'bsd';
 import { ArrowUpOutlined, ArrowDownOutlined } from '@ant-design/icons';
 
 ReactDOM.render(

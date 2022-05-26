@@ -14,10 +14,10 @@ function reportNoConfig() {
     chalk.bgRed("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
   );
   console.log(
-    chalk.bgRed("!! Unable to setup ehd-tools: project's package.json either missing !!")
+    chalk.bgRed("!! Unable to setup bsd-tools: project's package.json either missing !!")
   );
   console.log(
-    chalk.bgRed("!! or malformed. Run `npm init` and then reinstall ehd-tools.       !!")
+    chalk.bgRed("!! or malformed. Run `npm init` and then reinstall bsd-tools.       !!")
   );
   console.log(
     chalk.bgRed("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
@@ -26,7 +26,7 @@ function reportNoConfig() {
 
 function reportCompletion() {
   console.log(chalk.bgGreen("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"));
-  console.log(chalk.bgGreen("!! ehd-tools was successfully installed for the project. !!"));
+  console.log(chalk.bgGreen("!! bsd-tools was successfully installed for the project. !!"));
   console.log(chalk.bgGreen("!! Use `npm run pub` command for publishing.       !!"));
   console.log(chalk.bgGreen("!! publishing configuration.                                  !!"));
   console.log(chalk.bgGreen("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"));
@@ -42,21 +42,21 @@ function addConfigHooks(cfg, projectDir) {
   }
 
   cfg.scripts = Object.assign(cfg.scripts, {
-    dist: "ehd-tools run dist",
-    compile: "ehd-tools run compile",
-    clean: "ehd-tools run clean",
-    start: "ehd-tools run start",
-    site: "ehd-tools run site",
-    deploy: "ehd-tools run update-self && ehd-tools run deploy",
-    "just-deploy": "ehd-tools run just-deploy",
-    pub: "ehd-tools run update-self && ehd-tools run pub"
+    dist: "bsd-tools run dist",
+    compile: "bsd-tools run compile",
+    clean: "bsd-tools run clean",
+    start: "bsd-tools run start",
+    site: "bsd-tools run site",
+    deploy: "bsd-tools run update-self && bsd-tools run deploy",
+    "just-deploy": "bsd-tools run just-deploy",
+    pub: "bsd-tools run update-self && bsd-tools run pub"
   });
 
   if (cfg.scripts.prepublish) {
     cfg.scripts["pre-publish"] = cfg.scripts.prepublish;
   }
 
-  cfg.scripts.prepublish = "ehd-tools run guard";
+  cfg.scripts.prepublish = "bsd-tools run guard";
 
   writeFile(pathJoin(projectDir, "package.json"), JSON.stringify(cfg, null, 2));
 
@@ -70,11 +70,11 @@ function init() {
   if (!testMode) {
     const npmArgs = getNpmArgs();
 
-    if (!npmArgs || !npmArgs.some((arg) => /^ehd-tools(@\d+\.\d+.\d+)?$/.test(arg))) {
+    if (!npmArgs || !npmArgs.some((arg) => /^bsd-tools(@\d+\.\d+.\d+)?$/.test(arg))) {
       return;
     }
   }
-  // NOTE: <projectDir>/node_modules/ehd-tools/lib
+  // NOTE: <projectDir>/node_modules/bsd-tools/lib
   const projectDir = pathJoin(__dirname, "../../../");
 
   const cfg = require(path.join(projectDir, "package.json"));

@@ -14,7 +14,7 @@ title:
 A progress bar with steps.
 
 ```jsx
-import { Progress } from 'ehd';
+import { Progress } from 'bsd';
 
 ReactDOM.render(
   <>

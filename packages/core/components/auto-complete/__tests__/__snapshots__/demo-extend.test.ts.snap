@@ -210,7 +210,7 @@ exports[`renders ./components/auto-complete/demo/certain-category.md extend cont
                   <span>
                     Libraries
                     <a
-                      href="https://www.google.com/search?q=ehd"
+                      href="https://www.google.com/search?q=bsd"
                       rel="noopener noreferrer"
                       style="float:right"
                       target="_blank"
@@ -309,7 +309,7 @@ exports[`renders ./components/auto-complete/demo/certain-category.md extend cont
                   <span>
                     Solutions
                     <a
-                      href="https://www.google.com/search?q=ehd"
+                      href="https://www.google.com/search?q=bsd"
                       rel="noopener noreferrer"
                       style="float:right"
                       target="_blank"
@@ -408,7 +408,7 @@ exports[`renders ./components/auto-complete/demo/certain-category.md extend cont
                   <span>
                     Articles
                     <a
-                      href="https://www.google.com/search?q=ehd"
+                      href="https://www.google.com/search?q=bsd"
                       rel="noopener noreferrer"
                       style="float:right"
                       target="_blank"

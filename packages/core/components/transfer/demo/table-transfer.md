@@ -14,7 +14,7 @@ title:
 Customize render list with Table component.
 
 ```jsx
-import { Transfer, Switch, Table, Tag } from 'ehd';
+import { Transfer, Switch, Table, Tag } from 'bsd';
 import difference from 'lodash/difference';
 
 // Customize Table Transfer

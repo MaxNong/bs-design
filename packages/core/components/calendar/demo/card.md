@@ -14,7 +14,7 @@ title:
 Nested inside a container element for rendering in limited space.
 
 ```jsx
-import { Calendar } from 'ehd';
+import { Calendar } from 'bsd';
 
 function onPanelChange(value, mode) {
   console.log(value, mode);

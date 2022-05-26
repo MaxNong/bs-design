@@ -1,5 +1,5 @@
 import React from 'react';
-import { Drawer, List, Avatar, Divider, Col, Row } from 'eh-design';
+import { Drawer, List, Avatar, Divider, Col, Row } from 'bs-design';
 
 const DescriptionItem = ({ title, content }) => (
   <div className="site-description-item-profile-wrapper">

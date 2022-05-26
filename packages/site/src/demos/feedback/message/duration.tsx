@@ -1,5 +1,5 @@
 import React from 'react';
-import { message, Button } from 'eh-design';
+import { message, Button } from 'bs-design';
 
 const success = () => {
   message.success(

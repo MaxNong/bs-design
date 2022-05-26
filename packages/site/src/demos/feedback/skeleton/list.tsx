@@ -1,5 +1,5 @@
 import React from 'react';
-import { Skeleton, Switch, List, Avatar } from 'eh-design';
+import { Skeleton, Switch, List, Avatar } from 'bs-design';
 import { StarOutlined, LikeOutlined, MessageOutlined } from '@ant-design/icons';
 
 const listData = [];

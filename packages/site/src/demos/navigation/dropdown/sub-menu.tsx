@@ -1,5 +1,5 @@
 import React from 'react';
-import { Menu, Dropdown, Space } from 'eh-design';
+import { Menu, Dropdown, Space } from 'bs-design';
 import { DownOutlined } from '@ant-design/icons';
 
 const { SubMenu } = Menu;

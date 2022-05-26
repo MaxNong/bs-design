@@ -1,5 +1,5 @@
 import React from 'react';
-import { Cascader } from 'eh-design';
+import { Cascader } from 'bs-design';
 
 const optionLists = [
   {

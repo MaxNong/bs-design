@@ -215,7 +215,7 @@ function babelify(js, modules) {
       if (file.path.match(/(\/|\\)style(\/|\\)index\.js/)) {
         const content = file.contents.toString(encoding);
         if (content.indexOf("'react-native'") !== -1) {
-          // actually in ehd-mobile@2.0, this case will never run,
+          // actually in bsd-mobile@2.0, this case will never run,
           // since we both split style/index.mative.js style/index.js
           // but let us keep this check at here
           // in case some of our developer made a file name mistake ==
@@ -317,7 +317,7 @@ function compile(modules) {
     sourceStream = sourceStream.pipe(
       stripCode({
         start_comment: "@remove-on-es-build-begin",
-        end_comment: "@remove-on-es-build-ehd"
+        end_comment: "@remove-on-es-build-bsd"
       })
     );
   }
@@ -350,14 +350,14 @@ function compile(modules) {
   }
 
   tsResult.on("finish", check);
-  tsResult.on("ehd", check);
+  tsResult.on("bsd", check);
   const tsFilesStream = babelify(tsResult.js, modules);
   const tsd = tsResult.dts.pipe(gulp.dest(modules === false ? esDir : libDir));
   return merge2([less, tsFilesStream, tsd, assets, transformFileStream].filter((s) => s));
 }
 
 function publish(tagString, done) {
-  let args = ["publish", "--with-ehd-tools", "--access=public"];
+  let args = ["publish", "--with-bsd-tools", "--access=public"];
   if (tagString) {
     args = args.concat(["--tag", tagString]);
   }
@@ -458,7 +458,7 @@ gulp.task(
     getNpm((npm) => {
       console.log(`${npm} updating ${selfPackage.name}`);
       runCmd(npm, ["update", selfPackage.name], (c) => {
-        console.log(`${npm} update ${selfPackage.name} ehd`);
+        console.log(`${npm} update ${selfPackage.name} bsd`);
         done(c);
       });
     });
@@ -479,7 +479,7 @@ gulp.task(
       for (let arg = npmArgs.shift(); arg; arg = npmArgs.shift()) {
         if (
           /^pu(b(l(i(sh?)?)?)?)?$/.test(arg) &&
-          npmArgs.indexOf("--with-ehd-tools") < 0 &&
+          npmArgs.indexOf("--with-bsd-tools") < 0 &&
           !process.env.npm_config_with_antd_tools
         ) {
           reportError();

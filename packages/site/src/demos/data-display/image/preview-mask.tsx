@@ -1,5 +1,5 @@
 import React from 'react';
-import { Image, Space } from 'eh-design';
+import { Image, Space } from 'bs-design';
 import { ZoomInOutlined } from '@ant-design/icons';
 
 function ImageDemo() {

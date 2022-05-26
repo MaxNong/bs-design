@@ -14,7 +14,7 @@ title:
 You can set `twoToneColor` prop to specific primary color for two-tone icons.
 
 ```jsx
-import { Space } from 'ehd';
+import { Space } from 'bsd';
 import { SmileTwoTone, HeartTwoTone, CheckCircleTwoTone } from '@ant-design/icons';
 
 ReactDOM.render(

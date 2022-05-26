@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { AutoComplete, Space } from 'eh-design';
+import { AutoComplete, Space } from 'bs-design';
 
 const mockVal = (str: string, repeat: number = 1) => ({
   value: str.repeat(repeat),

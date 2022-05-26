@@ -1,5 +1,5 @@
 import React from 'react';
-import { Layout, Menu } from 'eh-design';
+import { Layout, Menu } from 'bs-design';
 import {
   UploadOutlined,
   UserOutlined,

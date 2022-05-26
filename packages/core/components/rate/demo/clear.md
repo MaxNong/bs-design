@@ -14,7 +14,7 @@ title:
 Support set allow to clear star when click again.
 
 ```jsx
-import { Rate } from 'ehd';
+import { Rate } from 'bsd';
 
 ReactDOM.render(
   <>

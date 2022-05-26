@@ -11,7 +11,7 @@ import Checkbox from '../../checkbox';
 import mountTest from '../../../tests/shared/mountTest';
 import rtlTest from '../../../tests/shared/rtlTest';
 
-const consoleErrorSpy = jest.spyOn(console, 'error').mockImplementation(() => {});
+const consoleErrorSpy = jest.spyOn(console, 'error').mockImplementation(() => { });
 
 const listCommonProps = {
   dataSource: [
@@ -272,7 +272,7 @@ describe('Transfer', () => {
     ).toEqual('new1');
 
     expect(consoleErrorSpy).not.toHaveBeenCalledWith(
-      'Warning: [ehd: Transfer] `notFoundContent` and `searchPlaceholder` will be removed, please use `locale` instead.',
+      'Warning: [bsd: Transfer] `notFoundContent` and `searchPlaceholder` will be removed, please use `locale` instead.',
     );
     consoleErrorSpy.mockRestore();
   });

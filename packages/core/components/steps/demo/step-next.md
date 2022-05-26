@@ -14,7 +14,7 @@ title:
 Cooperate with the content and buttons, to represent the progress of a process.
 
 ```jsx
-import { Steps, Button, message } from 'ehd';
+import { Steps, Button, message } from 'bsd';
 
 const { Step } = Steps;
 

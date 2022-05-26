@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Tag } from 'eh-design';
+import { Grid, Tag } from 'bs-design';
 
 const { useBreakpoint } = Grid;
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Menu, Dropdown, Button, message, Space, Tooltip } from 'eh-design';
+import { Menu, Dropdown, Button, message, Space, Tooltip } from 'bs-design';
 import { DownOutlined, UserOutlined } from '@ant-design/icons';
 
 function handleButtonClick(e) {

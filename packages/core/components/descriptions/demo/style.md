@@ -15,7 +15,7 @@ debug: true
 Customize label & wrapper style
 
 ```tsx
-import { Descriptions, Divider, Switch, Radio } from 'ehd';
+import { Descriptions, Divider, Switch, Radio } from 'bsd';
 
 const labelStyle: React.CSSProperties = { background: 'red' };
 const contentStyle: React.CSSProperties = { background: 'green' };

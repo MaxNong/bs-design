@@ -9,7 +9,7 @@ import {
   Select,
   DatePicker,
   Space,
-} from 'eh-design';
+} from 'bs-design';
 import { PlusOutlined } from '@ant-design/icons';
 
 const { Option } = Select;

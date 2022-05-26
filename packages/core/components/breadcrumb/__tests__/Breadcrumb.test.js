@@ -8,7 +8,7 @@ describe('Breadcrumb', () => {
   mountTest(Breadcrumb);
   rtlTest(Breadcrumb);
 
-  const errorSpy = jest.spyOn(console, 'error').mockImplementation(() => {});
+  const errorSpy = jest.spyOn(console, 'error').mockImplementation(() => { });
 
   afterEach(() => {
     errorSpy.mockReset();
@@ -28,7 +28,7 @@ describe('Breadcrumb', () => {
     );
     expect(errorSpy.mock.calls).toHaveLength(1);
     expect(errorSpy.mock.calls[0][0]).toMatch(
-      "Warning: [ehd: Breadcrumb] Only accepts Breadcrumb.Item and Breadcrumb.Separator as it's children",
+      "Warning: [bsd: Breadcrumb] Only accepts Breadcrumb.Item and Breadcrumb.Separator as it's children",
     );
   });
 

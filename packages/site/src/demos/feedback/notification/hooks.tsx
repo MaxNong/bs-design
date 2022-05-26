@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, notification, Divider, Space } from 'eh-design';
+import { Button, notification, Divider, Space } from 'bs-design';
 import {
   RadiusUpleftOutlined,
   RadiusUprightOutlined,

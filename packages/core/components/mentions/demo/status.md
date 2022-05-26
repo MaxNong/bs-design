@@ -14,7 +14,7 @@ title:
 Add status to Mentions with `status`, which could be `error` or `warning`。
 
 ```jsx
-import { Mentions, Space } from 'ehd';
+import { Mentions, Space } from 'bsd';
 
 const { Option } = Mentions;
 

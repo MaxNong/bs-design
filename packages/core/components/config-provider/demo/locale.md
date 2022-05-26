@@ -27,9 +27,9 @@ import {
   Select,
   Transfer,
   Radio,
-} from 'ehd';
-import enUS from 'ehd/lib/locale/en_US';
-import zhCN from 'ehd/lib/locale/zh_CN';
+} from 'bsd';
+import enUS from 'bsd/lib/locale/en_US';
+import zhCN from 'bsd/lib/locale/zh_CN';
 import moment from 'moment';
 import 'moment/locale/zh-cn';
 

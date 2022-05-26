@@ -14,7 +14,7 @@ title:
 Select different settings to see the result.
 
 ```jsx
-import { Table, Switch, Radio, Form, Space } from 'ehd';
+import { Table, Switch, Radio, Form, Space } from 'bsd';
 import { DownOutlined } from '@ant-design/icons';
 
 const columns = [

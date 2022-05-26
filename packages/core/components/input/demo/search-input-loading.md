@@ -14,7 +14,7 @@ title:
 Search loading when onSearch.
 
 ```jsx
-import { Input } from 'ehd';
+import { Input } from 'bsd';
 
 const { Search } = Input;
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Layout, Menu, MenuProps } from 'eh-design';
+import { Layout, Menu, MenuProps } from 'bs-design';
 import {
   AppstoreOutlined,
   BarChartOutlined,

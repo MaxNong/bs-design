@@ -18,7 +18,7 @@ Load options lazily with `loadData`.
 > Note: `loadData` cannot work with `showSearch`.
 
 ```jsx
-import { Cascader } from 'ehd';
+import { Cascader } from 'bsd';
 
 const optionLists = [
   {

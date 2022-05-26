@@ -14,7 +14,7 @@ title:
 Specifies default value by an array.
 
 ```jsx
-import { Cascader } from 'ehd';
+import { Cascader } from 'bsd';
 
 const options = [
   {

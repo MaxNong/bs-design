@@ -14,7 +14,7 @@ title:
 The `style` and `className` are available to customize Message.
 
 ```jsx
-import { message, Button } from 'ehd';
+import { message, Button } from 'bsd';
 
 const success = () => {
   message.success({

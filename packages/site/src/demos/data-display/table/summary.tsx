@@ -1,5 +1,5 @@
 import React from 'react';
-import { Table, Typography } from 'eh-design';
+import { Table, Typography } from 'bs-design';
 
 const { Text } = Typography;
 

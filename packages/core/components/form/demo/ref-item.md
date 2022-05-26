@@ -16,7 +16,7 @@ Use `ref` first!
 
 ```jsx
 import React from 'react';
-import { Button, Form, Input } from 'ehd';
+import { Button, Form, Input } from 'bsd';
 
 const Demo = () => {
   const [form] = Form.useForm();

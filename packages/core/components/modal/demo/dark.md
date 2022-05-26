@@ -33,7 +33,7 @@ import {
   Switch,
   Typography,
   Dropdown,
-} from 'ehd';
+} from 'bsd';
 import moment from 'moment';
 import difference from 'lodash/difference';
 import { DownOutlined, ClockCircleOutlined } from '@ant-design/icons';

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Layout, Menu, Breadcrumb, MenuProps } from 'eh-design';
+import { Layout, Menu, Breadcrumb, MenuProps } from 'bs-design';
 import {
   DesktopOutlined,
   PieChartOutlined,

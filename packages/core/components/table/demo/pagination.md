@@ -14,7 +14,7 @@ title:
 Table pagination settings.
 
 ```jsx
-import { Table, Tag, Radio, Space } from 'ehd';
+import { Table, Tag, Radio, Space } from 'bsd';
 
 const topOptions = [
   { label: 'topLeft', value: 'topLeft' },

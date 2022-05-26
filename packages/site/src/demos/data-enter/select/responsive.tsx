@@ -1,5 +1,5 @@
 import React from 'react';
-import { Select, Space } from 'eh-design';
+import { Select, Space } from 'bs-design';
 
 interface ItemProps {
   label: string;

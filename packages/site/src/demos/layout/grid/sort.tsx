@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col } from 'eh-design';
+import { Row, Col } from 'bs-design';
 
 export default () => (
   <Row>

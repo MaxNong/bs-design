@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Transfer, Tree } from 'eh-design';
+import { Transfer, Tree } from 'bs-design';
 
 // Customize Table Transfer
 const isChecked = (selectedKeys, eventKey) =>

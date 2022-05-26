@@ -15,7 +15,7 @@ Customize the dropdown menu via `dropdownRender`. Dropdown menu will be closed i
 
 ```jsx
 import React, { useState } from 'react';
-import { Select, Divider, Input, Typography, Space } from 'ehd';
+import { Select, Divider, Input, Typography, Space } from 'bsd';
 import { PlusOutlined } from '@ant-design/icons';
 
 const { Option } = Select;

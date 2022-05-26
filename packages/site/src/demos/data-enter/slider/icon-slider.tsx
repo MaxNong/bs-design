@@ -1,5 +1,5 @@
 import React from 'react';
-import { Slider } from 'eh-design';
+import { Slider } from 'bs-design';
 import { FrownOutlined, SmileOutlined } from '@ant-design/icons';
 
 class IconSlider extends React.Component {

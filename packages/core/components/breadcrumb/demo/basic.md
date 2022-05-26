@@ -14,7 +14,7 @@ title:
 The simplest use.
 
 ```jsx
-import { Breadcrumb } from 'ehd';
+import { Breadcrumb } from 'bsd';
 
 ReactDOM.render(
   <Breadcrumb>

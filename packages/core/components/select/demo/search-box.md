@@ -14,7 +14,7 @@ title:
 Search with remote data.
 
 ```jsx
-import { Select } from 'ehd';
+import { Select } from 'bsd';
 import jsonp from 'fetch-jsonp';
 import qs from 'qs';
 

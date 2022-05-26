@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Input, AutoComplete } from 'eh-design';
-import { SelectProps } from 'eh-design/es/select';
+import { Input, AutoComplete } from 'bs-design';
+import { SelectProps } from 'bs-design/es/select';
 
 function getRandomInt(max: number, min: number = 0) {
   return Math.floor(Math.random() * (max - min + 1)) + min; // eslint-disable-line no-mixed-operators

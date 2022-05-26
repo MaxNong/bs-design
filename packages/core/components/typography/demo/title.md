@@ -14,7 +14,7 @@ title:
 Display title in different level.
 
 ```jsx
-import { Typography } from 'ehd';
+import { Typography } from 'bsd';
 
 const { Title } = Typography;
 

@@ -14,7 +14,7 @@ title:
 A simple loading status.
 
 ```jsx
-import { Spin } from 'ehd';
+import { Spin } from 'bsd';
 
 ReactDOM.render(<Spin />, mountNode);
 ```

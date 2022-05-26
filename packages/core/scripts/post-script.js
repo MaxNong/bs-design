@@ -11,7 +11,7 @@ const SAFE_DAYS_DIFF = 1000 * 60 * 60 * 24 * 3; // 3 days not update seems to be
 
 (async function process() {
   console.log(chalk.cyan('🤖 Post Publish Scripting...\n'));
-  const { time, 'dist-tags': distTags } = await fetch('http://registry.npmjs.org/ehd').then(res =>
+  const { time, 'dist-tags': distTags } = await fetch('http://registry.npmjs.org/bsd').then(res =>
     res.json(),
   );
 
@@ -80,7 +80,7 @@ const SAFE_DAYS_DIFF = 1000 * 60 * 60 * 24 * 3; // 3 days not update seems to be
     console.log(`🎃 Conch Version not change. Safe to ${chalk.green('ignore')}.`);
   } else {
     console.log('💾 Tagging Conch Version:', chalk.green(conchVersion));
-    spawnSync('npm', ['dist-tag', 'add', `ehd@${conchVersion}`, 'conch'], {
+    spawnSync('npm', ['dist-tag', 'add', `bsd@${conchVersion}`, 'conch'], {
       stdio: 'inherit',
       stdin: 'inherit',
     });

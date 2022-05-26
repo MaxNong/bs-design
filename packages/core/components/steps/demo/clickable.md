@@ -14,7 +14,7 @@ title:
 Setting `onChange` makes Steps clickable.
 
 ```jsx
-import { Steps, Divider } from 'ehd';
+import { Steps, Divider } from 'bsd';
 
 const { Step } = Steps;
 

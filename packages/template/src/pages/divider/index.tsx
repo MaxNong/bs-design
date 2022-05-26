@@ -1,8 +1,8 @@
-import Divider from "eh-design/components/divider/index";
+import Divider from "bs-design/components/divider/index";
 
 import Preview from "../../components/preview/index";
 
-import "eh-design/components/divider/style/index";
+import "bs-design/components/divider/style/index";
 
 const PreviewItem = Preview.Item;
 

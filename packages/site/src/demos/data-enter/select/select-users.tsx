@@ -1,5 +1,5 @@
 import React from 'react';
-import { Select, Spin } from 'eh-design';
+import { Select, Spin } from 'bs-design';
 import { SelectProps } from 'antd/es/select';
 import debounce from 'lodash/debounce';
 

@@ -14,7 +14,7 @@ title:
 Navigation steps.
 
 ```jsx
-import { Steps } from 'ehd';
+import { Steps } from 'bsd';
 
 const { Step } = Steps;
 

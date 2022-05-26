@@ -1,5 +1,5 @@
 import React from 'react';
-import { Collapse, Select } from 'eh-design';
+import { Collapse, Select } from 'bs-design';
 import { SettingOutlined } from '@ant-design/icons';
 
 const { Panel } = Collapse;

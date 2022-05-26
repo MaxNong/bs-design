@@ -1,5 +1,5 @@
 import React from 'react';
-import { Steps, Popover } from 'eh-design';
+import { Steps, Popover } from 'bs-design';
 
 const { Step } = Steps;
 

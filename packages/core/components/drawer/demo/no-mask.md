@@ -16,7 +16,7 @@ Remove mask.
 
 ```tsx
 import React, { useState } from 'react';
-import { Drawer, Button } from 'ehd';
+import { Drawer, Button } from 'bsd';
 
 const App: React.FC = () => {
   const [visible, setVisible] = useState(false);

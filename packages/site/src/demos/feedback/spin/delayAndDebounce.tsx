@@ -1,5 +1,5 @@
 import React from 'react';
-import { Spin, Alert, Switch } from 'eh-design';
+import { Spin, Alert, Switch } from 'bs-design';
 
 class Card extends React.Component {
   state = { loading: false };

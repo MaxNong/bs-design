@@ -1,5 +1,5 @@
 import React from 'react';
-import { Descriptions, Divider, Switch, Radio } from 'eh-design';
+import { Descriptions, Divider, Switch, Radio } from 'bs-design';
 
 const labelStyle: React.CSSProperties = { background: 'red' };
 const contentStyle: React.CSSProperties = { background: 'green' };

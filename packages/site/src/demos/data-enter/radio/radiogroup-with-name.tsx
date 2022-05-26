@@ -1,5 +1,5 @@
 import React from 'react';
-import { Radio } from 'eh-design';
+import { Radio } from 'bs-design';
 
 const App = () => (
   <Radio.Group name="radiogroup" defaultValue={1}>

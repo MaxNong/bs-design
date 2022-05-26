@@ -1,4 +1,4 @@
 import React from 'react';
-import { Radio } from 'eh-design';
+import { Radio } from 'bs-design';
 
 export default () => <Radio>Radio</Radio>;

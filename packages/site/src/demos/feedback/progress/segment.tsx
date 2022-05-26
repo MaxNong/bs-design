@@ -1,5 +1,5 @@
 import React from 'react';
-import { Tooltip, Progress } from 'eh-design';
+import { Tooltip, Progress } from 'bs-design';
 
 export default () => (
   <>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Layout, Menu, Breadcrumb } from 'eh-design';
+import { Layout, Menu, Breadcrumb } from 'bs-design';
 
 const { Header, Content, Footer } = Layout;
 

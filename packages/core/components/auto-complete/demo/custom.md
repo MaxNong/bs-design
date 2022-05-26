@@ -15,7 +15,7 @@ Customize Input Component
 
 ```tsx
 import React, { useState } from 'react';
-import { AutoComplete, Input } from 'ehd';
+import { AutoComplete, Input } from 'bsd';
 
 const { TextArea } = Input;
 

@@ -16,7 +16,7 @@ title:
 Used in standalone when children is empty.
 
 ```jsx
-import { Badge, Space, Switch } from 'ehd';
+import { Badge, Space, Switch } from 'bsd';
 import { ClockCircleOutlined } from '@ant-design/icons';
 
 const Demo = () => {

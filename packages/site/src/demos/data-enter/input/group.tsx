@@ -10,7 +10,7 @@ import {
   AutoComplete,
   Cascader,
   Tooltip,
-} from 'eh-design';
+} from 'bs-design';
 import { CopyOutlined } from '@ant-design/icons';
 
 const { Option } = Select;

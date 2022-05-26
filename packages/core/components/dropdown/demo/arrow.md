@@ -14,7 +14,7 @@ title:
 You could display an arrow.
 
 ```jsx
-import { Menu, Dropdown, Button } from 'ehd';
+import { Menu, Dropdown, Button } from 'bsd';
 
 const menu = (
   <Menu>

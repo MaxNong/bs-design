@@ -52,7 +52,7 @@
 //     ]
 //   }],
 //   // 将模块视为外部模块，不会打包在库中
-//   external: ['ehd', '@ant-design/icons', 'react', 'prop-types', 'gojs'],
+//   external: ['bsd', '@ant-design/icons', 'react', 'prop-types', 'gojs'],
 //   // 插件
 //   plugins: [
 //     image(),
@@ -132,7 +132,7 @@ module.exports = {
     }
   ],
   output: {
-    file: "lib/eh-design.es.js",
+    file: "lib/bs-design.es.js",
     format: "es",
     plugins: [
       getBabelOutputPlugin({

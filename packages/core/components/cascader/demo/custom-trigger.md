@@ -14,7 +14,7 @@ title:
 Separate trigger button and result.
 
 ```jsx
-import { Cascader } from 'ehd';
+import { Cascader } from 'bsd';
 
 const options = [
   {

@@ -14,7 +14,7 @@ title:
 Should be used at the top of container, needs to override styles.
 
 ```jsx
-import { Tabs } from 'ehd';
+import { Tabs } from 'bsd';
 
 const { TabPane } = Tabs;
 

@@ -14,7 +14,7 @@ title:
 Use `showUploadList` for custom action icons of files.
 
 ```jsx
-import { Upload, Button } from 'ehd';
+import { Upload, Button } from 'bsd';
 import { UploadOutlined, StarOutlined } from '@ant-design/icons';
 
 const props = {

@@ -14,7 +14,7 @@ title:
 An event will be triggered when you click menu items, in which you can make different operations according to item's key.
 
 ```jsx
-import { Menu, Dropdown, message } from 'ehd';
+import { Menu, Dropdown, message } from 'bsd';
 import { DownOutlined } from '@ant-design/icons';
 
 const onClick = ({ key }) => {

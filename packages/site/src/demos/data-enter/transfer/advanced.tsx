@@ -1,5 +1,5 @@
 import React from 'react';
-import { Transfer, Button } from 'eh-design';
+import { Transfer, Button } from 'bs-design';
 
 class App extends React.Component {
   state = {

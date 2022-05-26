@@ -14,7 +14,7 @@ title:
 Click the image to zoom in.
 
 ```jsx
-import { Image } from 'ehd';
+import { Image } from 'bsd';
 
 function ImageDemo() {
   return (

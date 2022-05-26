@@ -14,7 +14,7 @@ title:
 The most basic usage.
 
 ```jsx
-import { Switch } from 'ehd';
+import { Switch } from 'bsd';
 
 function onChange(checked) {
   console.log(`switch to ${checked}`);

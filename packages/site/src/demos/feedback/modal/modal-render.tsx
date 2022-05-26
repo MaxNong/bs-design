@@ -1,5 +1,5 @@
 import React from 'react';
-import { Modal, Button } from 'eh-design';
+import { Modal, Button } from 'bs-design';
 import Draggable from 'react-draggable';
 
 class App extends React.Component {

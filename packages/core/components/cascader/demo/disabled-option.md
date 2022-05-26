@@ -14,7 +14,7 @@ title:
 Disable option by specifying the `disabled` property in `options`.
 
 ```jsx
-import { Cascader } from 'ehd';
+import { Cascader } from 'bsd';
 
 const options = [
   {

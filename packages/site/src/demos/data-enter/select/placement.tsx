@@ -1,5 +1,5 @@
 import React from 'react';
-import { Select, Radio } from 'eh-design';
+import { Select, Radio } from 'bs-design';
 
 const { Option } = Select;
 

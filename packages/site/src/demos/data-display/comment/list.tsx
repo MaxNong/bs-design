@@ -1,5 +1,5 @@
 import React from 'react';
-import { Comment, Tooltip, List } from 'eh-design';
+import { Comment, Tooltip, List } from 'bs-design';
 import moment from 'moment';
 
 const data = [

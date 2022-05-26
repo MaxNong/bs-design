@@ -1,5 +1,5 @@
 import React from 'react';
-import { TimePicker } from 'eh-design';
+import { TimePicker } from 'bs-design';
 import moment from 'moment';
 
 export default () => (

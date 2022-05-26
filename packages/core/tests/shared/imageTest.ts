@@ -30,7 +30,7 @@ export default function imageTest(component: React.ReactElement) {
     MockDate.set(moment('2016-11-22').valueOf());
     page.on('request', onRequestHandle);
     await page.goto(`file://${process.cwd()}/tests/index.html`);
-    await page.addStyleTag({ path: `${process.cwd()}/dist/ehd.css` });
+    await page.addStyleTag({ path: `${process.cwd()}/dist/bsd.css` });
     const html = ReactDOMServer.renderToString(component);
     await page.evaluate(innerHTML => {
       document.querySelector('#root')!.innerHTML = innerHTML;

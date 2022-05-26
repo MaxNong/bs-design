@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Image, Button } from 'eh-design';
+import { Image, Button } from 'bs-design';
 
 function ImageDemo() {
   const [visible, setVisible] = useState(false);

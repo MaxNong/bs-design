@@ -15,7 +15,7 @@ title:
 When dealing with long content, a fixed sider can provide a better user experience.
 
 ```jsx
-import { Layout, Menu } from 'ehd';
+import { Layout, Menu } from 'bsd';
 import {
   AppstoreOutlined,
   BarChartOutlined,

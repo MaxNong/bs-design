@@ -1,5 +1,5 @@
 import React from 'react';
-import { Upload, Button } from 'eh-design';
+import { Upload, Button } from 'bs-design';
 import { UploadOutlined, StarOutlined } from '@ant-design/icons';
 
 const props = {

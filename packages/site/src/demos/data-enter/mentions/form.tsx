@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mentions, Form, Button } from 'eh-design';
+import { Mentions, Form, Button } from 'bs-design';
 
 const { Option, getMentions } = Mentions;
 

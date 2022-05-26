@@ -1,5 +1,5 @@
 import React from 'react';
-import { Result, Button } from 'eh-design';
+import { Result, Button } from 'bs-design';
 import { SmileOutlined } from '@ant-design/icons';
 
 export default () => (

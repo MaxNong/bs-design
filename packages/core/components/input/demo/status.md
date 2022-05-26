@@ -15,7 +15,7 @@ title:
 Add status to Input with `status`, which could be `error` or `warning`.
 
 ```tsx
-import { Input, Space } from 'ehd';
+import { Input, Space } from 'bsd';
 import ClockCircleOutlined from '@ant-design/icons/ClockCircleOutlined';
 
 const ValidateInputs: React.FC = () => (

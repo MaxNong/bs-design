@@ -14,7 +14,7 @@ title:
 You can manually specify the position of the popup via `placement`.
 
 ```jsx
-import { Cascader, Radio } from 'ehd';
+import { Cascader, Radio } from 'bsd';
 
 const options = [
   {

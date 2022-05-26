@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { VariableSizeGrid as Grid } from 'react-window';
 import ResizeObserver from 'rc-resize-observer';
 import classNames from 'classnames';
-import { Table } from 'eh-design';
+import { Table } from 'bs-design';
 
 function VirtualTable(props: Parameters<typeof Table>[0]) {
   const { columns, scroll } = props;

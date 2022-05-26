@@ -15,7 +15,7 @@ title:
 Add status to TimePicker with `status`, which could be `error` or `warning`.
 
 ```tsx
-import { TimePicker, Space } from 'ehd';
+import { TimePicker, Space } from 'bsd';
 
 const Status: React.FC = () => (
   <Space direction="vertical">

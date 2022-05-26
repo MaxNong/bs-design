@@ -1,5 +1,5 @@
 import React from 'react';
-import { List, Typography, Divider } from 'eh-design';
+import { List, Typography, Divider } from 'bs-design';
 
 const data = [
   'Racing car sprays burning fuel into crowd.',

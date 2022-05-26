@@ -14,7 +14,7 @@ title:
 Specifies a delay for loading state. If `spinning` ends during delay, loading status won't appear.
 
 ```jsx
-import { Spin, Alert, Switch } from 'ehd';
+import { Spin, Alert, Switch } from 'bsd';
 
 class Card extends React.Component {
   state = { loading: false };

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Popconfirm, Button } from 'eh-design';
+import { Popconfirm, Button } from 'bs-design';
 
 const App = () => {
   const [visible, setVisible] = React.useState(false);

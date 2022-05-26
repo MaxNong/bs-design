@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { DatePicker, TimePicker, Select, Space } from 'eh-design';
+import { DatePicker, TimePicker, Select, Space } from 'bs-design';
 
 const { Option } = Select;
 

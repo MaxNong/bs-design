@@ -15,7 +15,7 @@ title:
 Displays the corresponding by default by type icon
 
 ```jsx
-import { Upload, Modal } from 'ehd';
+import { Upload, Modal } from 'bsd';
 import {
   LoadingOutlined,
   PaperClipOutlined,

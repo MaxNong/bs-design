@@ -14,7 +14,7 @@ checkbox 不可用。
 Disabled checkbox.
 
 ```jsx
-import { Checkbox } from 'ehd';
+import { Checkbox } from 'bsd';
 
 ReactDOM.render(
   <>

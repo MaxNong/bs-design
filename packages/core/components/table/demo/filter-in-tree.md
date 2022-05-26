@@ -17,7 +17,7 @@ You can use `filterMode` to change default filter interface, options: `menu`(def
 > `filterSearch` is used for making filter dropdown items searchable.
 
 ```jsx
-import { Table } from 'ehd';
+import { Table } from 'bsd';
 
 const columns = [
   {

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Statistic, Card, Row, Col } from 'eh-design';
+import { Statistic, Card, Row, Col } from 'bs-design';
 import { ArrowUpOutlined, ArrowDownOutlined } from '@ant-design/icons';
 
 export default () => (

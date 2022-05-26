@@ -93,7 +93,7 @@ describe('Input.Search', () => {
     const wrapper = mount(
       <Search
         defaultValue="search text"
-        enterButton={<Button>ehd button</Button>}
+        enterButton={<Button>bsd button</Button>}
         onSearch={onSearch}
       />,
     );
@@ -116,7 +116,7 @@ describe('Input.Search', () => {
         defaultValue="search text"
         enterButton={
           <button type="button" onClick={onButtonClick}>
-            ehd button
+            bsd button
           </button>
         }
         onSearch={onSearch}

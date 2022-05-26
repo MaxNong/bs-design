@@ -1,5 +1,5 @@
 import React from 'react';
-import { Badge } from 'eh-design';
+import { Badge } from 'bs-design';
 
 export default () => (
   <>

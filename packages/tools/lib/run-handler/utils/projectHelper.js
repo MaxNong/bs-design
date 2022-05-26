@@ -12,7 +12,7 @@ function resolve(moduleName) {
 }
 
 // We need hack the require to ensure use package module first
-// For example, `typescript` is required by `gulp-typescript` but provided by `ehd`
+// For example, `typescript` is required by `gulp-typescript` but provided by `bsd`
 let injected = false;
 function injectRequire() {
   if (injected) return;
@@ -37,7 +37,7 @@ function injectRequire() {
 }
 
 function getConfig() {
-  const configPath = getProjectPath(".ehd-tools.config.js");
+  const configPath = getProjectPath(".bsd-tools.config.js");
   if (fs.existsSync(configPath)) {
     return require(configPath);
   }

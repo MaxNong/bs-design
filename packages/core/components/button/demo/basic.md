@@ -11,10 +11,10 @@ title:
 
 ## en-US
 
-There are `primary` button, `default` button, `dashed` button, `text` button and `link` button in ehd.
+There are `primary` button, `default` button, `dashed` button, `text` button and `link` button in bsd.
 
 ```jsx
-import { Button } from 'ehd';
+import { Button } from 'bsd';
 
 ReactDOM.render(
   <>

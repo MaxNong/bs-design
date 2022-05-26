@@ -1,5 +1,5 @@
 import React from 'react';
-import { Upload, Modal } from 'eh-design';
+import { Upload, Modal } from 'bs-design';
 import { PlusOutlined } from '@ant-design/icons';
 
 function getBase64(file) {

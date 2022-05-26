@@ -1,5 +1,5 @@
 import React from 'react';
-import { InputNumber, Button } from 'eh-design';
+import { InputNumber, Button } from 'bs-design';
 
 class App extends React.Component {
   state = {

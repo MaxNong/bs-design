@@ -14,7 +14,7 @@ title:
 Specify the trigger area of collapsible by `collapsible`.
 
 ```jsx
-import { Collapse, Space } from 'ehd';
+import { Collapse, Space } from 'bsd';
 
 const { Panel } = Collapse;
 

@@ -14,7 +14,7 @@ title:
 Multiple selection, selecting from existing items.
 
 ```jsx
-import { Select } from 'ehd';
+import { Select } from 'bsd';
 
 const { Option } = Select;
 

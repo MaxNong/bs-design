@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ConfigProvider, Select, Button } from 'eh-design';
+import { ConfigProvider, Select, Button } from 'bs-design';
 import { SmileOutlined } from '@ant-design/icons';
 
 // Ant Design site use `es` module for view

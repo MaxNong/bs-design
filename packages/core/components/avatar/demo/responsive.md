@@ -14,7 +14,7 @@ title:
 Avatar size can be automatically adjusted based on the screen size.
 
 ```tsx
-import { Avatar } from 'ehd';
+import { Avatar } from 'bsd';
 import { AntDesignOutlined } from '@ant-design/icons';
 
 ReactDOM.render(

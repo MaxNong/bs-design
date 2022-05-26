@@ -14,7 +14,7 @@ title:
 Multiple and checkable.
 
 ```jsx
-import { TreeSelect } from 'ehd';
+import { TreeSelect } from 'bsd';
 
 const { SHOW_PARENT } = TreeSelect;
 

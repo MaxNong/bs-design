@@ -14,7 +14,7 @@ title:
 Basic Form data control. Includes layout, initial values, validation and submit.
 
 ```tsx
-import { Form, Input, Button, Checkbox } from 'ehd';
+import { Form, Input, Button, Checkbox } from 'bsd';
 
 const Demo = () => {
   const onFinish = (values: any) => {

@@ -1,5 +1,5 @@
 import React, { useState, useRef } from 'react';
-import { Drawer, ConfigProvider, Button } from 'eh-design';
+import { Drawer, ConfigProvider, Button } from 'bs-design';
 
 const App: React.FC = () => {
   const domRef = useRef<HTMLDivElement>(null);

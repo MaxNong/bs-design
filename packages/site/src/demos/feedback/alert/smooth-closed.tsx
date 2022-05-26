@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Alert } from 'eh-design';
+import { Alert } from 'bs-design';
 
 const App: React.FC = () => {
   const [visible, setVisible] = useState(true);

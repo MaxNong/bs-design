@@ -1,5 +1,5 @@
 import React from 'react';
-import { Form, Input } from 'eh-design';
+import { Form, Input } from 'bs-design';
 
 export default () => (
   <Form>

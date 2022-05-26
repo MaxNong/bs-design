@@ -1,5 +1,5 @@
 import React from 'react';
-import { Menu, Button, MenuProps } from 'eh-design';
+import { Menu, Button, MenuProps } from 'bs-design';
 import {
   AppstoreOutlined,
   MenuUnfoldOutlined,

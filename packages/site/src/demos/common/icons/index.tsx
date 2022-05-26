@@ -1,5 +1,5 @@
 import React from 'react';
-import { Space, Icon } from 'eh-design';
+import { Space, Icon } from 'bs-design';
 
 const IconDemo = (): JSX.Element => {
   return (

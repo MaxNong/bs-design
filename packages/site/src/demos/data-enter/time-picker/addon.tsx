@@ -1,5 +1,5 @@
 import React from 'react';
-import { TimePicker, Button } from 'eh-design';
+import { TimePicker, Button } from 'bs-design';
 
 class TimePickerAddonDemo extends React.Component {
   state = { open: false };

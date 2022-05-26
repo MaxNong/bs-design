@@ -15,7 +15,7 @@ Custom spacing size.
 
 ```jsx
 import React, { useState } from 'react';
-import { Space, Slider, Button } from 'ehd';
+import { Space, Slider, Button } from 'bsd';
 
 function SpaceCustomizeSize() {
   const [size, setSize] = useState(8);

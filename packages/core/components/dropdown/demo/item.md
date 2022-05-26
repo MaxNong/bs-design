@@ -14,7 +14,7 @@ title:
 Divider and disabled menu item.
 
 ```jsx
-import { Menu, Dropdown } from 'ehd';
+import { Menu, Dropdown } from 'bsd';
 import { DownOutlined } from '@ant-design/icons';
 
 const menu = (

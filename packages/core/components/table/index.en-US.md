@@ -228,8 +228,8 @@ Properties for row selection.
 ## Using in TypeScript
 
 ```tsx
-import { Table } from 'ehd';
-import { ColumnsType } from 'ehd/es/table';
+import { Table } from 'bsd';
+import { ColumnsType } from 'bsd/es/table';
 
 interface User {
   key: number;

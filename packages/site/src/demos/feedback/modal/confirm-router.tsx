@@ -1,5 +1,5 @@
 import React from 'react';
-import { Modal, Button } from 'eh-design';
+import { Modal, Button } from 'bs-design';
 import { ExclamationCircleOutlined } from '@ant-design/icons';
 
 function destroyAll() {

@@ -14,7 +14,7 @@ title:
 Simplest Usage.
 
 ```jsx
-import { Statistic, Row, Col, Button } from 'ehd';
+import { Statistic, Row, Col, Button } from 'bsd';
 
 ReactDOM.render(
   <Row gutter={16}>

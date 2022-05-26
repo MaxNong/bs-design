@@ -6,7 +6,7 @@ import {
   Statistic,
   Descriptions,
   Row,
-} from 'eh-design';
+} from 'bs-design';
 
 export default () => (
   <>

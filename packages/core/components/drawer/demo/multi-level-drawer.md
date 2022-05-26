@@ -14,7 +14,7 @@ title:
 Open a new drawer on top of an existing drawer to handle multi branch tasks.
 
 ```jsx
-import { Drawer, Button } from 'ehd';
+import { Drawer, Button } from 'bsd';
 
 class App extends React.Component {
   state = { visible: false, childrenDrawer: false };

@@ -12,7 +12,7 @@ import {
   Checkbox,
   Row,
   Col,
-} from 'eh-design';
+} from 'bs-design';
 import { UploadOutlined, InboxOutlined } from '@ant-design/icons';
 
 const { Option } = Select;

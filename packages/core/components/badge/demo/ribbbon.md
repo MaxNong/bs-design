@@ -14,7 +14,7 @@ title:
 Use ribbon badge.
 
 ```jsx
-import { Badge, Card } from 'ehd';
+import { Badge, Card } from 'bsd';
 
 ReactDOM.render(
   <>

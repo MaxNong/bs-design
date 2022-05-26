@@ -14,7 +14,7 @@ title:
 The separator can be customized by setting the separator property: `separator=">"`.
 
 ```jsx
-import { Breadcrumb } from 'ehd';
+import { Breadcrumb } from 'bsd';
 
 ReactDOM.render(
   <Breadcrumb separator=">">

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Transfer, Switch } from 'eh-design';
+import { Transfer, Switch } from 'bs-design';
 
 const mockData = [];
 for (let i = 0; i < 20; i++) {

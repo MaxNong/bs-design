@@ -1,5 +1,5 @@
 import React from 'react';
-import { Badge, Button, Switch, Divider, Avatar } from 'eh-design';
+import { Badge, Button, Switch, Divider, Avatar } from 'bs-design';
 import {
   MinusOutlined,
   PlusOutlined,

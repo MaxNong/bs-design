@@ -1,5 +1,5 @@
 import React from 'react';
-import { Tooltip } from 'eh-design';
+import { Tooltip } from 'bs-design';
 
 export default () => (
   <Tooltip title="prompt text">

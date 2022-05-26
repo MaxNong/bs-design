@@ -17,7 +17,7 @@ Table with editable rows.
 
 ```tsx
 import React, { useState } from 'react';
-import { Table, Input, InputNumber, Popconfirm, Form, Typography } from 'ehd';
+import { Table, Input, InputNumber, Popconfirm, Form, Typography } from 'bsd';
 
 interface Item {
   key: string;

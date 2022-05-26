@@ -14,7 +14,7 @@ title:
 You can customize icons for different nodes.
 
 ```jsx
-import { Tree } from 'ehd';
+import { Tree } from 'bsd';
 import {
   DownOutlined,
   FrownOutlined,

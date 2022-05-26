@@ -14,7 +14,7 @@ title:
 The arrow points to the center of the target element, which set `arrowPointAtCenter`.
 
 ```jsx
-import { Popover, Button } from 'ehd';
+import { Popover, Button } from 'bsd';
 
 const content = (
   <>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Image } from 'eh-design';
+import { Image } from 'bs-design';
 
 const App = () => (
   <Image.PreviewGroup

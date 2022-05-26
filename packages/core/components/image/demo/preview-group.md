@@ -14,7 +14,7 @@ title:
 Click the left and right switch buttons to preview multiple images.
 
 ```jsx
-import { Image } from 'ehd';
+import { Image } from 'bsd';
 
 const App = () => (
   <Image.PreviewGroup>

@@ -30,7 +30,7 @@ module.exports = {
     babelConfig.plugins.push([
       require.resolve("babel-plugin-import"),
       {
-        libraryName: "ehd-mobile",
+        libraryName: "bsd-mobile",
         libraryDirectory: "../../../../components"
       }
     ]);

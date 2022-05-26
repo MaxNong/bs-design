@@ -15,7 +15,7 @@ debug: true
 Customize selection group.
 
 ```jsx
-import { Table } from 'ehd';
+import { Table } from 'bsd';
 
 const columns = [
   {

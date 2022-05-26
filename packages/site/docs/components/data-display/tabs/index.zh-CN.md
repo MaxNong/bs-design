@@ -20,7 +20,7 @@ group:
  * desc: tabs基础使用
  */
 import React from 'react';
-import { Tabs } from 'eh-design';
+import { Tabs } from 'bs-design';
 const { TabPane } = Tabs;
 
 const TabsDemo = () => {
@@ -54,7 +54,7 @@ export default TabsDemo;
  * desc: 使用 backgroundMode：white | tint
  */
 import React from 'react';
-import { Tabs } from 'eh-design';
+import { Tabs } from 'bs-design';
 const { TabPane } = Tabs;
 
 const TabsDemo = () => {
@@ -88,7 +88,7 @@ export default TabsDemo;
  * desc: 使用 ellipse
  */
 import React from 'react';
-import { Tabs } from 'eh-design';
+import { Tabs } from 'bs-design';
 const { TabPane } = Tabs;
 
 const TabsDemo = () => {
@@ -119,7 +119,7 @@ export default TabsDemo;
  * desc: 使用 displayScene="table"指定table模式
  */
 import React from 'react';
-import { Tabs } from 'eh-design';
+import { Tabs } from 'bs-design';
 const { TabPane } = Tabs;
 
 const TabsDemo = () => {

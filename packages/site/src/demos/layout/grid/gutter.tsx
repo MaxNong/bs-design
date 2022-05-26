@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col, Divider } from 'eh-design';
+import { Row, Col, Divider } from 'bs-design';
 
 const style = { background: '#0092ff', padding: '8px 0' };
 

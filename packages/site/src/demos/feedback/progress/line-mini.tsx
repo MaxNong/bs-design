@@ -1,5 +1,5 @@
 import React from 'react';
-import { Progress } from 'eh-design';
+import { Progress } from 'bs-design';
 
 export default () => (
   <div style={{ width: 170 }}>

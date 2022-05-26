@@ -1,5 +1,5 @@
 import React from 'react';
-import { Form, Input, InputNumber, Button } from 'eh-design';
+import { Form, Input, InputNumber, Button } from 'bs-design';
 
 const layout = {
   labelCol: { span: 8 },

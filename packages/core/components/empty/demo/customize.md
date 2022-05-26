@@ -14,7 +14,7 @@ title:
 Customize image source, image size, description and extra content.
 
 ```jsx
-import { Empty, Button } from 'ehd';
+import { Empty, Button } from 'bsd';
 
 ReactDOM.render(
   <Empty

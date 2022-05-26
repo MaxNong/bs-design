@@ -26,7 +26,7 @@ import {
   Table,
   Card,
   Tabs,
-} from 'ehd';
+} from 'bsd';
 
 const { TabPane } = Tabs;
 

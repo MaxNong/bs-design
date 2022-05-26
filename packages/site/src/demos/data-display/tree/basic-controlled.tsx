@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Tree } from 'eh-design';
+import { Tree } from 'bs-design';
 
 const treeData = [
   {

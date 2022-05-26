@@ -1,5 +1,5 @@
 import React from 'react';
-import { Form, Input, Typography } from 'eh-design';
+import { Form, Input, Typography } from 'bs-design';
 
 const Demo = () => (
   <Form name="label-ellipsis" labelCol={{ span: 8 }} wrapperCol={{ span: 16 }}>

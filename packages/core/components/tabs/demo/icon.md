@@ -14,7 +14,7 @@ title:
 The Tab with Icon.
 
 ```jsx
-import { Tabs } from 'ehd';
+import { Tabs } from 'bsd';
 import { AppleOutlined, AndroidOutlined } from '@ant-design/icons';
 
 const { TabPane } = Tabs;

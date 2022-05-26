@@ -14,7 +14,7 @@ title:
 Bordered-less style component.
 
 ```jsx
-import { DatePicker, Space } from 'ehd';
+import { DatePicker, Space } from 'bsd';
 
 const { RangePicker } = DatePicker;
 

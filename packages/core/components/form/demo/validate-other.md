@@ -27,7 +27,7 @@ import {
   Checkbox,
   Row,
   Col,
-} from 'ehd';
+} from 'bsd';
 import { UploadOutlined, InboxOutlined } from '@ant-design/icons';
 
 const { Option } = Select;

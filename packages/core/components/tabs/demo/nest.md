@@ -15,7 +15,7 @@ title:
 Default activate first tab.
 
 ```jsx
-import { Tabs, Select } from 'ehd';
+import { Tabs, Select } from 'bsd';
 
 const { TabPane } = Tabs;
 const { Option } = Select;

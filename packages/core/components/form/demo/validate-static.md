@@ -33,7 +33,7 @@ import {
   InputNumber,
   Mentions,
   TreeSelect,
-} from 'ehd';
+} from 'bsd';
 
 const { Option } = Select;
 

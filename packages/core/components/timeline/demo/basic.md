@@ -14,7 +14,7 @@ title:
 Basic timeline.
 
 ```jsx
-import { Timeline } from 'ehd';
+import { Timeline } from 'bsd';
 
 ReactDOM.render(
   <Timeline>

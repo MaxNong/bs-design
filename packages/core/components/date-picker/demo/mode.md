@@ -15,7 +15,7 @@ debug: true
 Determing which panel to show with `mode` and `onPanelChange`.
 
 ```jsx
-import { DatePicker, Space } from 'ehd';
+import { DatePicker, Space } from 'bsd';
 
 const { RangePicker } = DatePicker;
 

@@ -28,7 +28,7 @@ group:
  * desc: 最简单的用法。
  */
 import React, { useState } from 'react';
-import { Affix, Button } from 'eh-design';
+import { Affix, Button } from 'bs-design';
 
 const Demo: React.FC = () => {
   const [top, setTop] = useState(10);
@@ -60,7 +60,7 @@ export default Demo;
  * desc: 可以获得是否固定的状态。
  */
 import React, { useState } from 'react';
-import { Affix, Button } from 'eh-design';
+import { Affix, Button } from 'bs-design';
 
 export default () => (
   <Affix offsetTop={120} onChange={(affixed) => console.log(affixed)}>
@@ -76,7 +76,7 @@ export default () => (
  */
 import './demo.scss';
 import React, { useState } from 'react';
-import { Affix, Button } from 'eh-design';
+import { Affix, Button } from 'bs-design';
 
 const Demo: React.FC = () => {
   const [container, setContainer] = useState<HTMLDivElement | null>(null);
@@ -107,7 +107,7 @@ export default Demo;
 
 ```jsx | pure
 import React from 'react';
-import { Affix } from 'eh-design';
+import { Affix } from 'bs-design';
 
 <Affix style={{ position: 'absolute', top: y, left: x }}>...</Affix>;
 ```

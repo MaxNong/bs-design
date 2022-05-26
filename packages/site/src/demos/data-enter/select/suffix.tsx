@@ -1,5 +1,5 @@
 import React from 'react';
-import { Select } from 'eh-design';
+import { Select } from 'bs-design';
 import { SmileOutlined, MehOutlined } from '@ant-design/icons';
 
 const smileIcon = <SmileOutlined />;

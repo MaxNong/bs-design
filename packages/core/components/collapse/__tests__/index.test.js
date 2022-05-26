@@ -8,7 +8,7 @@ describe('Collapse', () => {
   // eslint-disable-next-line global-require
   const Collapse = require('..').default;
 
-  const errorSpy = jest.spyOn(console, 'error').mockImplementation(() => {});
+  const errorSpy = jest.spyOn(console, 'error').mockImplementation(() => { });
 
   afterEach(() => {
     errorSpy.mockReset();
@@ -92,7 +92,7 @@ describe('Collapse', () => {
     );
 
     expect(errorSpy).toHaveBeenCalledWith(
-      'Warning: [ehd: Collapse.Panel] `disabled` is deprecated. Please use `collapsible="disabled"` instead.',
+      'Warning: [bsd: Collapse.Panel] `disabled` is deprecated. Please use `collapsible="disabled"` instead.',
     );
 
     expect(wrapper.find('.ant-collapse-header-text').exists()).toBeFalsy();

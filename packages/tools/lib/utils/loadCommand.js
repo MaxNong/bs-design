@@ -10,7 +10,7 @@ module.exports = function loadCommand(commandName, moduleName) {
   } catch (err) {
     if (isNotFoundError(err)) {
       console.log();
-      console.log(`Command ${chalk.red(`@eh-design/tools ${commandName}`)} run error \n` + err);
+      console.log(`Command ${chalk.red(`@bs-design/tools ${commandName}`)} run error \n` + err);
       console.log();
       process.exit(1);
     } else {

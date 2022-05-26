@@ -15,7 +15,7 @@ debug: true
 Use `style` to change default style.
 
 ```jsx
-import { Divider } from 'ehd';
+import { Divider } from 'bsd';
 
 ReactDOM.render(
   <>

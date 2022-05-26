@@ -14,7 +14,7 @@ title:
 Search the options with sorting.
 
 ```jsx
-import { Select } from 'ehd';
+import { Select } from 'bsd';
 
 const { Option } = Select;
 

@@ -14,7 +14,7 @@ title:
 Transfer with a search box.
 
 ```jsx
-import { Transfer } from 'ehd';
+import { Transfer } from 'bsd';
 
 class App extends React.Component {
   state = {

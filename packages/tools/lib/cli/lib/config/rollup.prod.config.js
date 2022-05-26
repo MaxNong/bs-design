@@ -23,7 +23,7 @@ module.exports = {
     external: ["react"]
   },
   outputOptions: {
-    file: "lib/eh-design.es.js",
+    file: "lib/bs-design.es.js",
     format: "es",
     plugins: [
       getBabelOutputPlugin({

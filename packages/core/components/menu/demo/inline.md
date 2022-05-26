@@ -14,7 +14,7 @@ title:
 Vertical menu with inline submenus.
 
 ```jsx
-import { Menu } from 'ehd';
+import { Menu } from 'bsd';
 import { AppstoreOutlined, MailOutlined, SettingOutlined } from '@ant-design/icons';
 
 const { SubMenu } = Menu;

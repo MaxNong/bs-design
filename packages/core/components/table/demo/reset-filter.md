@@ -22,7 +22,7 @@ Control filters and sorters by `filteredValue` and `sortOrder`.
 > 3. `column.key` is required.
 
 ```jsx
-import { Table, Button, Space } from 'ehd';
+import { Table, Button, Space } from 'bsd';
 
 const data = [
   {

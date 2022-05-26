@@ -1,7 +1,7 @@
 /* eslint no-param-reassign: 0 */
 // This config is for building dist files
 const chalk = require('chalk');
-const getWebpackConfig = require('@eh-design/tools/lib/run-handler/getWebpackConfig');
+const getWebpackConfig = require('@bs-design/tools/lib/run-handler/getWebpackConfig');
 const RemovePlugin = require('remove-files-webpack-plugin');
 // const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
 const { ESBuildMinifyPlugin } = require('esbuild-loader');
@@ -43,8 +43,8 @@ function ignoreMomentLocale(webpackConfig) {
 }
 
 function addLocales(webpackConfig) {
-  let packageName = 'eh-design-with-locales';
-  if (webpackConfig.entry['eh-design.min']) {
+  let packageName = 'bs-design-with-locales';
+  if (webpackConfig.entry['bs-design.min']) {
     packageName += '.min';
   }
   webpackConfig.entry[packageName] = './index-with-locales.js';
@@ -96,7 +96,7 @@ function processWebpackThemeConfig(themeConfig, theme, vars) {
         console.log(chalk.red('🆘 Seems entry has changed! It should be `./index`'));
       }
 
-      config.entry[entryName.replace('eh-design', `eh-design.${theme}`)] = replacedPath;
+      config.entry[entryName.replace('bs-design', `bs-design.${theme}`)] = replacedPath;
       delete config.entry[entryName];
     });
 
@@ -109,10 +109,10 @@ function processWebpackThemeConfig(themeConfig, theme, vars) {
         after: {
           root: './dist',
           include: [
-            `eh-design.${theme}.js`,
-            `eh-design.${theme}.js.map`,
-            `eh-design.${theme}.min.js`,
-            `eh-design.${theme}.min.js.map`,
+            `bs-design.${theme}.js`,
+            `bs-design.${theme}.js.map`,
+            `bs-design.${theme}.min.js`,
+            `bs-design.${theme}.min.js.map`,
           ],
           log: false,
           logWarning: false,

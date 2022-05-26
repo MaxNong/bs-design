@@ -1,5 +1,5 @@
 import React from 'react';
-import { Comment, Avatar } from 'eh-design';
+import { Comment, Avatar } from 'bs-design';
 
 const ExampleComment = ({ children }) => (
   <Comment

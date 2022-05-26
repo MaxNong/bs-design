@@ -14,7 +14,7 @@ title:
 Customize the dropdown menu via `dropdownRender`.
 
 ```jsx
-import { Cascader, Divider } from 'ehd';
+import { Cascader, Divider } from 'bsd';
 
 const options = [
   {

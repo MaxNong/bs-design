@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { List, message, Avatar } from 'eh-design';
+import { List, message, Avatar } from 'bs-design';
 import VirtualList from 'rc-virtual-list';
 
 const fakeDataUrl =

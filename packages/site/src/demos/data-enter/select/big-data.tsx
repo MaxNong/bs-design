@@ -1,5 +1,5 @@
 import React from 'react';
-import { Select, Typography, Divider } from 'eh-design';
+import { Select, Typography, Divider } from 'bs-design';
 
 const { Title } = Typography;
 

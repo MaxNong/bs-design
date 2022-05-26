@@ -1,5 +1,5 @@
 import React from 'react';
-import { Checkbox, Radio, Space } from 'eh-design';
+import { Checkbox, Radio, Space } from 'bs-design';
 
 const sharedStyle: React.CSSProperties = {
   border: '1px solid red',

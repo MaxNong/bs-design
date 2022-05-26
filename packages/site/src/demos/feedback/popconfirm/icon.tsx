@@ -1,5 +1,5 @@
 import React from 'react';
-import { Popconfirm } from 'eh-design';
+import { Popconfirm } from 'bs-design';
 import { QuestionCircleOutlined } from '@ant-design/icons';
 
 export default () => (

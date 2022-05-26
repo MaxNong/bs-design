@@ -14,7 +14,7 @@ title:
 The menu has multiple levels.
 
 ```jsx
-import { Menu, Dropdown } from 'ehd';
+import { Menu, Dropdown } from 'bsd';
 import { DownOutlined } from '@ant-design/icons';
 
 const { SubMenu } = Menu;

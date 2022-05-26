@@ -1,5 +1,5 @@
 import React from 'react';
-import { Statistic, Row, Col } from 'eh-design';
+import { Statistic, Row, Col } from 'bs-design';
 import { LikeOutlined } from '@ant-design/icons';
 
 export default () => (

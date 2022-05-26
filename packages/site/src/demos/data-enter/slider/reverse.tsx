@@ -1,5 +1,5 @@
 import React from 'react';
-import { Slider, Switch } from 'eh-design';
+import { Slider, Switch } from 'bs-design';
 
 class Demo extends React.Component {
   state = {

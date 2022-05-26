@@ -14,7 +14,7 @@ title:
 The style and className are available to customize Notification.
 
 ```jsx
-import { Button, notification } from 'ehd';
+import { Button, notification } from 'bsd';
 
 const openNotification = () => {
   notification.open({

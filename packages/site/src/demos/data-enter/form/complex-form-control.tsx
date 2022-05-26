@@ -7,7 +7,7 @@ import {
   Button,
   Space,
   Typography,
-} from 'eh-design';
+} from 'bs-design';
 
 const { Option } = Select;
 

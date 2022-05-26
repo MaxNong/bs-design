@@ -41,8 +41,8 @@ const { spawn } = require('child_process');
     // Replace mountNode
     script = script.replace('mountNode', `document.getElementById('#root')`);
 
-    // Replace ehd
-    script = script.replace(`from 'ehd'`, `from '..'`);
+    // Replace bsd
+    script = script.replace(`from 'bsd'`, `from '..'`);
 
     // Add path
     script = `/* eslint-disabled */\n// ${demoPath}\n${script}`;

@@ -1,6 +1,6 @@
 import React from 'react';
-import { Form, Input, Button, Select } from 'eh-design';
-import { FormInstance } from 'eh-design/es/form';
+import { Form, Input, Button, Select } from 'bs-design';
+import { FormInstance } from 'bs-design/es/form';
 
 const { Option } = Select;
 

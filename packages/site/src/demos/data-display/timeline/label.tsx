@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Timeline, Radio } from 'eh-design';
+import { Timeline, Radio } from 'bs-design';
 
 function TimelimeLabelDemo() {
   const [mode, setMode] = useState('left');

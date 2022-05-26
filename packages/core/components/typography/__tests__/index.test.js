@@ -29,7 +29,7 @@ describe('Typography', () => {
   rtlTest(Link);
 
   const LINE_STR_COUNT = 20;
-  const errorSpy = jest.spyOn(console, 'error').mockImplementation(() => {});
+  const errorSpy = jest.spyOn(console, 'error').mockImplementation(() => { });
 
   // Mock offsetHeight
   const originOffsetHeight = Object.getOwnPropertyDescriptor(
@@ -82,7 +82,7 @@ describe('Typography', () => {
       mount(<Title level={false} />);
 
       expect(errorSpy).toHaveBeenCalledWith(
-        'Warning: [ehd: Typography.Title] Title only accept `1 | 2 | 3 | 4 | 5` as `level` value. And `5` need 4.6.0+ version.',
+        'Warning: [bsd: Typography.Title] Title only accept `1 | 2 | 3 | 4 | 5` as `level` value. And `5` need 4.6.0+ version.',
       );
     });
   });
@@ -389,10 +389,10 @@ describe('Typography', () => {
   });
 
   it('warning if use setContentRef', () => {
-    const refFunc = () => {};
+    const refFunc = () => { };
     mount(<Typography setContentRef={refFunc} />);
     expect(errorSpy).toHaveBeenCalledWith(
-      'Warning: [ehd: Typography] `setContentRef` is deprecated. Please use `ref` instead.',
+      'Warning: [bsd: Typography] `setContentRef` is deprecated. Please use `ref` instead.',
     );
   });
 

@@ -1,6 +1,6 @@
 // import React from "react";
 // import ReactDOM from "react-dom";
-// import { Cascader } from "eh-design";
+// import { Cascader } from "bs-design";
 
 // const { SHOW_CHILD } = Cascader;
 

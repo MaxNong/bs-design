@@ -14,7 +14,7 @@ title:
 Customize the background, border, margin styles and icon for each panel.
 
 ```jsx
-import { Collapse } from 'ehd';
+import { Collapse } from 'bsd';
 import { CaretRightOutlined } from '@ant-design/icons';
 
 const { Panel } = Collapse;

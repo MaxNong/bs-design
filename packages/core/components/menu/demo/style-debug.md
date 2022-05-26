@@ -16,7 +16,7 @@ buggy!
 
 ```tsx
 import * as React from 'react';
-import { Menu, MenuProps, Switch } from 'ehd';
+import { Menu, MenuProps, Switch } from 'bsd';
 import { MailOutlined, AppstoreOutlined } from '@ant-design/icons';
 
 const { SubMenu } = Menu;

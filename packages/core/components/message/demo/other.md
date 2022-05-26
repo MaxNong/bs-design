@@ -14,7 +14,7 @@ title:
 Messages of success, error and warning types.
 
 ```jsx
-import { message, Button, Space } from 'ehd';
+import { message, Button, Space } from 'bsd';
 
 const success = () => {
   message.success('This is a success message');

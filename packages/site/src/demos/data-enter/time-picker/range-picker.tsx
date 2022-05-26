@@ -1,4 +1,4 @@
 import React from 'react';
-import { TimePicker } from 'eh-design';
+import { TimePicker } from 'bs-design';
 
 export default () => <TimePicker.RangePicker />;

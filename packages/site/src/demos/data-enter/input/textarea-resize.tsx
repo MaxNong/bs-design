@@ -1,5 +1,5 @@
 import React from 'react';
-import { Input, Button } from 'eh-design';
+import { Input, Button } from 'bs-design';
 
 const { TextArea } = Input;
 

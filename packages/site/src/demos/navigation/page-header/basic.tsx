@@ -1,5 +1,5 @@
 import React from 'react';
-import { PageHeader } from 'eh-design';
+import { PageHeader } from 'bs-design';
 
 export default () => (
   <PageHeader

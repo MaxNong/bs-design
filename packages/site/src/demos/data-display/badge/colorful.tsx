@@ -1,5 +1,5 @@
 import React from 'react';
-import { Badge, Divider } from 'eh-design';
+import { Badge, Divider } from 'bs-design';
 
 const colors = [
   'pink',

@@ -10,7 +10,7 @@ import {
   InputNumber,
   Mentions,
   TreeSelect,
-} from 'eh-design';
+} from 'bs-design';
 
 const { Option } = Select;
 

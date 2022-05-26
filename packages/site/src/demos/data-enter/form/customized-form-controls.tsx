@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Form, Input, Select, Button } from 'eh-design';
+import { Form, Input, Select, Button } from 'bs-design';
 
 const { Option } = Select;
 

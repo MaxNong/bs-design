@@ -1,5 +1,5 @@
 import React from 'react';
-import { Descriptions, Badge } from 'eh-design';
+import { Descriptions, Badge } from 'bs-design';
 
 export default () => (
   <Descriptions title="User Info" layout="vertical" bordered>

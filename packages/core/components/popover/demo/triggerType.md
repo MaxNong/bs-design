@@ -14,7 +14,7 @@ title:
 Mouse to click, focus and move in.
 
 ```jsx
-import { Popover, Button } from 'ehd';
+import { Popover, Button } from 'bsd';
 
 const content = (
   <div>

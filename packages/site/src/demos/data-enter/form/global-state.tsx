@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Form, Input } from 'eh-design';
+import { Form, Input } from 'bs-design';
 
 interface FieldData {
   name: string | number | (string | number)[];

@@ -14,7 +14,7 @@ title:
 Change `pageSize`.
 
 ```jsx
-import { Pagination } from 'ehd';
+import { Pagination } from 'bsd';
 
 function onShowSizeChange(current, pageSize) {
   console.log(current, pageSize);

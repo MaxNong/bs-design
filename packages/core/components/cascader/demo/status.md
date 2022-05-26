@@ -15,7 +15,7 @@ title:
 Add status to Cascader with `status`, which could be `error` or `warning`.
 
 ```tsx
-import { Cascader, Space } from 'ehd';
+import { Cascader, Space } from 'bsd';
 
 const Validation: React.FC = () => (
   <Space direction="vertical">

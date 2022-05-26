@@ -1,5 +1,5 @@
 // import React, { useState } from "react";
-// import { Upload } from "eh-design";
+// import { Upload } from "bs-design";
 // import ImgCrop from "antd-img-crop";
 
 // const Demo = () => {

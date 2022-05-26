@@ -28,7 +28,7 @@ group:
  * desc: 最简单的用法。
  */
 import React from 'react';
-import { Breadcrumb } from 'eh-design';
+import { Breadcrumb } from 'bs-design';
 
 export default () => (
   <Breadcrumb>

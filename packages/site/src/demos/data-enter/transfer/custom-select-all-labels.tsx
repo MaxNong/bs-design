@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Transfer } from 'eh-design';
+import { Transfer } from 'bs-design';
 
 const mockData = [];
 for (let i = 0; i < 10; i++) {

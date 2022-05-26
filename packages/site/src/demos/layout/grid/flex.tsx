@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col, Divider } from 'eh-design';
+import { Row, Col, Divider } from 'bs-design';
 
 export default () => (
   <>

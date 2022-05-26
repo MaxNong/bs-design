@@ -14,7 +14,7 @@ title:
 With text and icon.
 
 ```jsx
-import { Switch } from 'ehd';
+import { Switch } from 'bsd';
 import { CloseOutlined, CheckOutlined } from '@ant-design/icons';
 
 ReactDOM.render(

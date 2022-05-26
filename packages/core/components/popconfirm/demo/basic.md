@@ -14,7 +14,7 @@ title:
 The basic example.
 
 ```jsx
-import { Popconfirm, message } from 'ehd';
+import { Popconfirm, message } from 'bsd';
 
 function confirm(e) {
   console.log(e);

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Input, AutoComplete } from 'eh-design';
+import { Input, AutoComplete } from 'bs-design';
 import { UserOutlined } from '@ant-design/icons';
 
 const renderTitle = (title: string) => (

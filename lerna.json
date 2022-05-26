@@ -1,10 +1,10 @@
 {
-  "version": "1.0.0",
+  "version": "independent",
   "npmClient": "yarn",
   "command": {
     "publish": {
       "ignoreChanges": ["ignored-file", "*.md"],
-      "registry": ""
+      "registry": "https://registry.npmjs.org"
     },
     "bootstrap": {
       "npmClientArgs": [ "--no-package-lock" ]
@@ -12,6 +12,6 @@
   },
   "useWorkspaces": true,
   "packages": [
-    "packages/*"
+    "packages/core/*"
   ]
 }

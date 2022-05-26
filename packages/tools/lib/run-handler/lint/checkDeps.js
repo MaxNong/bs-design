@@ -108,7 +108,7 @@ function getModules(filePath, globConfig, debugAST) {
     debug("IgnoreList:", ignoreList);
   }
 
-  // Since import is always on the top in ehd,
+  // Since import is always on the top in bsd,
   // we can check variable declaration directly!
   if (Array.isArray(astBody)) {
     astBody.forEach((node) => {

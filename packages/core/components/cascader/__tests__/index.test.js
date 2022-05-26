@@ -300,7 +300,7 @@ describe('Cascader', () => {
   });
 
   describe('limit filtered item count', () => {
-    const errorSpy = jest.spyOn(console, 'error').mockImplementation(() => {});
+    const errorSpy = jest.spyOn(console, 'error').mockImplementation(() => { });
 
     afterAll(() => {
       errorSpy.mockRestore();
@@ -329,10 +329,10 @@ describe('Cascader', () => {
   // FIXME: Move to `rc-tree-select` instead
   // eslint-disable-next-line jest/no-disabled-tests
   it.skip('should warning if not find `value` in `options`', () => {
-    const errorSpy = jest.spyOn(console, 'error').mockImplementation(() => {});
+    const errorSpy = jest.spyOn(console, 'error').mockImplementation(() => { });
     mount(<Cascader options={[{ label: 'a', value: 'a', children: [{ label: 'b' }] }]} />);
     expect(errorSpy).toHaveBeenCalledWith(
-      'Warning: [ehd: Cascader] Not found `value` in `options`.',
+      'Warning: [bsd: Cascader] Not found `value` in `options`.',
     );
     errorSpy.mockRestore();
   });
@@ -500,7 +500,7 @@ describe('Cascader', () => {
 
   describe('legacy props', () => {
     it('popupClassName', () => {
-      const errorSpy = jest.spyOn(console, 'error').mockImplementation(() => {});
+      const errorSpy = jest.spyOn(console, 'error').mockImplementation(() => { });
       const wrapper = mount(
         <Cascader open popupPlacement="bottomLeft" popupClassName="mock-cls" />,
       );
@@ -509,18 +509,18 @@ describe('Cascader', () => {
       expect(wrapper.find('Trigger').prop('popupPlacement')).toEqual('bottomLeft');
 
       expect(errorSpy).toHaveBeenCalledWith(
-        'Warning: [ehd: Cascader] `popupClassName` is deprecated. Please use `dropdownClassName` instead.',
+        'Warning: [bsd: Cascader] `popupClassName` is deprecated. Please use `dropdownClassName` instead.',
       );
 
       errorSpy.mockRestore();
     });
 
     it('displayRender & multiple', () => {
-      const errorSpy = jest.spyOn(console, 'error').mockImplementation(() => {});
+      const errorSpy = jest.spyOn(console, 'error').mockImplementation(() => { });
       mount(<Cascader multiple displayRender={() => null} />);
 
       expect(errorSpy).toHaveBeenCalledWith(
-        'Warning: [ehd: Cascader] `displayRender` not work on `multiple`. Please use `tagRender` instead.',
+        'Warning: [bsd: Cascader] `displayRender` not work on `multiple`. Please use `tagRender` instead.',
       );
 
       errorSpy.mockRestore();

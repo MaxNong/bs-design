@@ -1,5 +1,5 @@
 import React from 'react';
-import { Form, Input, Button, Checkbox } from 'eh-design';
+import { Form, Input, Button, Checkbox } from 'bs-design';
 import { UserOutlined, LockOutlined } from '@ant-design/icons';
 
 const NormalLoginForm = () => {

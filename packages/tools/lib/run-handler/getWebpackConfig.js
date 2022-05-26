@@ -41,13 +41,13 @@ function getWebpackConfig(modules) {
   ]);
 
   // Other package
-  if (pkg.name !== "eh-design") {
+  if (pkg.name !== "bs-design") {
     babelConfig.plugins.push([
       resolve("babel-plugin-import"),
       {
         style: "css",
         libraryDirectory: "es",
-        libraryName: "eh-design"
+        libraryName: "bs-design"
       },
       "other-package-babel-plugin-import"
     ]);

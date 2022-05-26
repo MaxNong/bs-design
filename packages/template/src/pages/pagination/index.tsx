@@ -1,6 +1,6 @@
-import Pagination from "eh-design/components/pagination/index";
+import Pagination from "bs-design/components/pagination/index";
 
-import "eh-design/components/pagination/style/index";
+import "bs-design/components/pagination/style/index";
 
 function showTotal(total: number) {
   return `Total ${total} items`;

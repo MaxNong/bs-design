@@ -14,7 +14,7 @@ title:
 The icon should be placed in front of the text.
 
 ```jsx
-import { Breadcrumb } from 'ehd';
+import { Breadcrumb } from 'bsd';
 import { HomeOutlined, UserOutlined } from '@ant-design/icons';
 
 ReactDOM.render(

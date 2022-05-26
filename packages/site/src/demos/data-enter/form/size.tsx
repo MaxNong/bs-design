@@ -10,7 +10,7 @@ import {
   InputNumber,
   TreeSelect,
   Switch,
-} from 'eh-design';
+} from 'bs-design';
 
 type SizeType = Parameters<typeof Form>[0]['size'];
 

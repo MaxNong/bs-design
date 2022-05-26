@@ -15,7 +15,7 @@ debug: true
 Steps with progress dot style.
 
 ```jsx
-import { Steps, Divider } from 'ehd';
+import { Steps, Divider } from 'bsd';
 
 const { Step } = Steps;
 

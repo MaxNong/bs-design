@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { List, message, Avatar, Skeleton, Divider } from 'eh-design';
+import { List, message, Avatar, Skeleton, Divider } from 'bs-design';
 import InfiniteScroll from 'react-infinite-scroll-component';
 
 const InfiniteListExample = () => {

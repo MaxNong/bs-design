@@ -14,7 +14,7 @@ title:
 add suffix ellipsis support.
 
 ```jsx
-import { Typography, Slider } from 'ehd';
+import { Typography, Slider } from 'bsd';
 
 const { Paragraph } = Typography;
 

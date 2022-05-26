@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Button, Modal, Form, Input, Radio } from 'eh-design';
+import { Button, Modal, Form, Input, Radio } from 'bs-design';
 
 interface Values {
   title: string;

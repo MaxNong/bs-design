@@ -14,7 +14,7 @@ title:
 Support 6 placements.
 
 ```jsx
-import { Menu, Dropdown, Button, Space } from 'ehd';
+import { Menu, Dropdown, Button, Space } from 'bsd';
 
 const menu = (
   <Menu>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Spin, Alert } from 'eh-design';
+import { Spin, Alert } from 'bs-design';
 
 export default () => (
   <Spin tip="Loading...">

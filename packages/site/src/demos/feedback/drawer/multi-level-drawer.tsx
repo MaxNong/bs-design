@@ -1,5 +1,5 @@
 import React from 'react';
-import { Drawer, Button } from 'eh-design';
+import { Drawer, Button } from 'bs-design';
 
 class App extends React.Component {
   state = { visible: false, childrenDrawer: false };

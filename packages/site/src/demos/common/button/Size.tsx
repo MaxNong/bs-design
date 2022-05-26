@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Space } from 'eh-design';
+import { Button, Space } from 'bs-design';
 
 const ButtonDemo = (): JSX.Element => {
   return (

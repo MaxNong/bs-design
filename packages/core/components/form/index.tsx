@@ -30,7 +30,7 @@ Form.create = () => {
   devWarning(
     false,
     'Form',
-    'ehd v4 removed `Form.create`. Please remove or use `@ant-design/compatible` instead.',
+    'bsd v4 removed `Form.create`. Please remove or use `@ant-design/compatible` instead.',
   );
 };
 

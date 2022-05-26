@@ -14,7 +14,7 @@ title:
 You can manually specify the position of the popup via `placement`.
 
 ```jsx
-import { DatePicker, Space, Radio } from 'ehd';
+import { DatePicker, Space, Radio } from 'bsd';
 
 const { RangePicker } = DatePicker;
 

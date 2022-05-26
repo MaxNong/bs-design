@@ -14,7 +14,7 @@ title:
 A loading indicator can be added to a button by setting the `loading` property on the `Dropdown.Button`.
 
 ```jsx
-import { Menu, Dropdown, Space } from 'ehd';
+import { Menu, Dropdown, Space } from 'bsd';
 import { DownOutlined } from '@ant-design/icons';
 
 const menu = (

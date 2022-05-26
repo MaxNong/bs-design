@@ -1,5 +1,5 @@
 import React, { useContext, useState, useEffect, useRef } from 'react';
-import { Table, Input, Button, Popconfirm, Form, InputRef } from 'eh-design';
+import { Table, Input, Button, Popconfirm, Form, InputRef } from 'bs-design';
 import { FormInstance } from 'antd/lib/form';
 
 const EditableContext = React.createContext<FormInstance<any> | null>(null);

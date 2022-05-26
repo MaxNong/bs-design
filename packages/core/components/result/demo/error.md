@@ -14,7 +14,7 @@ title:
 Complex error feedback.
 
 ```jsx
-import { Result, Button, Typography } from 'ehd';
+import { Result, Button, Typography } from 'bsd';
 import { CloseCircleOutlined } from '@ant-design/icons';
 
 const { Paragraph, Text } = Typography;

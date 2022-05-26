@@ -1,5 +1,5 @@
 import React from 'react';
-import { List, Card } from 'eh-design';
+import { List, Card } from 'bs-design';
 
 const data = [
   {

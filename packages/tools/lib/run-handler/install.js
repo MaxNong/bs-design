@@ -7,7 +7,7 @@ module.exports = function (done) {
   getNpm((npm) => {
     console.log(`${npm} installing`);
     runCmd(npm, ["install"], (c) => {
-      console.log(`${npm} install ehd`);
+      console.log(`${npm} install bsd`);
       done(c);
     });
   });

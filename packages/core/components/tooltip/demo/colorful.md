@@ -14,7 +14,7 @@ title:
 We preset a series of colorful Tooltip styles for use in different situations.
 
 ```jsx
-import { Tooltip, Button, Divider } from 'ehd';
+import { Tooltip, Button, Divider } from 'bsd';
 
 const colors = [
   'pink',

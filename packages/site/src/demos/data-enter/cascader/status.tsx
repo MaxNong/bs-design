@@ -1,5 +1,5 @@
 import React from 'react';
-import { Cascader, Space } from 'eh-design';
+import { Cascader, Space } from 'bs-design';
 
 const Validation: React.FC = () => (
   <Space direction="vertical">

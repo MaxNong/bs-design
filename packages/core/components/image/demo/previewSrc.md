@@ -15,7 +15,7 @@ You can set different preview image.
 
 ```jsx
 import React from 'react';
-import { Image } from 'ehd';
+import { Image } from 'bsd';
 
 function ImageDemo() {
   return (

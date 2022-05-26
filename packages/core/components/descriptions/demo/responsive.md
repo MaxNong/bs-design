@@ -14,7 +14,7 @@ title:
 Responsive configuration enables perfect presentation on small screen devices.
 
 ```jsx
-import { Descriptions } from 'ehd';
+import { Descriptions } from 'bsd';
 
 const Demo = () => (
   <div>

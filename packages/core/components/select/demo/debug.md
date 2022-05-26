@@ -15,7 +15,7 @@ debug: true
 Basic Usage.
 
 ```jsx
-import { Select, Input, Button } from 'ehd';
+import { Select, Input, Button } from 'bsd';
 
 const { Option } = Select;
 

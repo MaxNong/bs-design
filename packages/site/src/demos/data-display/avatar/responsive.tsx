@@ -1,5 +1,5 @@
 import React from 'react';
-import { Avatar } from 'eh-design';
+import { Avatar } from 'bs-design';
 import { AntDesignOutlined } from '@ant-design/icons';
 
 export default () => (

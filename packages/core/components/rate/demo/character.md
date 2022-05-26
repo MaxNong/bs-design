@@ -14,7 +14,7 @@ title:
 Replace the default star to other character like alphabet, digit, iconfont or even Chinese word.
 
 ```jsx
-import { Rate } from 'ehd';
+import { Rate } from 'bsd';
 import { HeartOutlined } from '@ant-design/icons';
 
 ReactDOM.render(

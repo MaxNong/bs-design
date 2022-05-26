@@ -14,7 +14,7 @@ title:
 A group of radio components.
 
 ```jsx
-import { Radio } from 'ehd';
+import { Radio } from 'bsd';
 
 const App = () => {
   const [value, setValue] = React.useState(1);

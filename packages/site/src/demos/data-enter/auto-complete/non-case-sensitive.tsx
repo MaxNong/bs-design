@@ -1,5 +1,5 @@
 import React from 'react';
-import { AutoComplete } from 'eh-design';
+import { AutoComplete } from 'bs-design';
 
 const options = [
   { value: 'Burns Bay Road' },

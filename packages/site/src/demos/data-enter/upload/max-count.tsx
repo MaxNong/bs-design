@@ -1,5 +1,5 @@
 import React from 'react';
-import { Upload, Button, Space } from 'eh-design';
+import { Upload, Button, Space } from 'bs-design';
 import { UploadOutlined } from '@ant-design/icons';
 
 export default () => (

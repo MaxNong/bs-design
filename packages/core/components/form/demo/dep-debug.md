@@ -15,7 +15,7 @@ Buggy!
 Buggy!
 
 ```tsx
-import { Form, Input } from 'ehd';
+import { Form, Input } from 'bsd';
 
 let acc = 0;
 

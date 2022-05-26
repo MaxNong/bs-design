@@ -14,7 +14,7 @@ title:
 In accordion mode, only one panel can be expanded at a time.
 
 ```jsx
-import { Collapse } from 'ehd';
+import { Collapse } from 'bsd';
 
 const { Panel } = Collapse;
 

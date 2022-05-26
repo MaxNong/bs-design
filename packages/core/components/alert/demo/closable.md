@@ -14,7 +14,7 @@ title:
 To show close button.
 
 ```tsx
-import { Alert } from 'ehd';
+import { Alert } from 'bsd';
 
 const onClose = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
   console.log(e, 'I was closed.');

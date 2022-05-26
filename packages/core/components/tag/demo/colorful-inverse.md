@@ -15,7 +15,7 @@ debug: true
 Internal inverse color tag
 
 ```jsx
-import { Tag, Divider } from 'ehd';
+import { Tag, Divider } from 'bsd';
 
 ReactDOM.render(
   <>

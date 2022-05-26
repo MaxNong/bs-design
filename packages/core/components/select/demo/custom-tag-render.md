@@ -14,7 +14,7 @@ title:
 Allows for custom rendering of tags.
 
 ```jsx
-import { Select, Tag } from 'ehd';
+import { Select, Tag } from 'bsd';
 
 const options = [{ value: 'gold' }, { value: 'lime' }, { value: 'green' }, { value: 'cyan' }];
 

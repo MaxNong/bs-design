@@ -14,7 +14,7 @@ title:
 No border.
 
 ```jsx
-import { InputNumber } from 'ehd';
+import { InputNumber } from 'bsd';
 
 ReactDOM.render(<InputNumber min={1} max={10} defaultValue={3} bordered={false} />, mountNode);
 ```

@@ -14,7 +14,7 @@ cover: https://gw.alipayobjects.com/zos/alicdn/kegYxl1wj/ConfigProvider.svg
 ConfigProvider 使用 React 的 [context](https://facebook.github.io/react/docs/context.html) 特性，只需在应用外围包裹一次即可全局生效。
 
 ```jsx
-import { ConfigProvider } from 'ehd';
+import { ConfigProvider } from 'bsd';
 
 // ...
 
@@ -40,7 +40,7 @@ export default () => (
 | 参数 | 说明 | 类型 | 默认值 | 版本 |
 | --- | --- | --- | --- | --- |
 | autoInsertSpaceInButton | 设置为 `false` 时，移除按钮中 2 个汉字之间的空格 | boolean | true |  |
-| componentSize | 设置 ehd 组件大小 | `small` \| `middle` \| `large` | - |  |
+| componentSize | 设置 bsd 组件大小 | `small` \| `middle` \| `large` | - |  |
 | csp | 设置 [Content Security Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP) 配置 | { nonce: string } | - |  |
 | direction | 设置文本展示方向。 [示例](#components-config-provider-demo-direction) | `ltr` \| `rtl` | `ltr` |  |
 | dropdownMatchSelectWidth | 下拉菜单和选择器同宽。默认将设置 `min-width`，当值小于选择框宽度时会被忽略。`false` 时会关闭虚拟滚动 | boolean \| number | - | 4.3.0 |
@@ -49,7 +49,7 @@ export default () => (
 | getTargetContainer | 配置 Affix、Anchor 滚动监听容器。 | () => HTMLElement | () => window | 4.2.0 |
 | iconPrefixCls | 设置图标统一样式前缀。注意：需要配合 `less` 变量 [@iconfont-css-prefix](https://github.com/ant-design/ant-design/blob/d943b85a523bdf181dabc12c928226f3b4b893de/components/style/themes/default.less#L106) 使用 | string | `anticon` | 4.11.0 |
 | input | 设置 Input 组件的通用属性 | { autoComplete?: string } | - | 4.2.0 |
-| locale | 语言包配置，语言包可到 [ehd/lib/locale](http://unpkg.com/ehd/lib/locale/) 目录下寻找 | object | - |  |
+| locale | 语言包配置，语言包可到 [bsd/lib/locale](http://unpkg.com/bsd/lib/locale/) 目录下寻找 | object | - |  |
 | pageHeader | 统一设置 PageHeader 的 ghost，参考 [PageHeader](/components/page-header) | { ghost: boolean } | true |  |
 | prefixCls | 设置统一样式前缀。注意：需要配合 `less` 变量 [@ant-prefix](https://github.com/ant-design/ant-design/blob/2c6c789e3a9356f96c47aea0083f5a15538315cf/components/style/themes/default.less#L7) 使用 | string | `ant` |  |
 | renderEmpty | 自定义组件空状态。参考 [空状态](/components/empty/) | function(componentName: string): ReactNode | - |  |
@@ -86,7 +86,7 @@ moment.locale('zh-cn');
 
 相关 issue：<https://github.com/ant-design/ant-design/issues/19974>
 
-当如下全局设置 `getPopupContainer` 为触发节点的 parentNode 时，由于 Modal 的用法不存在 `triggerNode`，这样会导致 `triggerNode is undefined` 的报错，需要增加一个[判断条件](https://github.com/afc163/feedback-ehd/commit/3e4d1ad1bc1a38460dc3bf3c56517f737fe7d44a)。
+当如下全局设置 `getPopupContainer` 为触发节点的 parentNode 时，由于 Modal 的用法不存在 `triggerNode`，这样会导致 `triggerNode is undefined` 的报错，需要增加一个[判断条件](https://github.com/afc163/feedback-bsd/commit/3e4d1ad1bc1a38460dc3bf3c56517f737fe7d44a)。
 
 ```diff
  <ConfigProvider

@@ -14,7 +14,7 @@ title:
 You can select and upload a whole directory.
 
 ```jsx
-import { Upload, Button } from 'ehd';
+import { Upload, Button } from 'bsd';
 import { UploadOutlined } from '@ant-design/icons';
 
 ReactDOM.render(

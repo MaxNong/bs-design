@@ -1,5 +1,5 @@
 import React from 'react';
-import { PageHeader, Tabs, Button, Statistic, Descriptions } from 'eh-design';
+import { PageHeader, Tabs, Button, Statistic, Descriptions } from 'bs-design';
 
 const { TabPane } = Tabs;
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Slider } from 'eh-design';
+import { Slider } from 'bs-design';
 
 const marks = {
   0: '0°C',

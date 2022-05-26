@@ -15,7 +15,7 @@ Preview a collection from one image.
 
 ```jsx
 import React, { useState } from 'react';
-import { Image } from 'ehd';
+import { Image } from 'bsd';
 
 const App = () => {
   const [visible, setVisible] = useState(false);

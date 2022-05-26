@@ -6,7 +6,7 @@ import {
   Popconfirm,
   Form,
   Typography,
-} from 'eh-design';
+} from 'bs-design';
 
 interface Item {
   key: string;

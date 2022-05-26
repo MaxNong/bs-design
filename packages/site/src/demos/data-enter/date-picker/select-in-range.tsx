@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { DatePicker } from 'eh-design';
+import { DatePicker } from 'bs-design';
 
 const { RangePicker } = DatePicker;
 

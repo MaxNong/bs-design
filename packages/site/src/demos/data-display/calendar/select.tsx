@@ -1,5 +1,5 @@
 import React from 'react';
-import { Calendar, Alert } from 'eh-design';
+import { Calendar, Alert } from 'bs-design';
 import moment from 'moment';
 
 class App extends React.Component {

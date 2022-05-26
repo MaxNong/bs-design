@@ -15,7 +15,7 @@ debug: true
 Use `<Typography.Text ellipsis>` in label should show `...`.
 
 ```tsx
-import { Form, Input, Typography } from 'ehd';
+import { Form, Input, Typography } from 'bsd';
 
 const Demo = () => (
   <Form name="label-ellipsis" labelCol={{ span: 8 }} wrapperCol={{ span: 16 }}>

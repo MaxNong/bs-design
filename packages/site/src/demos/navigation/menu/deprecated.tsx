@@ -1,5 +1,5 @@
 import React from 'react';
-import { Menu } from 'eh-design';
+import { Menu } from 'bs-design';
 import {
   MailOutlined,
   AppstoreOutlined,

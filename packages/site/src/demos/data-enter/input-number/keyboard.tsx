@@ -1,5 +1,5 @@
 import React from 'react';
-import { InputNumber, Checkbox, Space } from 'eh-design';
+import { InputNumber, Checkbox, Space } from 'bs-design';
 
 const App = () => {
   const [keyboard, setKeyboard] = React.useState(true);

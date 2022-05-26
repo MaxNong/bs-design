@@ -18,7 +18,7 @@ import {
   Rate,
   Badge,
   Divider,
-} from 'eh-design';
+} from 'bs-design';
 
 import {
   SearchOutlined as SearchIcon,

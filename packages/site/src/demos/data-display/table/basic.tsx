@@ -1,5 +1,5 @@
 import React from 'react';
-import { Table, Tag, Space } from 'eh-design';
+import { Table, Tag, Space } from 'bs-design';
 
 const columns = [
   {

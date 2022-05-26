@@ -14,7 +14,7 @@ title:
 Specify the prop name of Option which will be rendered in select box.
 
 ```jsx
-import { Select } from 'ehd';
+import { Select } from 'bsd';
 
 const { Option } = Select;
 

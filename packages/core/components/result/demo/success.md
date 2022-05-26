@@ -14,7 +14,7 @@ title:
 Show successful results.
 
 ```jsx
-import { Result, Button } from 'ehd';
+import { Result, Button } from 'bsd';
 
 ReactDOM.render(
   <Result

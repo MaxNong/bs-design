@@ -1,5 +1,5 @@
 import React from 'react';
-import { Timeline } from 'eh-design';
+import { Timeline } from 'bs-design';
 import { ClockCircleOutlined } from '@ant-design/icons';
 
 export default () => (

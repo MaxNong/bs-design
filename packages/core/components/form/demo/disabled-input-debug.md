@@ -15,7 +15,7 @@ Test disabled Input with validate state
 Test disabled Input with validate state
 
 ```tsx
-import { Form, Input } from 'ehd';
+import { Form, Input } from 'bsd';
 
 ReactDOM.render(
   <Form>

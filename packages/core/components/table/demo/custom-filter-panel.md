@@ -22,7 +22,7 @@ Add the `boolean` type parameter `confirm` to clear whether to submit the option
 The default is `true`.
 
 ```jsx
-import { Table, Input, Button, Space } from 'ehd';
+import { Table, Input, Button, Space } from 'bsd';
 import Highlighter from 'react-highlight-words';
 import { SearchOutlined } from '@ant-design/icons';
 

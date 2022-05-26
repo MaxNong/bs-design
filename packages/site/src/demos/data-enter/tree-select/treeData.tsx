@@ -1,5 +1,5 @@
 import React from 'react';
-import { TreeSelect } from 'eh-design';
+import { TreeSelect } from 'bs-design';
 
 const treeData = [
   {

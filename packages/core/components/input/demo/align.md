@@ -20,7 +20,7 @@ import {
   Radio,
   AutoComplete,
   Mentions,
-} from 'ehd';
+} from 'bsd';
 
 const { Text } = Typography;
 const { Option } = Select;

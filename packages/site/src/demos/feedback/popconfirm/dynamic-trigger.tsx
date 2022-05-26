@@ -1,5 +1,5 @@
 import React from 'react';
-import { Popconfirm, Switch, message } from 'eh-design';
+import { Popconfirm, Switch, message } from 'bs-design';
 
 class App extends React.Component {
   state = {

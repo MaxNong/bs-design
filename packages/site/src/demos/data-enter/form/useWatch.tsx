@@ -1,5 +1,5 @@
 import React from 'react';
-import { Form, Input, InputNumber, Typography } from 'eh-design';
+import { Form, Input, InputNumber, Typography } from 'bs-design';
 
 const Demo = () => {
   const [form] = Form.useForm<{ name: string; age: number }>();

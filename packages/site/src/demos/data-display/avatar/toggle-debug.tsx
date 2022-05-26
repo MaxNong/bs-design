@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Avatar, Button } from 'eh-design';
+import { Avatar, Button } from 'bs-design';
 
 type SizeType = 'large' | 'small' | 'default' | number;
 const App: React.FC = () => {

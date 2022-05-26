@@ -1,5 +1,5 @@
 import React from 'react';
-import { Table } from 'eh-design';
+import { Table } from 'bs-design';
 import { Resizable } from 'react-resizable';
 
 const ResizableTitle = (props) => {

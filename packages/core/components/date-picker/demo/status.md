@@ -15,7 +15,7 @@ title:
 Add status to DatePicker with `status`, which could be `error` or `warning`.
 
 ```tsx
-import { DatePicker, Space } from 'ehd';
+import { DatePicker, Space } from 'bsd';
 
 const Status: React.FC = () => (
   <Space direction="vertical" style={{ width: '100%' }}>

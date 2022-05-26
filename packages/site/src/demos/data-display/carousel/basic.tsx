@@ -1,5 +1,5 @@
 import React from 'react';
-import { Carousel } from 'eh-design';
+import { Carousel } from 'bs-design';
 
 function onChange(a, b, c) {
   console.log(a, b, c);

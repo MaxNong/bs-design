@@ -14,7 +14,7 @@ title:
 Classic page layouts.
 
 ```jsx
-import { Layout } from 'ehd';
+import { Layout } from 'bsd';
 
 const { Header, Footer, Sider, Content } = Layout;
 

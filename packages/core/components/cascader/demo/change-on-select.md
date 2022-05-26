@@ -14,7 +14,7 @@ title:
 Allow only select parent options.
 
 ```jsx
-import { Cascader } from 'ehd';
+import { Cascader } from 'bsd';
 
 const options = [
   {

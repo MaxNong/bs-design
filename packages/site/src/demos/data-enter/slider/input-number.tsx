@@ -1,5 +1,5 @@
 import React from 'react';
-import { Slider, InputNumber, Row, Col } from 'eh-design';
+import { Slider, InputNumber, Row, Col } from 'bs-design';
 
 class IntegerStep extends React.Component {
   state = {

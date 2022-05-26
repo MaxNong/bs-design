@@ -14,7 +14,7 @@ title:
 Bordered-less style component.
 
 ```jsx
-import { TimePicker } from 'ehd';
+import { TimePicker } from 'bsd';
 
 const { RangePicker } = TimePicker;
 

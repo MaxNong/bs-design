@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Drawer, Button } from 'eh-design';
+import { Drawer, Button } from 'bs-design';
 
 const App: React.FC = () => {
   const [visible, setVisible] = useState(false);

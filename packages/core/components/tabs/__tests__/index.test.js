@@ -78,10 +78,10 @@ describe('Tabs', () => {
   });
 
   it('warning for onNextClick', () => {
-    const errorSpy = jest.spyOn(console, 'error').mockImplementation(() => {});
-    mount(<Tabs onNextClick={() => {}} />);
+    const errorSpy = jest.spyOn(console, 'error').mockImplementation(() => { });
+    mount(<Tabs onNextClick={() => { }} />);
     expect(errorSpy).toHaveBeenCalledWith(
-      'Warning: [ehd: Tabs] `onPrevClick` and `onNextClick` has been removed. Please use `onTabScroll` instead.',
+      'Warning: [bsd: Tabs] `onPrevClick` and `onNextClick` has been removed. Please use `onTabScroll` instead.',
     );
     errorSpy.mockRestore();
   });

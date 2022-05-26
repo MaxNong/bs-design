@@ -14,7 +14,7 @@ title:
 The vertical Slider.
 
 ```jsx
-import { Slider } from 'ehd';
+import { Slider } from 'bsd';
 
 const style = {
   display: 'inline-block',

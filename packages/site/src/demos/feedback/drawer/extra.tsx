@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Drawer, Button, Space, Radio } from 'eh-design';
+import { Drawer, Button, Space, Radio } from 'bs-design';
 import { DrawerProps } from 'antd/es/drawer';
 import { RadioChangeEvent } from 'antd/es/radio';
 

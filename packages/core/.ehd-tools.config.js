@@ -12,10 +12,10 @@ module.exports = {
 }`;
 }
 
-// We need compile additional content for eh-design user
+// We need compile additional content for bs-design user
 function finalizeCompile() {
   if (fs.existsSync(path.join(__dirname, './lib'))) {
-    // Build a entry less file to dist/eh-design.less
+    // Build a entry less file to dist/bs-design.less
     const componentsPath = path.join(process.cwd(), 'components');
     let componentsLessContent = '';
     // Build components in one file: lib/style/components.less
@@ -38,14 +38,14 @@ function finalizeCompile() {
 }
 
 function buildThemeFile(theme, vars) {
-  // Build less entry file: dist/eh-design.${theme}.less
+  // Build less entry file: dist/bs-design.${theme}.less
   if (theme !== 'default') {
     fs.writeFileSync(
-      path.join(process.cwd(), 'dist', `eh-design.${theme}.less`),
+      path.join(process.cwd(), 'dist', `bs-design.${theme}.less`),
       `@import "../lib/style/${theme}.less";\n@import "../lib/style/components.less";`,
     );
     // eslint-disable-next-line no-console
-    console.log(`Built a entry less file to dist/eh-design.${theme}.less`);
+    console.log(`Built a entry less file to dist/bs-design.${theme}.less`);
   } else {
     fs.writeFileSync(
       path.join(process.cwd(), 'dist', `default-theme.js`),
@@ -75,9 +75,9 @@ function buildThemeFile(theme, vars) {
 
 function finalizeDist() {
   if (fs.existsSync(path.join(__dirname, './dist'))) {
-    // Build less entry file: dist/eh-design.less
+    // Build less entry file: dist/bs-design.less
     fs.writeFileSync(
-      path.join(process.cwd(), 'dist', 'eh-design.less'),
+      path.join(process.cwd(), 'dist', 'bs-design.less'),
       '@import "../lib/style/default.less";\n@import "../lib/style/components.less";',
     );
     // eslint-disable-next-line no-console
@@ -86,7 +86,7 @@ function finalizeDist() {
       `const defaultTheme = require('./default-theme.js');\n`,
     );
     // eslint-disable-next-line no-console
-    console.log('Built a entry less file to dist/eh-design.less');
+    console.log('Built a entry less file to dist/bs-design.less');
     buildThemeFile('default', defaultVars);
     buildThemeFile('dark', darkVars);
     buildThemeFile('compact', compactVars);
@@ -96,7 +96,7 @@ function finalizeDist() {
       `
 function getThemeVariables(options = {}) {
   let themeVar = {
-    'hack': \`true;@import "\${require.resolve('eh-design/lib/style/color/colorPalette.less')}";\`,
+    'hack': \`true;@import "\${require.resolve('bs-design/lib/style/color/colorPalette.less')}";\`,
     ...defaultTheme
   };
   if(options.dark) {

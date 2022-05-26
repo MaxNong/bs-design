@@ -1,7 +1,7 @@
-import Dropdown from "eh-design/components/dropdown/index";
-import Menu from "eh-design/components/menu/index";
+import Dropdown from "bs-design/components/dropdown/index";
+import Menu from "bs-design/components/menu/index";
 
-import "eh-design/components/dropdown/style/index";
+import "bs-design/components/dropdown/style/index";
 
 const DropdownDemo = (): JSX.Element => (
   <Dropdown

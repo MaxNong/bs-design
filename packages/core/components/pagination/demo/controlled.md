@@ -14,7 +14,7 @@ title:
 Controlled page number.
 
 ```jsx
-import { Pagination } from 'ehd';
+import { Pagination } from 'bsd';
 
 class App extends React.Component {
   state = {

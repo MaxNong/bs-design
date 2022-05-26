@@ -1,5 +1,5 @@
 import React from 'react';
-import { Alert } from 'eh-design';
+import { Alert } from 'bs-design';
 import { TextLoop } from 'react-text-loop-next';
 import Marquee from 'react-fast-marquee';
 

@@ -14,7 +14,7 @@ title:
 Cascade selection box for selecting province/city/district.
 
 ```jsx
-import { Cascader } from 'ehd';
+import { Cascader } from 'bsd';
 
 const options = [
   {

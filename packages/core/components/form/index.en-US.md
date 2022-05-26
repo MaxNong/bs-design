@@ -32,7 +32,7 @@ High performance Form component with data scope management. Including data colle
 | preserve | Keep field value even when field removed | boolean | true | 4.4.0 |
 | requiredMark | Required mark style. Can use required mark or optional mark. You can not config to single Form.Item since this is a Form level config | boolean \| `optional` | true | 4.6.0 |
 | scrollToFirstError | Auto scroll to first failed field when submit | boolean \| [Options](https://github.com/stipsan/scroll-into-view-if-needed/tree/ece40bd9143f48caf4b99503425ecb16b0ad8249#options) | false |  |
-| size | Set field component size (ehd components only) | `small` \| `middle` \| `large` | - |  |
+| size | Set field component size (bsd components only) | `small` \| `middle` \| `large` | - |  |
 | validateMessages | Validation prompt template, description [see below](#validateMessages) | [ValidateMessages](https://github.com/react-component/field-form/blob/master/src/utils/messages.ts) | - |  |
 | validateTrigger | Config field validate trigger | string \| string\[] | `onChange` | 4.3.0 |
 | wrapperCol | The layout for input controls, same as `labelCol` | [object](/components/grid/#Col) | - |  |
@@ -365,7 +365,7 @@ validator(rule, value, callback) => {
 
 > Warning: Instance created by `useForm` is not connect to any Form element. Forget to pass `form` prop?
 
-Before Modal opens, children elements do not exist in the view. You can set `forceRender` on Modal to pre-render its children. Click [here](https://codesandbox.io/s/ehd-reproduction-template-ibu5c) to view an example.
+Before Modal opens, children elements do not exist in the view. You can set `forceRender` on Modal to pre-render its children. Click [here](https://codesandbox.io/s/bsd-reproduction-template-ibu5c) to view an example.
 
 ### Why is component `defaultValue` not working when inside Form.Item?
 
@@ -398,7 +398,7 @@ In each `onFieldsChange`, you will get `false` > `true` > `false` with `isFieldV
 
 ### Why doesn't Form.List support `label` and need ErrorList to show errors?
 
-Form.List use renderProps which mean internal structure is flexible. Thus `label` and `error` can not have best place. If you want to use ehd `label`, you can wrap with Form.Item instead.
+Form.List use renderProps which mean internal structure is flexible. Thus `label` and `error` can not have best place. If you want to use bsd `label`, you can wrap with Form.Item instead.
 
 ### Why can't Form.Item `dependencies` work on Form.List field?
 
@@ -436,7 +436,7 @@ React can not get correct interaction of controlled component with async value u
 
 See similar issues: [#28370](https://github.com/ant-design/ant-design/issues/28370) [#27994](https://github.com/ant-design/ant-design/issues/27994)
 
-`scrollToFirstError` and `scrollToField` deps on `id` attribute passed to form control, please mark sure that it hasn't been ignored in your custom form control. Check [codesandbox](https://codesandbox.io/s/ehd-reproduction-template-forked-25nul?file=/index.js) for solution.
+`scrollToFirstError` and `scrollToField` deps on `id` attribute passed to form control, please mark sure that it hasn't been ignored in your custom form control. Check [codesandbox](https://codesandbox.io/s/bsd-reproduction-template-forked-25nul?file=/index.js) for solution.
 
 ### `setFieldsValue` do not trigger `onFieldsChange` or `onValuesChange`?
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Select } from 'eh-design';
+import { Select } from 'bs-design';
 
 const { Option, OptGroup } = Select;
 

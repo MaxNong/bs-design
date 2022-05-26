@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, message } from 'eh-design';
+import { Button, message } from 'bs-design';
 
 const key = 'updatable';
 

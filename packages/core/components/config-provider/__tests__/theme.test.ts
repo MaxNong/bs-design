@@ -45,7 +45,7 @@ describe('ConfigProvider.Theme', () => {
     });
 
     expect(errorSpy).toHaveBeenCalledWith(
-      'Warning: [ehd: ConfigProvider] SSR do not support dynamic theme with css variables.',
+      'Warning: [bsd: ConfigProvider] SSR do not support dynamic theme with css variables.',
     );
     errorSpy.mockRestore();
   });

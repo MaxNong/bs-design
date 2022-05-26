@@ -1,5 +1,5 @@
 import React from 'react';
-import { Spin, Space } from 'eh-design';
+import { Spin, Space } from 'bs-design';
 
 export default () => (
   <Space size="middle">

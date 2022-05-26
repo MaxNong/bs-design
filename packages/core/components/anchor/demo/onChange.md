@@ -14,7 +14,7 @@ title:
 Listening for anchor link change.
 
 ```tsx
-import { Anchor } from 'ehd';
+import { Anchor } from 'bsd';
 
 const { Link } = Anchor;
 

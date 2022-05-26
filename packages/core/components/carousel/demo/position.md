@@ -14,7 +14,7 @@ title:
 There are 4 position options available.
 
 ```jsx
-import { Carousel, Radio } from 'ehd';
+import { Carousel, Radio } from 'bsd';
 
 const contentStyle = {
   height: '160px',

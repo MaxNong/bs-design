@@ -14,7 +14,7 @@ title:
 Crowded components split.
 
 ```jsx
-import { Space, Typography, Divider } from 'ehd';
+import { Space, Typography, Divider } from 'bsd';
 
 function SpaceSplit() {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Anchor } from 'eh-design';
+import { Anchor } from 'bs-design';
 
 const { Link } = Anchor;
 

@@ -14,7 +14,7 @@ title:
 If you are using [iconfont.cn](http://iconfont.cn/), you can use the icons in your project gracefully.
 
 ```jsx
-import { Space } from 'ehd';
+import { Space } from 'bsd';
 import { createFromIconfontCN } from '@ant-design/icons';
 
 const IconFont = createFromIconfontCN({

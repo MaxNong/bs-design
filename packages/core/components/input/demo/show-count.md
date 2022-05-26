@@ -14,7 +14,7 @@ title:
 Show character counting.
 
 ```jsx
-import { Input } from 'ehd';
+import { Input } from 'bsd';
 
 const { TextArea } = Input;
 

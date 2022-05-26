@@ -7,11 +7,11 @@ title:
 
 ## zh-CN
 
-设置表单组件尺寸，仅对 ehd 组件有效。
+设置表单组件尺寸，仅对 bsd 组件有效。
 
 ## en-US
 
-Set component size, only works for ehd components.
+Set component size, only works for bsd components.
 
 ```tsx
 import React, { useState } from 'react';
@@ -26,7 +26,7 @@ import {
   InputNumber,
   TreeSelect,
   Switch,
-} from 'ehd';
+} from 'bsd';
 
 type SizeType = Parameters<typeof Form>[0]['size'];
 

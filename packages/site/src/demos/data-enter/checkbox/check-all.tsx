@@ -1,5 +1,5 @@
 import React from 'react';
-import { Checkbox, Divider } from 'eh-design';
+import { Checkbox, Divider } from 'bs-design';
 
 const CheckboxGroup = Checkbox.Group;
 

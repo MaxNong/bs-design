@@ -14,7 +14,7 @@ title:
 A notification box with a icon at the left side.
 
 ```jsx
-import { Button, notification, Space } from 'ehd';
+import { Button, notification, Space } from 'bsd';
 
 const openNotificationWithIcon = type => {
   notification[type]({

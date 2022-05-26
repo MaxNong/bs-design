@@ -99,7 +99,7 @@ describe('Tooltip', () => {
     expect(ref.current.props.visible).toBe(false);
   });
 
-  describe('should hide when mouse leave ehd disabled component', () => {
+  describe('should hide when mouse leave bsd disabled component', () => {
     function testComponent(name, Component) {
       it(name, () => {
         const onVisibleChange = jest.fn();

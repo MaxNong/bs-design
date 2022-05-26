@@ -1,5 +1,5 @@
 import React from 'react';
-import { Calendar, Badge } from 'eh-design';
+import { Calendar, Badge } from 'bs-design';
 
 function getListData(value) {
   let listData;

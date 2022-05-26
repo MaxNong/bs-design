@@ -1,5 +1,5 @@
 import React from 'react';
-import { TimePicker, Space } from 'eh-design';
+import { TimePicker, Space } from 'bs-design';
 
 const Status: React.FC = () => (
   <Space direction="vertical">

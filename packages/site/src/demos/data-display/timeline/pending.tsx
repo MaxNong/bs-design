@@ -1,5 +1,5 @@
 import React from 'react';
-import { Timeline, Button } from 'eh-design';
+import { Timeline, Button } from 'bs-design';
 
 class PendingTimeLine extends React.Component {
   state = {

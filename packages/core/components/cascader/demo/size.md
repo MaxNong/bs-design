@@ -14,7 +14,7 @@ title:
 Cascade selection box of different sizes.
 
 ```jsx
-import { Cascader } from 'ehd';
+import { Cascader } from 'bsd';
 
 const options = [
   {

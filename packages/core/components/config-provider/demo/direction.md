@@ -33,7 +33,7 @@ import {
   Rate,
   Badge,
   Divider,
-} from 'ehd';
+} from 'bsd';
 
 import {
   SearchOutlined as SearchIcon,

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Rate } from 'eh-design';
+import { Rate } from 'bs-design';
 import { FrownOutlined, MehOutlined, SmileOutlined } from '@ant-design/icons';
 
 const customIcons = {

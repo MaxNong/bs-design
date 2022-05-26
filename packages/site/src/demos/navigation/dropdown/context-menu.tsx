@@ -1,5 +1,5 @@
 import React from 'react';
-import { Menu, Dropdown } from 'eh-design';
+import { Menu, Dropdown } from 'bs-design';
 
 const menu = (
   <Menu

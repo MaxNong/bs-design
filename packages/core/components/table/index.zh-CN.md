@@ -61,7 +61,7 @@ const columns = [
 
 ## API
 
-另外我们封装了 [ProTable](https://procomponents.ant.design/components/table)，在 `ehd` Table 之上扩展了更多便捷易用的功能，内置搜索、筛选、刷新等常用表格行为，并为多种类型数据展示提供了内置格式化，欢迎尝试使用。
+另外我们封装了 [ProTable](https://procomponents.ant.design/components/table)，在 `bsd` Table 之上扩展了更多便捷易用的功能，内置搜索、筛选、刷新等常用表格行为，并为多种类型数据展示提供了内置格式化，欢迎尝试使用。
 
 ### Table
 
@@ -236,8 +236,8 @@ const columns = [
 ## 在 TypeScript 中使用
 
 ```tsx
-import { Table } from 'ehd';
-import { ColumnsType } from 'ehd/es/table';
+import { Table } from 'bsd';
+import { ColumnsType } from 'bsd/es/table';
 
 interface User {
   key: number;

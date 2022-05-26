@@ -14,7 +14,7 @@ title:
 Use react-sticky.
 
 ```jsx
-import { Tabs } from 'ehd';
+import { Tabs } from 'bsd';
 import { StickyContainer, Sticky } from 'react-sticky';
 
 const { TabPane } = Tabs;

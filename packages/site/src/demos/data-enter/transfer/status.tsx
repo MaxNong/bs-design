@@ -1,5 +1,5 @@
 import React from 'react';
-import { Transfer, Space } from 'eh-design';
+import { Transfer, Space } from 'bs-design';
 
 const Status = () => (
   <Space direction="vertical">

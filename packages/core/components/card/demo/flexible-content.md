@@ -14,7 +14,7 @@ title:
 You can use `Card.Meta` to support more flexible content.
 
 ```jsx
-import { Card } from 'ehd';
+import { Card } from 'bsd';
 
 const { Meta } = Card;
 

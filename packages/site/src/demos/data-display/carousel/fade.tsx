@@ -1,5 +1,5 @@
 import React from 'react';
-import { Carousel } from 'eh-design';
+import { Carousel } from 'bs-design';
 
 const contentStyle = {
   height: '160px',

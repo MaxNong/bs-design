@@ -88,7 +88,7 @@ interface ProviderChildrenProps extends ConfigProviderProps {
   legacyLocale: Locale;
 }
 
-export const defaultPrefixCls = 'ehd';
+export const defaultPrefixCls = 'bsd';
 export const defaultIconPrefixCls = 'anticon';
 let globalPrefixCls: string;
 let globalIconPrefixCls: string;

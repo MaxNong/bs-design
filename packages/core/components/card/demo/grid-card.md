@@ -14,7 +14,7 @@ title:
 Grid style card content.
 
 ```jsx
-import { Card } from 'ehd';
+import { Card } from 'bsd';
 
 const gridStyle = {
   width: '25%',
