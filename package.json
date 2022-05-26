@@ -16,7 +16,7 @@
     "install": "npx lerna bootstrap --ignore-scripts",
     "bootstrap": "npx lerna bootstrap --ignore-scripts",
     "clean": "npx lerna clean",
-    "publish": "lerna publish from-package --access public --skip-git -y"
+    "publish": "lerna publish from-package --skip-git -y"
   },
   "devDependencies": {
     "lerna": "^4.0.0",
