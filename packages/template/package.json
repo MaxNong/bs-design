@@ -150,5 +150,8 @@
       "react-app"
     ]
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "gitHead": "e4daefe2c29328a9b68e58d67925fb56a6528fbd"
 }

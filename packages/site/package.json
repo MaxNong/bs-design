@@ -29,5 +29,8 @@
     "bs-design": "^0.1.1",
     "react-dnd": "^15.0.0"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "gitHead": "e4daefe2c29328a9b68e58d67925fb56a6528fbd"
 }
