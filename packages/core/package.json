@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.1",
   "name": "bs-design",
   "description": "B端组件库源码",
   "homepage": "",
@@ -30,7 +30,7 @@
     "@ant-design/icons": "^4.7.0",
     "@ant-design/react-slick": "~0.28.1",
     "@babel/runtime": "^7.12.5",
-    "@bs-design/tools": "*",
+    "@bs-design/tools": "^0.1.1",
     "@ctrl/tinycolor": "^3.4.0",
     "classnames": "^2.2.6",
     "copy-to-clipboard": "^3.2.0",

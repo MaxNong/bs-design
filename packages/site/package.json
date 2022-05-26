@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.1",
   "name": "@bs-design/site",
   "scripts": {
     "start": "dumi dev",
@@ -26,7 +26,7 @@
   "dependencies": {
     "@umijs/plugin-sass": "^1.1.1",
     "array-move": "^4.0.0",
-    "bs-design": "*",
+    "bs-design": "^0.1.1",
     "react-dnd": "^15.0.0"
   },
   "gitHead": "e4daefe2c29328a9b68e58d67925fb56a6528fbd"
